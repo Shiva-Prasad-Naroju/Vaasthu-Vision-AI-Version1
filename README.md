@@ -3,7 +3,7 @@
 ### ⚙️ 1. Activate the Environment
 
   - Activate your Python virtual environment before running the backend.
-
+---
 ### 🐳 2. Run Qdrant (Vector DB)
 
   - docker run -p 6333:6333 -p 6334:6334 qdrant/qdrant
