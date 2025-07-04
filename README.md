@@ -15,7 +15,7 @@
   - Run the following script to initialize Qdrant:
 
   - python db/qdrant_setup.py
-
+---
 ### 🌐 4. Start Frontend (React + Vite)
   
   - Navigate to the frontend directory:
@@ -33,23 +33,23 @@
   - Start the development server: 
 
   - npm run dev
-
+---
 ### 🧠 5. Start Backend API Server
 
   - Use Uvicorn to run the FastAPI server:
   
   - uvicorn ui.app:app --reload
-
+---
 ### 🔁 6. UI Not Updating After Code Changes?
 
   - Sometimes, changes may not reflect due to browser cache. Use a hard refresh:
 
   - Ctrl + Shift + R
-
+---
 ### 🏗️ 7. Serving React Statically?
 
   - If React is being served via FastAPI’s StaticFiles, make sure to build after every change: npm run build
-
+---
 ### 📌 Project Status (as of now)
 
   - ✅ The project has a final, improved UI.
@@ -57,7 +57,7 @@
   - ⚠️ Previously, it gave wrong responses to irrelevant Vaasthu queries like:
 
     "hi", "hello", "i am shiva", etc.
-
+---
 ### 🚀 WHAT I DID:
 
   - 🎉 Solved the major issue:
