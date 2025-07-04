@@ -8,7 +8,7 @@
 
   - Make sure you started the docker locally
     
-  - docker run -p 6333:6333 -p 6334:6334 qdrant/qdrant
+    - docker run -p 6333:6333 -p 6334:6334 qdrant/qdrant
 
 ---
 
@@ -22,35 +22,37 @@
   
   - Navigate to the frontend directory:
 
-  - cd C:\Users\DELL\Downloads\GitHub\vva_v1\ui\frontend
+    - cd C:\Users\DELL\Downloads\GitHub\vva_v1\ui\frontend
 
   - Install dependencies (only once unless packages change): 
 
-  - npm install
+    - npm install
 
   - Build the React app (⚠️ run this after every change): 
 
-  - npm run build
+    - npm run build
 
   - Start the development server: 
 
-  - npm run dev
+    - npm run dev
 ---
 ### 🧠 5. Start Backend API Server
 
   - Use Uvicorn to run the FastAPI server:
   
-  - uvicorn ui.app:app --reload
+    - uvicorn ui.app:app --reload
 ---
 ### 🔁 6. UI Not Updating After Code Changes?
 
   - Sometimes, changes may not reflect due to browser cache. Use a hard refresh:
 
-  - Ctrl + Shift + R
+    - Ctrl + Shift + R
 ---
 ### 🏗️ 7. Serving React Statically?
 
-  - If React is being served via FastAPI’s StaticFiles, make sure to build after every change: npm run build
+  - If React is being served via FastAPI’s StaticFiles, make sure to build after every change:
+
+    - npm run build
 ---
 ### 📌 Project Status (as of now)
 
