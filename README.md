@@ -1,36 +1,83 @@
-1. Activate the environment:
+# 🏡 Vaasthu Vision AI – Project Setup & Notes
 
-2. run : >>> docker run -p 6333:6333 -p 6334:6334 qdrant/qdrant
+## ⚙️ 1. Activate the Environment
+Activate your Python virtual environment before running the backend.
 
-3. run : >>> python db/qdrant_setup.py
+---
 
-4. Start Frontend:
-    >>> cd C:\Users\DELL\Downloads\GitHub\vva_v1\ui\frontend
+## 🐳 2. Run Qdrant (Vector DB)
+```bash
+docker run -p 6333:6333 -p 6334:6334 qdrant/qdrant
+🗂️ 3. Setup Vector DB
+Run the following script to initialize Qdrant:
 
-    >>> npm install  # Only if not done already,installs all required packages listed in package.json
+bash
+Copy
+Edit
+python db/qdrant_setup.py
+🌐 4. Start Frontend (React + Vite)
+Navigate to the frontend directory:
 
-    >>> npm run build       # always run this after every change
-    
-    >>> npm run dev         # Or npm start depending on setup    
+bash
+Copy
+Edit
+cd C:\Users\DELL\Downloads\GitHub\vva_v1\ui\frontend
+Install dependencies (only once unless packages change):
 
-5. Start Backend API server:
+bash
+Copy
+Edit
+npm install
+Build the React app (⚠️ run this after every change):
 
-    >>> uvicorn ui.app:app --reload
+bash
+Copy
+Edit
+npm run build
+Start the development server:
 
-6. Sometimes after chaning any components or code, it may not reflect on the ui, its due to browser cache, to get rid of this, do hard refresh:
+bash
+Copy
+Edit
+npm run dev
+Or use:
 
->>> Ctrl+Shift+R
+bash
+Copy
+Edit
+npm start
+(depending on your setup)
 
-7. If you're serving React statically (through FastAPI StaticFiles), make sure >>> npm run build was run after every change.
+🧠 5. Start Backend API Server
+Use Uvicorn to run the FastAPI server:
 
->>> npm run build
+bash
+Copy
+Edit
+uvicorn ui.app:app --reload
+🔁 6. UI Not Updating After Code Changes?
+Sometimes, changes may not reflect due to browser cache. Use a hard refresh:
 
-========================================
+text
+Copy
+Edit
+Ctrl + Shift + R
+🏗️ 7. Serving React Statically?
+If React is being served via FastAPI’s StaticFiles, make sure to build after every change:
 
-Till now this project has improvised ui (final) but its is proning to wrong answers if irrelevant vaasthu query is given.
+bash
+Copy
+Edit
+npm run build
+📌 Project Status (as of now)
+✅ The project has a final, improved UI.
 
-WHAT I DID:
-==========
-Yes finally i solved the problem that this system is facing, from now no more wrong answer generation to the irrelevant queries, like hi, hello, i am shiva ....etc.
+⚠️ Previously, it gave wrong responses to irrelevant Vaasthu queries like:
 
-This project is successfully connected to the website that i have created specially for this project.
+"hi", "hello", "i am shiva", etc.
+
+🚀 WHAT I DID:
+🎉 Solved the major issue:
+The system now successfully avoids giving Vaasthu answers to irrelevant or non-domain queries.
+
+🌐 This project is now successfully connected to the custom website designed specifically for Vaasthu Vision AI.
