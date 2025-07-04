@@ -1,0 +1,54 @@
+
+{
+  "element": "kitchen",
+  "ideal_direction": "southeast",
+  "direction_priority": ["southeast", "east"],
+  "prohibited_directions": ["northeast", "southwest"],
+  "severity": "high",
+  "remedy": {
+    "type": "Structural",
+    "action": "Relocate the kitchen to the southeast corner of the building layout.",
+    "alternative_action": "Reorient the cooking platform to face east and place the exhaust opening on the southeast wall."
+  },
+  "technical_notes": {
+    "reason": "The southeast is governed by Agni (fire) as per traditional zoning, reducing conflicts with water and air zones.",
+    "impact_if_wrong": "Can cause thermal inefficiency, cross-zone conflict, and internal air circulation imbalance.",
+    "construction_constraints": "Ensure plumbing does not enter northeast zone; maintain at least 3 ft spacing from adjacent puja or toilet walls."
+  },
+  "room_geometry_recommendation": {
+    "min_area_sqft": 50,
+    "aspect_ratio": "4:3",
+    "ventilation_required": true
+  },
+  "adjacency_rules": {
+    "should_not_share_wall_with": ["toilet", "bedroom"],
+    "preferred_adjacent_rooms": ["dining room", "store room"]
+  },
+  "regional_variants": {
+    "north_india": {
+      "ideal_direction": "southeast",
+      "alternative": "east"
+    },
+    "south_india": {
+      "ideal_direction": "southeast",
+      "notes": "Avoid placing kitchen below water tanks"
+    }
+  },
+  "compliance_score": 95,
+  "source_confidence": 0.92,
+  "tags": ["room", "direction", "placement", "structural", "kitchen"],
+  "climatic_reason": "In both regions, southeast gets moderate sunlight. In North India, it prevents excessive heat in summer; in South India, it aids ventilation and natural drying.",
+  "engineering_considerations": {
+    "thermal_flow": "Southeast rooms allow for progressive exhaust of heat buildup, aiding thermal stability.",
+    "plumbing": "Avoid overhead water lines or seepage risks in fire-dominant zones.",
+    "privacy": "Cooking areas should be acoustically and visually buffered from bedrooms or puja areas."
+  },
+  "source_authority": [
+    "Mayamatam - Chapter 5",
+    "National Building Code India - Traditional Addendum"
+  ],
+  "zonal_influence_map": "Impacts central zone airflow",
+  "daylighting_guidance": "Prefer east windows for 2-3 hrs of morning sun"
+}
+
+total 19 features:

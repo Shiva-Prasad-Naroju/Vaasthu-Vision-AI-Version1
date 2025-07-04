@@ -1,0 +1,319 @@
+[
+{
+  "element": "columns",
+  "ideal_direction": "corners and periphery",
+  "direction_priority": ["northwest", "southwest", "northeast", "southeast"],
+  "prohibited_directions": ["center (Brahmasthan)"],
+  "severity": "high",
+  "remedy": {
+    "type": "Structural",
+    "action": "Relocate columns outside the central Brahmasthan zone.",
+    "alternative_action": "Adjust structural load paths to avoid direct placement in Brahmasthan."
+  },
+  "technical_notes": {
+    "reason": "The Brahmasthan is considered the energy core of the house and should remain obstruction-free.",
+    "impact_if_wrong": "Obstruction in central energy flow, leading to psychological stress and blocked circulation.",
+    "construction_constraints": "Plan beam-column junctions such that vertical loads avoid the Brahmasthan footprint."
+  },
+  "room_geometry_recommendation": {
+    "min_clearance_from_center_ft": 4,
+    "column_spacing_ft": [10, 15],
+    "load_distribution": "Even distribution along walls recommended"
+  },
+  "adjacency_rules": {
+    "should_not_share_wall_with": ["pooja room"],
+    "preferred_adjacent_rooms": ["storage", "utility spaces"]
+  },
+  "regional_variants": {
+    "north_india": {
+      "ideal_direction": "southwest and northwest",
+      "notes": "Heavier columns preferred on southern and western sides to balance energy."
+    },
+    "south_india": {
+      "ideal_direction": "southeast and southwest",
+      "notes": "Use short cantilevered columns in open verandas; avoid Brahmasthan intrusion."
+    }
+  },
+  "compliance_score": 93,
+  "source_confidence": 0.88,
+  "tags": ["structural", "load-bearing", "placement", "energy-flow", "columns"],
+  "climatic_reason": "Peripheral column placement aids wind circulation and supports shade structures in hot climates.",
+  "engineering_considerations": {
+    "thermal_flow": "Columns in periphery help in reducing direct solar radiation transfer into interiors.",
+    "plumbing": "Avoid embedding water pipes in structural columns.",
+    "privacy": "Peripheral column placement supports internal layout zoning without structural clashes."
+  },
+  "source_authority": [
+    "Samarangana Sutradhara - Structural Layout Guidelines",
+    "BIS Code 962: Planning for Load Distribution in Buildings"
+  ],
+  "zonal_influence_map": "Obstructs Brahmasthan if misaligned; stabilizes energy if placed in heavier zones.",
+  "daylighting_guidance": "Avoid placing thick columns near northeast to preserve daylight penetration."
+},
+
+
+
+{
+  "element": "beams",
+  "ideal_direction": "along north-south or east-west axis",
+  "direction_priority": ["north-south", "east-west"],
+  "prohibited_directions": ["diagonal across Brahmasthan"],
+  "severity": "high",
+  "remedy": {
+    "type": "Structural",
+    "action": "Reorient beams along the primary axes and ensure no beam cuts across the Brahmasthan.",
+    "alternative_action": "Use concealed structural designs that avoid visual or physical intrusion in central zones."
+  },
+  "technical_notes": {
+    "reason": "Improper beam placement, especially over Brahmasthan or beds, disrupts energy flow and creates visual oppression.",
+    "impact_if_wrong": "Mental tension, poor sleep quality, and energy imbalance in zones beneath the beam.",
+    "construction_constraints": "Maintain minimum 7 ft clearance and avoid exposed heavy beams above key functional areas like beds, dining, and puja."
+  },
+  "room_geometry_recommendation": {
+    "min_clear_span_ft": 10,
+    "preferred_depth_ratio": "1:15 of span length",
+    "load_distribution": "Distribute load across outer walls to minimize interior beam runs"
+  },
+  "adjacency_rules": {
+    "should_not_share_wall_with": ["pooja room", "bedroom ceiling"],
+    "preferred_adjacent_rooms": ["utility", "storage", "or open circulation zones"]
+  },
+  "regional_variants": {
+    "north_india": {
+      "ideal_direction": "north-south",
+      "notes": "Prefer heavier load transfer on western walls, avoiding Brahmasthan crossover."
+    },
+    "south_india": {
+      "ideal_direction": "east-west",
+      "notes": "Minimize beam visibility using flat-slab designs in central living zones."
+    }
+  },
+  "compliance_score": 91,
+  "source_confidence": 0.89,
+  "tags": ["structural", "beam", "ceiling", "load-path", "alignment"],
+  "climatic_reason": "Proper beam orientation improves structural efficiency and reduces thermal load on ceilings.",
+  "engineering_considerations": {
+    "thermal_flow": "Incorrect beam layout may trap heat pockets in ceilings.",
+    "plumbing": "Avoid embedding drainage or water lines in load-bearing beams.",
+    "privacy": "Avoid placing beams across partition lines to prevent acoustic bridging."
+  },
+  "source_authority": [
+    "Mayamatam – Chapter on Structural Design",
+    "National Building Code – Section 3 (Structural Systems)"
+  ],
+  "zonal_influence_map": "Blocks Brahmasthan energy if beam cuts across center; enhances flow if aligned properly.",
+  "daylighting_guidance": "Avoid beams directly under skylights or northeast to preserve daylight diffusion."
+},
+
+
+{
+  "element": "windows",
+  "ideal_direction": "east and north",
+  "direction_priority": ["east", "north"],
+  "prohibited_directions": ["southwest", "south (without shading)"],
+  "severity": "medium",
+  "remedy": {
+    "type": "Structural",
+    "action": "Increase or reposition windows toward east and north to optimize light and airflow.",
+    "alternative_action": "Use reflective glass and proper shading if windows must face west or south."
+  },
+  "technical_notes": {
+    "reason": "East and north allow maximum natural light and positive energy as per Vastu, aligning with Surya (Sun) and Vayu (air) zones.",
+    "impact_if_wrong": "Insufficient natural lighting, excessive heat gain, and blocked air circulation.",
+    "construction_constraints": "Maintain sill height between 3 to 4 feet; avoid aligning windows directly opposite toilets or storerooms."
+  },
+  "room_geometry_recommendation": {
+    "min_area_sqft_per_window": 30,
+    "aspect_ratio": "2:3 (width to height)",
+    "ventilation_required": true
+  },
+  "adjacency_rules": {
+    "should_not_share_wall_with": ["toilet (without buffer)", "staircase enclosures"],
+    "preferred_adjacent_rooms": ["living room", "bedroom", "study room"]
+  },
+  "regional_variants": {
+    "north_india": {
+      "ideal_direction": "east",
+      "notes": "Maximize morning sunlight; reduce southwest-facing openings due to heat."
+    },
+    "south_india": {
+      "ideal_direction": "north",
+      "notes": "North-facing windows reduce heat gain while allowing ample daylight."
+    }
+  },
+  "compliance_score": 88,
+  "source_confidence": 0.87,
+  "tags": ["window", "lighting", "airflow", "placement", "structural"],
+  "climatic_reason": "East and north windows reduce energy usage by enhancing cross-ventilation and passive lighting.",
+  "engineering_considerations": {
+    "thermal_flow": "Correctly placed windows reduce indoor temperature and enhance airflow.",
+    "plumbing": "Avoid window placement directly above kitchen sinks or under AC drain lines.",
+    "privacy": "Use frosted or louvered windows in bathrooms and utility areas."
+  },
+  "source_authority": [
+    "Manasara – Vastu Architecture Text",
+    "Energy Conservation Building Code – Daylighting Section"
+  ],
+  "zonal_influence_map": "Enhances east and north energy zones; improves air and light distribution across adjacent zones.",
+  "daylighting_guidance": "Windows on the east allow 2–3 hours of gentle morning sun; north windows offer all-day diffused light without heat gain."
+},
+
+
+{
+  "element": "doors",
+  "ideal_direction": "north and east (main entry), room-specific otherwise",
+  "direction_priority": ["north", "east"],
+  "prohibited_directions": ["southwest", "center of south wall"],
+  "severity": "high",
+  "remedy": {
+    "type": "Structural",
+    "action": "Reorient main doors toward north or east wherever feasible for maximum energy flow.",
+    "alternative_action": "Use double-door systems with symbolic partitioning if relocation is infeasible."
+  },
+  "technical_notes": {
+    "reason": "Doors aligned to north/east directions attract positive cosmic energy and optimize morning sunlight entry.",
+    "impact_if_wrong": "Improper door placement can cause energy stagnation, financial imbalance, and poor circulation.",
+    "construction_constraints": "Avoid placing doors in the exact center of any wall; maintain symmetry and minimum 3 ft width for main door."
+  },
+  "room_geometry_recommendation": {
+    "min_area_sqft_per_door": 40,
+    "aspect_ratio": "7:3 (height to width)",
+    "ventilation_required": false
+  },
+  "adjacency_rules": {
+    "should_not_share_wall_with": ["toilet openings (main door)"],
+    "preferred_adjacent_rooms": ["foyer", "living room"]
+  },
+  "regional_variants": {
+    "north_india": {
+      "ideal_direction": "east-facing main doors",
+      "notes": "Avoid door alignments that directly face neighbors’ toilets or stairs."
+    },
+    "south_india": {
+      "ideal_direction": "north or northeast-facing doors",
+      "notes": "Emphasizes angular door placement for airflow control."
+    }
+  },
+  "compliance_score": 92,
+  "source_confidence": 0.90,
+  "tags": ["door", "placement", "entry", "circulation", "main entry"],
+  "climatic_reason": "North and east entries support cooler air movement and control thermal gain in warm climates.",
+  "engineering_considerations": {
+    "thermal_flow": "Doors placed in east enhance morning airflow and pressure equalization.",
+    "plumbing": "Avoid routing plumbing above door headers; check for wall load impact.",
+    "privacy": "Main doors should avoid direct visual access into private zones like bedrooms or kitchens."
+  },
+  "source_authority": [
+    "Mayamatam – Entry Direction Principles",
+    "Vastuvidya Handbook – Indian Traditional Architecture"
+  ],
+  "zonal_influence_map": "Main doors influence northeast zone energy, and improper placement disrupts vastu purusha alignment.",
+  "daylighting_guidance": "East-facing doors allow maximum daylight entry; avoid west-facing doors without shaded porches or canopies."
+},
+
+
+{
+  "element": "compound_wall",
+  "ideal_direction": "Perimeter aligned, height varies by direction",
+  "direction_priority": ["south", "west", "north", "east"],
+  "prohibited_directions": [],
+  "severity": "high",
+  "remedy": {
+    "type": "Structural",
+    "action": "Construct the compound wall higher on the south and west sides and lower on the north and east sides.",
+    "alternative_action": "If rebuilding is not feasible, add vertical planters or architectural screens to increase directional height variation."
+  },
+  "technical_notes": {
+    "reason": "Taller walls on south and west block harsh sun and negative energy; lower walls on north and east allow beneficial energy flow.",
+    "impact_if_wrong": "Equal height walls disrupt energy balance, causing stagnation, health issues, or financial instability.",
+    "construction_constraints": "Ensure foundations are equally strong; avoid casting shadows from southern walls over house core areas."
+  },
+  "room_geometry_recommendation": {
+    "min_area_sqft": 0,
+    "aspect_ratio": "Height should follow directional logic – SW > NW > SE > NE",
+    "ventilation_required": false
+  },
+  "adjacency_rules": {
+    "should_not_share_wall_with": ["underground water tank"],
+    "preferred_adjacent_rooms": ["entrance gate", "garden zones"]
+  },
+  "regional_variants": {
+    "north_india": {
+      "ideal_direction": "North wall should be shortest, south wall tallest",
+      "notes": "Ensure walls withstand snowfall where applicable"
+    },
+    "south_india": {
+      "ideal_direction": "South and west walls should be tallest",
+      "notes": "Consider coastal winds while designing eastern boundaries"
+    }
+  },
+  "compliance_score": 90,
+  "source_confidence": 0.91,
+  "tags": ["boundary", "security", "perimeter", "wall", "layout"],
+  "climatic_reason": "Protects from heat (south/west), allows light/air (north/east); stabilizes internal microclimate.",
+  "engineering_considerations": {
+    "thermal_flow": "Blocks harsh thermal load from southwest, optimizing inner climate balance.",
+    "plumbing": "Avoid embedded piping in outer walls near garden zones.",
+    "privacy": "Maintains visual and acoustic privacy, especially on west-facing plots."
+  },
+  "source_authority": [
+    "Samarangana Sutradhara – External Structure Chapters",
+    "Indian Traditional Housing Guidelines – BMTPC"
+  ],
+  "zonal_influence_map": "Affects energy inflow from northeast and acts as energy shield on southwest.",
+  "daylighting_guidance": "Lower east/north walls enhance daylight entry into morning-use rooms (kitchen, puja)."
+},
+
+
+{
+  "element": "boundary_entry_gate",
+  "ideal_direction": "North or East",
+  "direction_priority": ["north", "east", "northeast"],
+  "prohibited_directions": ["southwest", "south"],
+  "severity": "high",
+  "remedy": {
+    "type": "Structural",
+    "action": "Reposition the entry gate towards the north or east section of the compound wall.",
+    "alternative_action": "If repositioning isn’t feasible, add a secondary symbolic entry path through the northeast with landscape or pathway redirection."
+  },
+  "technical_notes": {
+    "reason": "North and east directions are governed by positive energies and beneficial planetary influences, welcoming prosperity and good fortune.",
+    "impact_if_wrong": "South or southwest entry can lead to energy drain, financial instability, or strained relationships.",
+    "construction_constraints": "Gate should be aligned with compound wall without protrusions; avoid placing septic tanks or tall trees near the gate."
+  },
+  "room_geometry_recommendation": {
+    "min_area_sqft": 10,
+    "aspect_ratio": "Width should be proportionate to compound wall – ideally 1/7th of the wall length",
+    "ventilation_required": false
+  },
+  "adjacency_rules": {
+    "should_not_share_wall_with": ["toilet", "septic tank"],
+    "preferred_adjacent_rooms": ["entrance foyer", "veranda", "garden"]
+  },
+  "regional_variants": {
+    "north_india": {
+      "ideal_direction": "Northeast or east-facing gate preferred due to climatic and cultural alignment.",
+      "notes": "Avoid placing main gate directly in front of staircase or mirror-like surfaces."
+    },
+    "south_india": {
+      "ideal_direction": "North and east remain favorable; in coastal areas, slight angular shifts permissible for wind flow."
+    }
+  },
+  "compliance_score": 92,
+  "source_confidence": 0.94,
+  "tags": ["entry", "gate", "compound", "security", "layout"],
+  "climatic_reason": "North and east allow morning sunlight and fresh air; southern gates bring harsh heat and energy imbalance.",
+  "engineering_considerations": {
+    "thermal_flow": "Northern gates minimize direct solar heating; ensure water drainage does not reverse toward house.",
+    "plumbing": "Keep water pipelines away from entry path to avoid leaks or weakening foundations.",
+    "privacy": "Gate height should balance visibility and security; use perforated designs for airflow if needed."
+  },
+  "source_authority": [
+    "Mayamatam – Entrance Architecture",
+    "Vishwakarma Vaastu Manual – Entry Zone Chapters"
+  ],
+  "zonal_influence_map": "Regulates energy inflow into northeast and central zones.",
+  "daylighting_guidance": "East-facing gates ensure soft morning light penetration, uplifting overall house energy."
+}
+
+]

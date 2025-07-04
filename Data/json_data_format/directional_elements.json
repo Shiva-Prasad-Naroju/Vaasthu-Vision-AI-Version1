@@ -1,0 +1,436 @@
+[
+{
+  "element": "Brahmasthan (central zone)",
+  "ideal_direction": "center",
+  "direction_priority": ["center of the house layout"],
+  "prohibited_directions": ["any boundary-aligned space"],
+  "severity": "high",
+  "remedy": {
+    "type": "Structural",
+    "action": "Clear central zone of heavy construction and create an open or light-use area such as atrium or meditation space.",
+    "alternative_action": "Use this area for open floor transition space without walls or storage."
+  },
+  "technical_notes": {
+    "reason": "Brahmasthan is the energy nucleus of the home, ensuring balanced cosmic energy distribution throughout the structure.",
+    "impact_if_wrong": "Heavy construction or functional rooms here can block natural energy flow, leading to spatial disharmony and stagnation.",
+    "construction_constraints": "Avoid beams crossing this area; maintain visual and physical openness of at least 1.5m² clear zone."
+  },
+  "room_geometry_recommendation": {
+    "min_area_sqft": 20,
+    "aspect_ratio": "1:1 (square preferred)",
+    "ventilation_required": true
+  },
+  "adjacency_rules": {
+    "should_not_share_wall_with": ["toilet", "kitchen"],
+    "preferred_adjacent_rooms": ["living room", "corridor"]
+  },
+  "regional_variants": {
+    "north_india": {
+      "ideal_direction": "center",
+      "notes": "Leave open or decorate with a skylight or energy harmonizing symbol."
+    },
+    "south_india": {
+      "ideal_direction": "center",
+      "notes": "Often left open-to-sky in traditional Chettinad homes as inner courtyard."
+    }
+  },
+  "compliance_score": 98,
+  "source_confidence": 0.96,
+  "tags": ["zone", "energy", "placement", "structural", "central"],
+  "climatic_reason": "Central ventilation improves stack effect airflow, cooling interiors naturally and reducing heat islands.",
+  "engineering_considerations": {
+    "thermal_flow": "Unobstructed center enables better airflow circulation across rooms.",
+    "plumbing": "Avoid any vertical shafts or water lines passing through center.",
+    "privacy": "Should maintain clear visibility and openness, not used for private enclosures."
+  },
+  "zonal_influence_map": "Impacts all surrounding directional zones equally as the energetic core.",
+  "daylighting_guidance": "A central skylight or vertical shaft is ideal for daylight penetration throughout the house.",
+  "source_authority": [
+    "Mayamatam - Chapter 3",
+    "Manasara - Central Zoning Section",
+    "Indian Traditional Architecture Manuals"
+  ]
+},
+
+
+{
+  "element": "Plot Slope & Shape",
+  "ideal_direction": "Slope towards northeast",
+  "direction_priority": ["northeast slope", "north slope", "east slope"],
+  "prohibited_directions": ["southwest slope", "west slope", "south slope"],
+  "severity": "high",
+  "remedy": {
+    "type": "Structural",
+    "action": "Regrade the plot to redirect slope towards northeast using controlled earthwork techniques.",
+    "alternative_action": "Elevate southwest zone with foundation fill or construct retaining walls to balance slope gradient."
+  },
+  "technical_notes": {
+    "reason": "Northeast represents the zone of water and purity in Vaastu; a downward slope in this direction promotes prosperity and energy flow.",
+    "impact_if_wrong": "Slope towards southwest may cause stagnation, financial instability, and structural dampness.",
+    "construction_constraints": "Avoid water stagnation at the southwest; ensure drainage slope is minimum 1:100 gradient flowing northeast."
+  },
+  "room_geometry_recommendation": {
+    "min_area_sqft": 1000,
+    "aspect_ratio": "Rectangular or square preferred; broader front than rear",
+    "ventilation_required": false
+  },
+  "adjacency_rules": {
+    "should_not_share_wall_with": [],
+    "preferred_adjacent_rooms": []
+  },
+  "regional_variants": {
+    "north_india": {
+      "ideal_direction": "Slope towards northeast",
+      "notes": "Snowfall zones require special drainage alignment without blocking northeast corner."
+    },
+    "south_india": {
+      "ideal_direction": "Slope towards northeast",
+      "notes": "Rain-heavy regions must prioritize northeast stormwater outflow systems."
+    }
+  },
+  "compliance_score": 97,
+  "source_confidence": 0.94,
+  "tags": ["site", "slope", "foundation", "terrain", "energy flow"],
+  "climatic_reason": "Northeast slope allows natural daylight and air movement into building; reduces heat and promotes water flow.",
+  "engineering_considerations": {
+    "thermal_flow": "Improper slope can trap heat in southwest, creating hot zones.",
+    "plumbing": "Stormwater drainage must align with natural land gradient to avoid backflow risks.",
+    "privacy": "Steep rear slope can expose living areas to neighboring plots; level adjustments needed."
+  },
+  "zonal_influence_map": "Affects groundwater table direction, foundational stability, and underground service alignment.",
+  "daylighting_guidance": "Slight incline in northeast allows maximum early morning light penetration.",
+  "source_authority": [
+    "Mayamatam - Site Selection",
+    "Manasara - Slope Orientation Principles",
+    "National Building Code India - Site Grading Guidelines"
+  ]
+},
+
+
+{
+  "element": "Orientation",
+  "ideal_direction": "Main orientation aligned with cardinal directions (North-South or East-West)",
+  "direction_priority": ["east-facing", "north-facing"],
+  "prohibited_directions": ["southwest-facing", "south-facing (in hot regions)"],
+  "severity": "high",
+  "remedy": {
+    "type": "Structural",
+    "action": "Reorient the building axis during design to align with cardinal directions.",
+    "alternative_action": "Adjust internal layouts to simulate correct orientation (e.g., place main door and living spaces towards east/north)."
+  },
+  "technical_notes": {
+    "reason": "Cardinal alignment ensures optimal solar access, energy distribution, and magnetic field alignment.",
+    "impact_if_wrong": "Poor orientation may lead to overheating, poor daylighting, and energy imbalance.",
+    "construction_constraints": "Rotation beyond ±15° from true cardinal directions requires remedial layout design for balancing energy zones."
+  },
+  "room_geometry_recommendation": {
+    "min_area_sqft": null,
+    "aspect_ratio": "Aligned rectangles preferred to optimize sunlight and airflow",
+    "ventilation_required": true
+  },
+  "adjacency_rules": {
+    "should_not_share_wall_with": [],
+    "preferred_adjacent_rooms": []
+  },
+  "regional_variants": {
+    "north_india": {
+      "ideal_direction": "East-facing or North-facing",
+      "notes": "Helps avoid direct west sun in summer."
+    },
+    "south_india": {
+      "ideal_direction": "East-facing",
+      "notes": "Maximizes morning light and reduces heat gain in the afternoon."
+    }
+  },
+  "compliance_score": 93,
+  "source_confidence": 0.91,
+  "tags": ["layout", "alignment", "design", "foundation", "orientation"],
+  "climatic_reason": "Cardinal orientation allows passive solar design strategies for thermal comfort across seasons.",
+  "engineering_considerations": {
+    "thermal_flow": "Improper orientation can trap solar heat and reduce cross-ventilation.",
+    "plumbing": "North and east zones preferred for water-heavy areas due to cooler zones.",
+    "privacy": "Correct orientation places living spaces away from external noise and public views."
+  },
+  "zonal_influence_map": "Determines spatial energy zones like Agni, Vayu, and Brahmasthan across floor layout.",
+  "daylighting_guidance": "East-facing orientation ensures 2–4 hours of natural morning light, reducing lighting load.",
+  "source_authority": [
+    "Mayamatam - Orientation Sutras",
+    "Samarangana Sutradhara - Chapter 7",
+    "Bureau of Energy Efficiency - Passive Design Guidelines"
+  ]
+},
+
+
+{
+  "element": "Zonal Energy Grid",
+  "ideal_direction": "Defined grid with zones assigned to eight cardinal and intercardinal directions plus Brahmasthan (center)",
+  "direction_priority": ["northeast (Ishan)", "southeast (Agni)", "southwest (Nairutya)", "northwest (Vayu)", "center (Brahmasthan)"],
+  "prohibited_directions": ["misaligned energy zone placements like toilets in northeast or bedrooms in Brahmasthan"],
+  "severity": "high",
+  "remedy": {
+    "type": "Spatial Re-zoning",
+    "action": "Realign room functions to match intended energy zones (e.g., move puja to northeast, kitchen to southeast).",
+    "alternative_action": "If structural changes are not feasible, introduce layout buffers or transitional spaces to reduce cross-zone conflicts."
+  },
+  "technical_notes": {
+    "reason": "Each zone is governed by specific cosmic energies and elements; improper usage causes spatial disharmony.",
+    "impact_if_wrong": "Results in health issues, energy imbalance, functional inefficiency, and emotional unrest.",
+    "construction_constraints": "Foundation layout must consider energy zone mapping at the planning stage to avoid deep structural corrections later."
+  },
+  "room_geometry_recommendation": {
+    "min_area_sqft": null,
+    "aspect_ratio": "Follow orthogonal symmetry for clean energy flows",
+    "ventilation_required": true
+  },
+  "adjacency_rules": {
+    "should_not_share_wall_with": ["fire and water zones", "puja room and toilet"],
+    "preferred_adjacent_rooms": ["fire zone with dining", "air zone with living"]
+  },
+  "regional_variants": {
+    "north_india": {
+      "ideal_direction": "Use classic 9-grid or 16-grid Mandala layout with northeast emphasized",
+      "notes": "Avoid underground structures in Brahmasthan or southwest zones."
+    },
+    "south_india": {
+      "ideal_direction": "Follow extended Mandala layouts for temple-inspired zoning",
+      "notes": "Maintain higher plinth in southwest zones to preserve stability energy."
+    }
+  },
+  "compliance_score": 97,
+  "source_confidence": 0.95,
+  "tags": ["energy", "zoning", "mandala", "spatial", "grid"],
+  "climatic_reason": "Aligning with energy zones supports passive thermal zoning — cool in north, warm in south.",
+  "engineering_considerations": {
+    "thermal_flow": "Fire zones in southeast dissipate heat naturally with airflow; water zones in northeast stay cool.",
+    "plumbing": "Drainage and water systems should be aligned to northeast and northwest quadrants only.",
+    "privacy": "Private spaces should align with stable, inert zones like southwest to avoid energetic disturbances."
+  },
+  "zonal_influence_map": "Defines the metaphysical influence of each zone based on Vastu Purusha Mandala and elemental alignment.",
+  "daylighting_guidance": "Assign active rooms like kitchens and offices to east/southeast zones for maximum daylight use.",
+  "source_authority": [
+    "Mayamatam – Mandala Zoning Chapters",
+    "Samarangana Sutradhara – Spatial Energy Theory",
+    "Indian Architecture Vastu Grid by Sthapati Ramesh"
+  ]
+},
+
+
+{
+  "element": "Sacred Geometry Zones",
+  "ideal_direction": "Geometry is distributed symmetrically across the entire plot, aligning with the central Brahmasthan and cardinal axes",
+  "direction_priority": ["aligned with 8 cardinal/intercardinal directions and center (Brahmasthan)"],
+  "prohibited_directions": ["misaligned angular constructions that break sacred geometric ratios like Golden Ratio or Mandala symmetry"],
+  "severity": "high",
+  "remedy": {
+    "type": "Design Correction",
+    "action": "Redesign layout using square or rectangular grids based on 1:1 or 1:√2 proportion, preserving Brahmasthan at center.",
+    "alternative_action": "For existing structures, restructure internal spatial flow using proportionate partitioning or visual zoning aligned with sacred geometry."
+  },
+  "technical_notes": {
+    "reason": "Sacred geometry ensures energy coherence, spatial balance, and psychological well-being through proportional design.",
+    "impact_if_wrong": "Leads to cognitive dissonance, spatial inefficiency, energetic imbalances, and architectural disharmony.",
+    "construction_constraints": "Avoid diagonal constructions, curved peripheries, or irregular floor plate angles beyond tolerance."
+  },
+  "room_geometry_recommendation": {
+    "min_area_sqft": null,
+    "aspect_ratio": "1:1 or Golden Ratio (1:1.618)",
+    "ventilation_required": true
+  },
+  "adjacency_rules": {
+    "should_not_share_wall_with": ["rooms violating proportional symmetry"],
+    "preferred_adjacent_rooms": ["zones placed symmetrically along central axis"]
+  },
+  "regional_variants": {
+    "north_india": {
+      "ideal_direction": "Follow Vaastu Purusha Mandala with Brahmasthan as central square in 9-grid or 81-grid layouts",
+      "notes": "Respect 90° alignments for boundary and internal wall placements"
+    },
+    "south_india": {
+      "ideal_direction": "Use temple-based Angula measurement systems for sacred symmetry",
+      "notes": "Focus on maintaining center symmetry and solar axis alignment in plan"
+    }
+  },
+  "compliance_score": 96,
+  "source_confidence": 0.94,
+  "tags": ["geometry", "proportion", "mandala", "sacred", "structure"],
+  "climatic_reason": "Symmetrical layouts help optimize airflow and sunlight distribution across all zones of the home.",
+  "engineering_considerations": {
+    "thermal_flow": "Central Brahmasthan enables cross-ventilation and balanced thermal zones.",
+    "plumbing": "Symmetry aids in optimal pipe distribution and water flow balance.",
+    "privacy": "Sacred zoning naturally separates private, public, and service zones by design."
+  },
+  "zonal_influence_map": "Uses geometrical overlays like 8x8 or 9x9 mandala grid to map energy-sensitive placements across the structure.",
+  "daylighting_guidance": "Sacred geometrical alignment ensures equal sunlight ingress from east and west during key hours.",
+  "source_authority": [
+    "Mayamatam – Geometrical Layout Proportions",
+    "Silpa Shastra – Sacred Architectural Codes",
+    "Vishwakarma Prakash – Grid-Based Spatial Design"
+  ]
+},
+
+
+{
+  "element": "Room Adjacency Logic",
+  "ideal_direction": "Not fixed — governed by functional proximity, user activity flow, and energy compatibility",
+  "direction_priority": ["Follows logical functional sequence and energy hierarchy rather than strict directional placement"],
+  "prohibited_directions": [],
+  "severity": "medium",
+  "remedy": {
+    "type": "Design Replanning",
+    "action": "Restructure room adjacency to follow a function-first sequence (e.g., kitchen near dining, toilet away from pooja).",
+    "alternative_action": "Use partition walls or sound/odor barriers to simulate appropriate adjacencies without reconstruction."
+  },
+  "technical_notes": {
+    "reason": "Logical adjacency reduces unnecessary movement, prevents energy conflict, and enhances spatial experience.",
+    "impact_if_wrong": "Results in discomfort, poor circulation, noise interference, and hygiene or privacy issues.",
+    "construction_constraints": "Ensure wet zones don’t share walls with sacred or living zones; avoid back-to-back beds and toilets."
+  },
+  "room_geometry_recommendation": {
+    "min_area_sqft": null,
+    "aspect_ratio": null,
+    "ventilation_required": true
+  },
+  "adjacency_rules": {
+    "should_not_share_wall_with": ["kitchen and toilet", "pooja room and bathroom", "bedroom and main door"],
+    "preferred_adjacent_rooms": [
+      "kitchen near dining room",
+      "living room near entrance",
+      "toilets aligned away from northeast",
+      "bedroom near wardrobe/store room"
+    ]
+  },
+  "regional_variants": {
+    "north_india": {
+      "notes": "Bedrooms often placed around Brahmasthan with living room at front; puja room northeast-aligned but away from kitchen."
+    },
+    "south_india": {
+      "notes": "Prefers utility and service zones towards west/southwest; maintains strong separation of clean and unclean zones."
+    }
+  },
+  "compliance_score": 91,
+  "source_confidence": 0.9,
+  "tags": ["room flow", "layout planning", "proximity", "circulation", "privacy"],
+  "climatic_reason": "Proper adjacency allows natural airflow paths and avoids cross-contamination of thermal or wet zones.",
+  "engineering_considerations": {
+    "thermal_flow": "Avoid placing heat-generating rooms near cooler zones like bedrooms.",
+    "plumbing": "Centralize plumbing for service areas to minimize pipe runs and leakage risks.",
+    "privacy": "Ensure private spaces like bedrooms do not open directly to public zones like entrance or living."
+  },
+  "zonal_influence_map": "Maintains energy gradient from public to private zones — northeast to southwest is ideal.",
+  "daylighting_guidance": "Arrange zones so that most-used rooms during day (like kitchen/living) get east/north light.",
+  "source_authority": [
+    "National Building Code – Zoning Principles",
+    "Vaastu Vidhya – Room Placement Scriptures",
+    "Architectural Spatial Programming Manuals"
+  ]
+},
+
+
+{
+  "element": "Zonal Entry/Exit Logic",
+  "ideal_direction": "Entries/exits aligned with cardinal directions matching zone energy flow (e.g., northeast entry for positive energy zones)",
+  "direction_priority": ["Northeast", "East", "North"],
+  "prohibited_directions": ["Southwest", "West (for main entrances)"],
+  "severity": "high",
+  "remedy": {
+    "type": "Structural",
+    "action": "Relocate main entries/exits to align with auspicious directions corresponding to zonal energies.",
+    "alternative_action": "Install transitional vestibules or buffer spaces to moderate energy if relocation is not feasible."
+  },
+  "technical_notes": {
+    "reason": "Entry and exit points control the flow of energy and airflow into specific zones, impacting occupants’ wellbeing.",
+    "impact_if_wrong": "Improper placement can lead to energy stagnation, negative environmental effects, and discomfort.",
+    "construction_constraints": "Ensure entry points do not face directly towards each other causing 'energy conflicts'."
+  },
+  "room_geometry_recommendation": {
+    "min_area_sqft": null,
+    "aspect_ratio": null,
+    "ventilation_required": true
+  },
+  "adjacency_rules": {
+    "should_not_share_wall_with": ["toilets near main exits", "kitchen exits directly to outside"],
+    "preferred_adjacent_rooms": ["living room or foyer near main entrance"]
+  },
+  "regional_variants": {
+    "north_india": {
+      "ideal_direction": "Northeast or East",
+      "notes": "Main entrance preferably northeast; avoid southwest facing entrances."
+    },
+    "south_india": {
+      "ideal_direction": "East or North",
+      "notes": "Emphasis on East-facing entrances for sunlight and airflow."
+    }
+  },
+  "compliance_score": 94,
+  "source_confidence": 0.93,
+  "tags": ["entry", "exit", "flow", "energy", "ventilation", "zone"],
+  "climatic_reason": "Properly oriented entries maximize daylight and natural ventilation, reducing energy loads.",
+  "engineering_considerations": {
+    "thermal_flow": "Entry placement affects wind patterns and thermal comfort inside zones.",
+    "plumbing": "Avoid wet zones adjacent to entryways to prevent moisture ingress.",
+    "privacy": "Main entries should lead into controlled access areas like foyer or living room."
+  },
+  "zonal_influence_map": "Entries are designed to harmonize with energy gradients from northeast to southwest zones.",
+  "daylighting_guidance": "Position entries to capture morning sunlight and optimize natural light distribution.",
+  "source_authority": [
+    "Vaastu Shastra Classic Texts",
+    "Indian Institute of Architects - Traditional Zoning Guidelines",
+    "National Building Code of India - Ventilation and Access"
+  ]
+},
+
+
+{
+  "element": "Staircase Turning Direction",
+  "ideal_direction": "Clockwise upward spiral (right turn) preferred",
+  "direction_priority": ["Clockwise (right turn)"],
+  "prohibited_directions": ["Counterclockwise (left turn)"],
+  "severity": "medium",
+  "remedy": {
+    "type": "Structural",
+    "action": "Design or renovate staircases to ascend in a clockwise direction (right turn) to promote positive energy flow.",
+    "alternative_action": "If restructuring is not feasible, use design elements to visually simulate clockwise flow."
+  },
+  "technical_notes": {
+    "reason": "Clockwise staircases are believed to enhance upward energy movement, improving occupant wellbeing and prosperity.",
+    "impact_if_wrong": "Counterclockwise staircases may cause energy stagnation or downward energy flow, impacting health and luck.",
+    "construction_constraints": "Ensure adequate space for staircase rotation while maintaining structural integrity and safety standards."
+  },
+  "room_geometry_recommendation": {
+    "min_area_sqft": 30,
+    "aspect_ratio": "Varies based on floor height and rotation radius",
+    "ventilation_required": true
+  },
+  "adjacency_rules": {
+    "should_not_share_wall_with": ["toilet", "kitchen"],
+    "preferred_adjacent_rooms": ["living room", "foyer"]
+  },
+  "regional_variants": {
+    "north_india": {
+      "ideal_direction": "Clockwise turns towards northeast or east",
+      "notes": "Emphasis on clockwise upward spiral for auspiciousness."
+    },
+    "south_india": {
+      "ideal_direction": "Clockwise turns towards east or southeast",
+      "notes": "Slight variation accepted but clockwise preferred."
+    }
+  },
+  "compliance_score": 88,
+  "source_confidence": 0.85,
+  "tags": ["staircase", "direction", "energy flow", "turning", "structural"],
+  "climatic_reason": "Clockwise stairs can aid natural airflow vertically, enhancing ventilation.",
+  "engineering_considerations": {
+    "thermal_flow": "Staircase placement affects vertical air movement within building.",
+    "plumbing": "Avoid plumbing lines adjacent to staircase walls to reduce moisture risk.",
+    "privacy": "Staircases should be visually separated from private spaces."
+  },
+  "zonal_influence_map": "Staircases should be positioned to align with zone energy gradients favoring clockwise ascent.",
+  "daylighting_guidance": "Design staircases to capture daylight from windows positioned on the ascending side.",
+  "source_authority": [
+    "Mayamatam - Chapter 7",
+    "Traditional Vaastu Shastra Manuals",
+    "Architectural Standards for Indian Homes"
+  ]
+}
+
+]

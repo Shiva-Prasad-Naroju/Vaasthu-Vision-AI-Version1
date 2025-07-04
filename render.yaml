@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: vaasthu-vision-ai-v1
+    env: python
+    buildCommand: pip install -r ui/requirements.txt
+    # startCommand: bash ui/start.sh
+    startCommand: ./ui/start.sh
+    rootDir: .
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10
+    plan: free

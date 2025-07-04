@@ -1,0 +1,811 @@
+[
+{
+  "element": "kitchen",
+  "ideal_direction": "southeast",
+  "direction_priority": ["southeast", "east"],
+  "prohibited_directions": ["northeast", "southwest"],
+  "severity": "high",
+  "remedy": {
+    "type": "Structural",
+    "action": "Relocate the kitchen to the southeast corner of the building layout.",
+    "alternative_action": "Reorient the cooking platform to face east and place the exhaust opening on the southeast wall."
+  },
+  "technical_notes": {
+    "reason": "The southeast is governed by Agni (fire) as per traditional zoning, reducing conflicts with water and air zones.",
+    "impact_if_wrong": "Can cause thermal inefficiency, cross-zone conflict, and internal air circulation imbalance.",
+    "construction_constraints": "Ensure plumbing does not enter northeast zone; maintain at least 3 ft spacing from adjacent puja or toilet walls."
+  },
+  "room_geometry_recommendation": {
+    "min_area_sqft": 50,
+    "aspect_ratio": "4:3",
+    "ventilation_required": true
+  },
+  "adjacency_rules": {
+    "should_not_share_wall_with": ["toilet", "bedroom"],
+    "preferred_adjacent_rooms": ["dining room", "store room"]
+  },
+  "regional_variants": {
+    "north_india": {
+      "ideal_direction": "southeast",
+      "alternative": "east"
+    },
+    "south_india": {
+      "ideal_direction": "southeast",
+      "notes": "Avoid placing kitchen below water tanks"
+    }
+  },
+  "compliance_score": 95,
+  "source_confidence": 0.92,
+  "tags": ["room", "direction", "placement", "structural", "kitchen"],
+  "climatic_reason": "In both regions, southeast gets moderate sunlight. In North India, it prevents excessive heat in summer; in South India, it aids ventilation and natural drying.",
+  "engineering_considerations": {
+    "thermal_flow": "Southeast rooms allow for progressive exhaust of heat buildup, aiding thermal stability.",
+    "plumbing": "Avoid overhead water lines or seepage risks in fire-dominant zones.",
+    "privacy": "Cooking areas should be acoustically and visually buffered from bedrooms or puja areas."
+  },
+  "source_authority": [
+    "Mayamatam - Chapter 5",
+    "National Building Code India - Traditional Addendum"
+  ],
+  "zonal_influence_map": "Impacts southeast quadrant energy; critical for balancing heat zone.",
+  "daylighting_guidance": "Prefer east or southeast-facing windows for 2-3 hours of early daylight to aid cooking and reduce moisture.",
+  "conflict_resolution": {
+    "common_conflict": "Kitchen placed in northeast due to plumbing access",
+    "resolution": "Replan pipeline routing and convert northeast room to utility or wash area"
+  }
+}
+,
+
+{
+  "element": "master bedroom",
+  "ideal_direction": "southwest",
+  "direction_priority": ["southwest", "south"],
+  "prohibited_directions": ["northeast", "southeast"],
+  "severity": "high",
+  "remedy": {
+    "type": "Structural",
+    "action": "Relocate the master bedroom to the southwest corner of the home.",
+    "alternative_action": "Reorient the bed with the headboard in the southwest and shift heavy furniture to that quadrant to stabilize energy."
+  },
+  "technical_notes": {
+    "reason": "The southwest is governed by Nairitya (stability and strength), ideal for the head of the household.",
+    "impact_if_wrong": "Placing it in northeast can lead to instability, poor decision-making, and restlessness.",
+    "construction_constraints": "Avoid placing bathrooms above or adjacent to the puja room; maintain structural solidity in the southwest corner."
+  },
+  "room_geometry_recommendation": {
+    "min_area_sqft": 120,
+    "aspect_ratio": "5:4",
+    "ventilation_required": true
+  },
+  "adjacency_rules": {
+    "should_not_share_wall_with": ["kitchen", "toilet"],
+    "preferred_adjacent_rooms": ["walk-in closet", "attached bathroom"]
+  },
+  "regional_variants": {
+    "north_india": {
+      "ideal_direction": "southwest",
+      "alternative": "south"
+    },
+    "south_india": {
+      "ideal_direction": "southwest",
+      "notes": "If ventilation is poor, use insulated walls on the west and south side to reduce heat."
+    }
+  },
+  "compliance_score": 92,
+  "source_confidence": 0.90,
+  "tags": ["room", "direction", "placement", "private", "master bedroom"],
+  "climatic_reason": "In both regions, southwest ensures thermal stability by avoiding harsh morning sun and leveraging cooler airflow in the evening.",
+  "engineering_considerations": {
+    "thermal_flow": "Southwest rooms stay cooler throughout the day; helps in temperature regulation.",
+    "plumbing": "Avoid overhead water tanks above the bedroom ceiling to prevent dampness.",
+    "privacy": "This direction supports maximum acoustic and visual privacy for the household leader."
+  },
+  "source_authority": [
+    "Mayamatam - Chapter 8",
+    "National Building Code India - Residential Zoning Section"
+  ],
+  "zonal_influence_map": "Governs family stability and leadership energy zone.",
+  "daylighting_guidance": "Ensure west-facing windows are shaded; allow diffused southern light to enter during late afternoon.",
+  "conflict_resolution": {
+    "common_conflict": "Master bedroom built in northeast to give prime view.",
+    "resolution": "Convert current space to living area and reallocate southwest zone for master bedroom with thermal insulation if needed."
+  }
+},
+
+
+
+{
+  "element": "children bedroom",
+  "ideal_direction": "west",
+  "direction_priority": ["west","south","northwest"],
+  "prohibited_directions": ["southeast", "southwest"],
+  "severity": "medium",
+  "remedy": {
+    "type": "Structural",
+    "action": "Relocate the children bedroom to the west or northwest zone of the house layout.",
+    "alternative_action": "Adjust bed placement with head toward south and study area in the north or east to balance function."
+  },
+  "technical_notes": {
+    "reason": "The west direction enhances focus, retention, and independence for growing children as per Vaastu zones.",
+    "impact_if_wrong": "Incorrect placement can lead to distraction, sleep issues, and behavioral imbalance.",
+    "construction_constraints": "Avoid placing bathrooms directly inside the room; ensure wall insulation on west-facing sides to manage heat gain."
+  },
+  "room_geometry_recommendation": {
+    "min_area_sqft": 100,
+    "aspect_ratio": "4:3",
+    "ventilation_required": true
+  },
+  "adjacency_rules": {
+    "should_not_share_wall_with": ["toilet", "storeroom"],
+    "preferred_adjacent_rooms": ["study room", "family lounge"]
+  },
+  "regional_variants": {
+    "north_india": {
+      "ideal_direction": "west",
+      "alternative": "northwest"
+    },
+    "south_india": {
+      "ideal_direction": "northwest",
+      "notes": "Use insulated walls to manage summer heat; incorporate cross-ventilation for comfort."
+    }
+  },
+  "compliance_score": 88,
+  "source_confidence": 0.89,
+  "tags": ["room", "direction", "placement", "children", "bedroom"],
+  "climatic_reason": "West and northwest rooms get evening light, supporting a relaxed post-school environment; balanced ventilation aids restful sleep.",
+  "engineering_considerations": {
+    "thermal_flow": "Proper insulation in west-facing rooms reduces late afternoon heat accumulation.",
+    "plumbing": "Avoid locating water storage tanks above this room to prevent leaks and humidity.",
+    "privacy": "Supports semi-private layout suitable for children while allowing parental monitoring from nearby rooms."
+  },
+  "source_authority": [
+    "Samarangana Sutradhara - Residential Sections",
+    "National Building Code - Traditional Orientation Guidelines"
+  ],
+  "zonal_influence_map": "Affects cognitive development, emotional stability, and academic focus zone for children.",
+  "daylighting_guidance": "Windows on the north and east walls provide balanced natural light for studies without harsh glare.",
+  "conflict_resolution": {
+    "common_conflict": "Children’s bedroom placed in southeast due to space constraints.",
+    "resolution": "Reassign southeast room for utility use; shift children's room to northwest and use smart storage to optimize space."
+  }
+},
+
+
+
+{
+  "element": "guest bedroom",
+  "ideal_direction": "northwest",
+  "direction_priority": ["northwest", "west"],
+  "prohibited_directions": ["northeast", "center"],
+  "severity": "medium",
+  "remedy": {
+    "type": "Structural",
+    "action": "Relocate the guest bedroom to the northwest corner of the house layout.",
+    "alternative_action": "Position guest bed with the head towards the south or east and avoid placing it in the northeast quadrant."
+  },
+  "technical_notes": {
+    "reason": "Northwest is governed by Vayu (air) which suits temporary stays and creates a sense of movement, preventing prolonged occupancy.",
+    "impact_if_wrong": "May lead to discomfort for guests or disturbances in the household’s energy if placed in zones meant for family stability.",
+    "construction_constraints": "Avoid attaching guest bathrooms in northeast zone; provide separate access if possible for privacy."
+  },
+  "room_geometry_recommendation": {
+    "min_area_sqft": 90,
+    "aspect_ratio": "5:4",
+    "ventilation_required": true
+  },
+  "adjacency_rules": {
+    "should_not_share_wall_with": ["puja room", "kitchen"],
+    "preferred_adjacent_rooms": ["toilet", "corridor"]
+  },
+  "regional_variants": {
+    "north_india": {
+      "ideal_direction": "northwest",
+      "alternative": "west"
+    },
+    "south_india": {
+      "ideal_direction": "west",
+      "notes": "Ensure cross-ventilation to handle western heat load; avoid proximity to storage or water sources."
+    }
+  },
+  "compliance_score": 86,
+  "source_confidence": 0.91,
+  "tags": ["guest", "bedroom", "placement", "direction", "temporary"],
+  "climatic_reason": "Northwest rooms receive controlled airflow which enhances ventilation and guest comfort while not interfering with thermal stability of core family spaces.",
+  "engineering_considerations": {
+    "thermal_flow": "Evening airflow helps maintain coolness without additional HVAC load.",
+    "plumbing": "Guest bathroom plumbing should be isolated from puja or kitchen zones.",
+    "privacy": "Ideal placement away from central family areas ensures visitor privacy without disrupting household flow."
+  },
+  "source_authority": [
+    "Mayamatam - Hospitality Guidelines",
+    "Traditional Design Manuals of Rajasthan Architecture School"
+  ],
+  "zonal_influence_map": "Encourages detachment and neutrality—ideal for visitors and short-term stays.",
+  "daylighting_guidance": "Use west-facing windows for evening light; avoid large northeast-facing openings.",
+  "conflict_resolution": {
+    "common_conflict": "Guest bedroom positioned centrally near family living areas.",
+    "resolution": "Shift guest bedroom toward periphery, preferably northwest, and use partitions for spatial separation."
+  }
+},
+
+
+
+{
+  "element": "living room",
+  "ideal_direction": "northeast",
+  "direction_priority": ["northeast", "north", "east"],
+  "prohibited_directions": ["southwest", "southeast"],
+  "severity": "medium",
+  "remedy": {
+    "type": "Structural",
+    "action": "Place the living room in the northeast part of the house for optimal energy flow and social interaction.",
+    "alternative_action": "Reorganize furniture layout to face northeast, and open up windows or doors on the north and east walls."
+  },
+  "technical_notes": {
+    "reason": "The northeast is governed by Ishanya (spirituality) and brings natural light and calmness, ideal for social interaction.",
+    "impact_if_wrong": "Placing it in wrong zones can lead to a dull, energy-draining atmosphere and reduced social harmony.",
+    "construction_constraints": "Avoid beam crossings overhead; ensure entry from north or east for better flow."
+  },
+  "room_geometry_recommendation": {
+    "min_area_sqft": 120,
+    "aspect_ratio": "4:3",
+    "ventilation_required": true
+  },
+  "adjacency_rules": {
+    "should_not_share_wall_with": ["toilet", "bedroom"],
+    "preferred_adjacent_rooms": ["foyer", "dining room"]
+  },
+  "regional_variants": {
+    "north_india": {
+      "ideal_direction": "northeast",
+      "alternative": "north"
+    },
+    "south_india": {
+      "ideal_direction": "east",
+      "notes": "East-facing living rooms are preferred for morning sunlight and good cross-ventilation."
+    }
+  },
+  "compliance_score": 93,
+  "source_confidence": 0.94,
+  "tags": ["living", "social", "gathering", "public", "space"],
+  "climatic_reason": "Northeast and east receive mild sunlight in the morning, keeping the space bright and cool throughout the day.",
+  "engineering_considerations": {
+    "thermal_flow": "Morning sun in northeast helps in passive heating during winters.",
+    "plumbing": "Avoid water lines from kitchen or toilets running above or under the living space.",
+    "privacy": "Being semi-public, it should be accessible from entrance but not reveal private zones directly."
+  },
+  "source_authority": [
+    "Manasara - Chapter on Spatial Hierarchy",
+    "National Building Code India – Social Spaces Section"
+  ],
+  "zonal_influence_map": "Activates mental clarity and hospitality—ideal for receiving guests and relaxation.",
+  "daylighting_guidance": "Install large windows on north/east walls for diffused, glare-free natural lighting.",
+  "conflict_resolution": {
+    "common_conflict": "Living room located in southwest causing dullness and heaviness.",
+    "resolution": "Relocate or open major windows to east/north; redesign internal layout to mimic northeast-centric orientation."
+  }
+},
+
+
+
+{
+  "element": "pooja room",
+  "ideal_direction": "east",
+  "direction_priority": ["northeast", "east", "north"],
+  "prohibited_directions": ["south", "southwest", "toilet-adjacent"],
+  "severity": "high",
+  "remedy": {
+    "type": "Structural",
+    "action": "Relocate the pooja room to the northeast corner of the home for spiritual harmony and positive energy.",
+    "alternative_action": "Reorient idols to face west and ensure the devotee faces east while praying."
+  },
+  "technical_notes": {
+    "reason": "The northeast, or Ishanya corner, is considered the most sacred and spiritually charged zone in Vastu.",
+    "impact_if_wrong": "Improper placement may disturb mental peace, block energy flow, and reduce the sanctity of rituals.",
+    "construction_constraints": "Avoid placing pooja room under staircases, near toilets, or sharing walls with bathrooms."
+  },
+  "room_geometry_recommendation": {
+    "min_area_sqft": 16,
+    "aspect_ratio": "1:1 or 4:3",
+    "ventilation_required": true
+  },
+  "adjacency_rules": {
+    "should_not_share_wall_with": ["toilet", "kitchen"],
+    "preferred_adjacent_rooms": ["living room", "study room"]
+  },
+  "regional_variants": {
+    "north_india": {
+      "ideal_direction": "northeast",
+      "alternative": "east"
+    },
+    "south_india": {
+      "ideal_direction": "northeast",
+      "notes": "Avoid storage of non-religious items inside pooja room"
+    }
+  },
+  "compliance_score": 98,
+  "source_confidence": 0.97,
+  "tags": ["sacred", "spiritual", "religion", "pooja", "prayer", "meditation"],
+  "climatic_reason": "Morning sunlight in northeast purifies the space and energizes the surroundings naturally.",
+  "engineering_considerations": {
+    "thermal_flow": "Cool and calm zone; avoid heat-generating appliances nearby.",
+    "plumbing": "No plumbing lines should pass through or above pooja space.",
+    "privacy": "The room should be quiet, away from heavy circulation areas, and acoustically isolated."
+  },
+  "source_authority": [
+    "Mayamatam – Chapter 7",
+    "Vishwakarma Vastu Shastra – Sacred Space Section"
+  ],
+  "zonal_influence_map": "Supports spiritual awakening and intellectual clarity when placed in the northeast.",
+  "daylighting_guidance": "Place small east-facing windows to allow 2–3 hours of early morning sunlight, symbolizing divine grace.",
+  "conflict_resolution": {
+    "common_conflict": "Pooja room near bathroom or kitchen reduces purity.",
+    "resolution": "Rebuild partition walls, use raised platform, or shift to northeast using non-load-bearing structural elements."
+  }
+},
+
+
+
+{
+  "element": "bathroom",
+  "ideal_direction": "northwest",
+  "direction_priority": ["northwest", "west"],
+  "prohibited_directions": ["northeast", "center", "southeast"],
+  "severity": "high",
+  "remedy": {
+    "type": "Structural",
+    "action": "Relocate the bathroom to the northwest corner of the layout to ensure proper waste disposal and airflow.",
+    "alternative_action": "If relocation isn’t feasible, isolate the bathroom with ventilation shafts and airtight sealing to contain energy disturbances."
+  },
+  "technical_notes": {
+    "reason": "Northwest is governed by Vayu (air), supporting removal and expulsion, ideal for bathrooms and toilets.",
+    "impact_if_wrong": "Improper placement can lead to stagnation, poor hygiene, and disturbed health or relationships.",
+    "construction_constraints": "Must not share walls with kitchen or pooja room; provide proper slope for water drainage away from living areas."
+  },
+  "room_geometry_recommendation": {
+    "min_area_sqft": 25,
+    "aspect_ratio": "4:3",
+    "ventilation_required": true
+  },
+  "adjacency_rules": {
+    "should_not_share_wall_with": ["pooja room", "kitchen"],
+    "preferred_adjacent_rooms": ["bedroom", "utility room"]
+  },
+  "regional_variants": {
+    "north_india": {
+      "ideal_direction": "northwest",
+      "alternative": "west"
+    },
+    "south_india": {
+      "ideal_direction": "northwest",
+      "notes": "Use elevated base if placed on ground floor to avoid seepage into foundation"
+    }
+  },
+  "compliance_score": 92,
+  "source_confidence": 0.89,
+  "tags": ["hygiene", "water", "bathroom", "disposal", "direction"],
+  "climatic_reason": "Northwest placement uses prevailing winds for natural ventilation, minimizing odor retention.",
+  "engineering_considerations": {
+    "thermal_flow": "Avoid placing near hot zones like kitchen to maintain thermal zoning balance.",
+    "plumbing": "Ensure gradient in pipes, no backward slope; avoid placing pipes through northeast zone.",
+    "privacy": "Ensure acoustic insulation and separate entry for attached bathrooms."
+  },
+  "source_authority": [
+    "Mayamatam – Chapter 11",
+    "Indian Building Code – Sanitation Section"
+  ],
+  "zonal_influence_map": "Supports waste expulsion and air circulation functions critical to bathrooms.",
+  "daylighting_guidance": "Use translucent glass openings on the west or northwest wall to allow filtered natural light while ensuring privacy.",
+  "conflict_resolution": {
+    "common_conflict": "Bathroom facing pooja room or kitchen disturbs purity.",
+    "resolution": "Reorient doors away from sensitive zones and build internal partitions or buffers using dry walls."
+  }
+},
+
+
+{
+  "element": "dining room",
+  "ideal_direction": "west",
+  "direction_priority": ["west", "east", "south"],
+  "prohibited_directions": ["northwest", "northeast"],
+  "severity": "medium",
+  "remedy": {
+    "type": "Structural",
+    "action": "Shift the dining room to the western side of the home, preferably adjacent to the kitchen.",
+    "alternative_action": "If shifting is not feasible, ensure the dining area is well-ventilated and situated away from main entrances and pooja room."
+  },
+  "technical_notes": {
+    "reason": "West direction promotes digestive energy according to Vastu, harmonizing mealtime with the setting sun.",
+    "impact_if_wrong": "Incorrect placement may lead to irregular eating habits, poor digestion, and disrupted family interaction.",
+    "construction_constraints": "Dining room should be connected to or near the kitchen; avoid sharing a wall with bathrooms."
+  },
+  "room_geometry_recommendation": {
+    "min_area_sqft": 80,
+    "aspect_ratio": "5:4",
+    "ventilation_required": true
+  },
+  "adjacency_rules": {
+    "should_not_share_wall_with": ["bathroom", "toilet"],
+    "preferred_adjacent_rooms": ["kitchen", "living room"]
+  },
+  "regional_variants": {
+    "north_india": {
+      "ideal_direction": "west",
+      "alternative": "south"
+    },
+    "south_india": {
+      "ideal_direction": "east",
+      "notes": "Allows morning light during breakfast; preferable in single-story layouts"
+    }
+  },
+  "compliance_score": 90,
+  "source_confidence": 0.91,
+  "tags": ["dining", "mealtime", "digestive", "social", "room placement"],
+  "climatic_reason": "Western walls retain warmth post sunset, supporting comfortable evening dining especially in colder climates.",
+  "engineering_considerations": {
+    "thermal_flow": "Avoid placing under direct roof exposure in hot regions; use ventilated ceiling or false roof.",
+    "plumbing": "Ensure drainage connectivity for attached wash area; avoid water spillage into dining zone.",
+    "privacy": "Should not be directly visible from the main entrance; consider partial partition from living space."
+  },
+  "source_authority": [
+    "Vishwakarma Prakash – Chapter 7",
+    "Traditional Architecture Notes – School of Planning and Architecture"
+  ],
+  "zonal_influence_map": "Encourages social interaction and family bonding near the food zone.",
+  "daylighting_guidance": "For east-facing homes, morning light enhances mood during breakfast; west-facing rooms benefit during dinner.",
+  "conflict_resolution": {
+    "common_conflict": "Dining room far from kitchen leads to impractical food service.",
+    "resolution": "Use connecting corridor or pass-through window to maintain ease of serving and Vastu compliance."
+  }
+},
+
+
+
+{
+  "element": "study room",
+  "ideal_direction": "northeast",
+  "direction_priority": ["northeast", "east", "north"],
+  "prohibited_directions": ["southwest", "southeast"],
+  "severity": "medium",
+  "remedy": {
+    "type": "Structural",
+    "action": "Position the study room in the northeast part of the house with large windows facing east or north.",
+    "alternative_action": "If relocation is not feasible, reorient the study table to face east and use natural lighting sources from the north or east."
+  },
+  "technical_notes": {
+    "reason": "The northeast direction enhances concentration and memory retention, aligning with the flow of positive solar and magnetic energy.",
+    "impact_if_wrong": "Wrong placement may cause distractions, low academic performance, and poor mental focus.",
+    "construction_constraints": "Avoid placing heavy shelves or dark interiors in northeast; prioritize open space and light tones."
+  },
+  "room_geometry_recommendation": {
+    "min_area_sqft": 60,
+    "aspect_ratio": "4:3",
+    "ventilation_required": true
+  },
+  "adjacency_rules": {
+    "should_not_share_wall_with": ["toilet", "kitchen"],
+    "preferred_adjacent_rooms": ["bedroom", "library", "living room"]
+  },
+  "regional_variants": {
+    "north_india": {
+      "ideal_direction": "northeast",
+      "alternative": "north"
+    },
+    "south_india": {
+      "ideal_direction": "east",
+      "notes": "Promotes cognitive stimulation and improves airflow in humid regions"
+    }
+  },
+  "compliance_score": 93,
+  "source_confidence": 0.89,
+  "tags": ["study", "education", "focus", "concentration", "children"],
+  "climatic_reason": "North and east-facing rooms receive diffused daylight, reducing eye strain and improving productivity during study hours.",
+  "engineering_considerations": {
+    "thermal_flow": "Avoid placing study rooms under direct roof in hot zones; use ventilated design with roof insulation.",
+    "plumbing": "No plumbing or water source should pass overhead or behind the study zone to prevent electromagnetic interference.",
+    "privacy": "Ensure acoustic separation from entertainment and utility zones to maintain silence and focus."
+  },
+  "source_authority": [
+    "Mayamatam – Chapter 6",
+    "CBSE School Architectural Guidelines – 2018"
+  ],
+  "zonal_influence_map": "Aligns with northeast knowledge zone; supports growth of learning and wisdom.",
+  "daylighting_guidance": "Morning sun from east improves alertness; ensure 2–3 hours of natural light exposure daily.",
+  "conflict_resolution": {
+    "common_conflict": "Study room placed in dark, poorly ventilated areas.",
+    "resolution": "Introduce skylights or additional ventilation, shift study desk orientation, and use pastel interior shades."
+  }
+},
+
+
+
+{
+  "element": "home office",
+  "ideal_direction": "west",
+  "direction_priority": ["west", "northwest", "north"],
+  "prohibited_directions": ["southeast", "southwest"],
+  "severity": "high",
+  "remedy": {
+    "type": "Structural",
+    "action": "Place the home office in the west or northwest section of the house to support focus, decision-making, and productivity.",
+    "alternative_action": "If placement is fixed, orient the work desk to face north or east and isolate the space acoustically."
+  },
+  "technical_notes": {
+    "reason": "The west direction aligns with stability and mature decision-making; northwest offers momentum and controlled movement—ideal for business and administrative tasks.",
+    "impact_if_wrong": "Incorrect placement can lead to work fatigue, poor communication, and financial instability.",
+    "construction_constraints": "Use partitioning if attached to bedroom/living; ensure strong natural light access without glare on screen."
+  },
+  "room_geometry_recommendation": {
+    "min_area_sqft": 80,
+    "aspect_ratio": "5:4",
+    "ventilation_required": true
+  },
+  "adjacency_rules": {
+    "should_not_share_wall_with": ["toilet", "kitchen"],
+    "preferred_adjacent_rooms": ["library", "guest room"]
+  },
+  "regional_variants": {
+    "north_india": {
+      "ideal_direction": "northwest",
+      "alternative": "north"
+    },
+    "south_india": {
+      "ideal_direction": "west",
+      "notes": "Ensure open window placement for airflow in humid zones"
+    }
+  },
+  "compliance_score": 94,
+  "source_confidence": 0.91,
+  "tags": ["office", "workspace", "business", "direction", "privacy"],
+  "climatic_reason": "West-facing rooms stay moderately cool till afternoon, supporting longer working hours without heat stress.",
+  "engineering_considerations": {
+    "thermal_flow": "West absorbs late sunlight; insulation or blinds needed to maintain cool working conditions.",
+    "plumbing": "Avoid running water lines overhead; ensure clear Wi-Fi signal and stable electrical sockets.",
+    "privacy": "Provide soundproofing and access isolation from entertainment or utility zones."
+  },
+  "source_authority": [
+    "Mayamatam – Chapter 7",
+    "Indian Work-From-Home Design Guidelines 2021 – MoHUA"
+  ],
+  "zonal_influence_map": "Activates western work zone linked with Saturn influence—supporting discipline, logic, and persistence.",
+  "daylighting_guidance": "Maximize indirect light from north or west; avoid south glare to reduce screen fatigue.",
+  "conflict_resolution": {
+    "common_conflict": "Office placed in leisure zones or bedrooms.",
+    "resolution": "Introduce visual and functional partitions, reorient desk, and use focused lighting design."
+  }
+},
+
+
+
+{
+  "element": "store room",
+  "ideal_direction": "west",
+  "direction_priority": ["northwest"],
+  "prohibited_directions": ["northeast", "center"],
+  "severity": "medium",
+  "remedy": {
+    "type": "Structural",
+    "action": "Shift the store room to the northwest or west zone of the house to ensure stored energy/materials remain static and controlled.",
+    "alternative_action": "Rearrange storage racks to be placed on the west or northwest walls; avoid clutter in central and northeast zones."
+  },
+  "technical_notes": {
+    "reason": "Northwest direction supports movement and controlled decay, making it ideal for storing perishable or infrequently used items.",
+    "impact_if_wrong": "Improper placement can lead to stagnation of energy, material wastage, and cluttered airflow.",
+    "construction_constraints": "Keep ventilation minimal but adequate to avoid dampness; avoid water pipelines running inside store walls."
+  },
+  "room_geometry_recommendation": {
+    "min_area_sqft": 25,
+    "aspect_ratio": "1:1",
+    "ventilation_required": false
+  },
+  "adjacency_rules": {
+    "should_not_share_wall_with": ["pooja room", "main entrance"],
+    "preferred_adjacent_rooms": ["kitchen", "dining room"]
+  },
+  "regional_variants": {
+    "north_india": {
+      "ideal_direction": "northwest",
+      "alternative": "west"
+    },
+    "south_india": {
+      "ideal_direction": "west",
+      "notes": "Use elevated flooring to prevent moisture accumulation during monsoon"
+    }
+  },
+  "compliance_score": 87,
+  "source_confidence": 0.89,
+  "tags": ["storage", "room", "direction", "utility", "placement"],
+  "climatic_reason": "Northwest rooms receive indirect sunlight which helps preserve stored materials longer without overheating.",
+  "engineering_considerations": {
+    "thermal_flow": "Store rooms in northwest stay ventilated without heat trapping; avoid insulation-heavy designs.",
+    "plumbing": "Do not run plumbing through walls; moisture can degrade stored goods.",
+    "privacy": "Ensure the store is enclosed and away from public/family activity zones."
+  },
+  "source_authority": [
+    "Samarangana Sutradhara – Chapter 12",
+    "Vastu Ratnakar – Section on Utility Rooms"
+  ],
+  "zonal_influence_map": "Supports air-dominant zone which encourages circulation around static items.",
+  "daylighting_guidance": "Low light preferred—use frosted or north-facing louvered windows if needed.",
+  "conflict_resolution": {
+    "common_conflict": "Store room occupying northeast zone or central Brahmasthan.",
+    "resolution": "Relocate to utility wing or back section; if not possible, reduce usage and avoid permanent storage."
+  }
+},
+
+
+
+{
+  "element": "main door",
+  "ideal_direction": "northeast",
+  "direction_priority": ["northeast", "east", "north"],
+  "prohibited_directions": ["southwest", "northwest"],
+  "severity": "high",
+  "remedy": {
+    "type": "Structural",
+    "action": "Relocate the main door to the northeast or eastern quadrant of the front elevation.",
+    "alternative_action": "If relocation isn't possible, add an internal vestibule and ensure the door opens inward toward a well-lit foyer."
+  },
+  "technical_notes": {
+    "reason": "The northeast is governed by Ishanya (divine energy), welcoming positive vibrations and early morning sunlight.",
+    "impact_if_wrong": "Can result in energy leakage, lack of prosperity, and unstable household harmony.",
+    "construction_constraints": "Ensure no septic tanks or pits are placed near entrance; use proportionate height and width based on home size."
+  },
+  "room_geometry_recommendation": {
+    "min_area_sqft": 20,
+    "aspect_ratio": "custom",
+    "ventilation_required": true
+  },
+  "adjacency_rules": {
+    "should_not_share_wall_with": ["toilet", "store room"],
+    "preferred_adjacent_rooms": ["living room", "foyer"]
+  },
+  "regional_variants": {
+    "north_india": {
+      "ideal_direction": "northeast",
+      "alternative": "north"
+    },
+    "south_india": {
+      "ideal_direction": "east",
+      "notes": "Ensure no obstruction like poles or trees directly in line with door"
+    }
+  },
+  "compliance_score": 96,
+  "source_confidence": 0.94,
+  "tags": ["entry", "main door", "orientation", "energy", "flow"],
+  "climatic_reason": "In all regions, northeast/east directions receive fresh air and natural light, purifying incoming energy.",
+  "engineering_considerations": {
+    "thermal_flow": "Entrance should facilitate cross-ventilation with living and corridor zones.",
+    "plumbing": "Avoid underground water pipelines under door threshold.",
+    "privacy": "Entrance should offer a buffer or vestibule to avoid direct line of sight into main rooms."
+  },
+  "source_authority": [
+    "Mayamatam – Chapter 3",
+    "Vishwakarma Prakash – Section on Entrances"
+  ],
+  "zonal_influence_map": "Connects external energy into Brahmasthan; critical for directional energy flow.",
+  "daylighting_guidance": "East-facing entrances allow morning light entry between 6–9 AM for daily revitalization.",
+  "conflict_resolution": {
+    "common_conflict": "Entrance located in southwest or with direct toilet adjacency.",
+    "resolution": "Use architectural buffers, reflective elements, or internal re-entry alignment to deflect negative energy."
+  }
+},
+
+
+{
+  "element": "staircase",
+  "ideal_direction": "southwest",
+  "direction_priority": ["southwest","northwest" ],
+  "prohibited_directions": ["northeast", "center (brahmasthan)"],
+  "severity": "high",
+  "remedy": {
+    "type": "Structural",
+    "action": "Relocate the staircase to the southwest part of the house layout, preferably touching the outer wall.",
+    "alternative_action": "If relocation isn’t possible, ensure it turns clockwise while ascending and is visually concealed from the entrance."
+  },
+  "technical_notes": {
+    "reason": "Southwest is the heaviest zone and ideal for static loads like staircases, stabilizing the structure.",
+    "impact_if_wrong": "If built in northeast or center, it obstructs the flow of energy and can lead to health and financial issues.",
+    "construction_constraints": "Avoid hollow steps and maintain uniform riser and tread dimensions for energy symmetry and structural safety."
+  },
+  "room_geometry_recommendation": {
+    "min_area_sqft": 25,
+    "aspect_ratio": "custom spiral or linear depending on layout",
+    "ventilation_required": false
+  },
+  "adjacency_rules": {
+    "should_not_share_wall_with": ["toilet", "puja room"],
+    "preferred_adjacent_rooms": ["store room", "garage"]
+  },
+  "regional_variants": {
+    "north_india": {
+      "ideal_direction": "southwest",
+      "alternative": "south"
+    },
+    "south_india": {
+      "ideal_direction": "west",
+      "notes": "Use RCC or granite for structural stability in monsoon zones"
+    }
+  },
+  "compliance_score": 91,
+  "source_confidence": 0.90,
+  "tags": ["stairs", "circulation", "direction", "load-bearing"],
+  "climatic_reason": "Placing staircase in southwest minimizes heat and moisture trapping in living zones.",
+  "engineering_considerations": {
+    "thermal_flow": "Southwest placement minimizes energy loss due to insulation from rest of house.",
+    "plumbing": "Avoid running water lines under the stairs; this is structurally and Vastu-wise discouraged.",
+    "privacy": "Staircases should not directly face the main door or puja room for psychological and spiritual zoning."
+  },
+  "source_authority": [
+    "Samarangana Sutradhara – Staircase Construction",
+    "Mayamatam – Load Distribution Guidelines"
+  ],
+  "zonal_influence_map": "Stabilizes the heavy zone (southwest) and prevents overloading the light zones.",
+  "daylighting_guidance": "Avoid placing stairs in naturally lit zones like northeast that require open space.",
+  "conflict_resolution": {
+    "common_conflict": "Staircase placed in northeast or over the pooja room.",
+    "resolution": "Use enclosure panels to isolate stairs, redirect circulation paths, or shift ascent rotation direction."
+  }
+},
+
+
+{
+  "element": "balcony",
+  "ideal_direction": "northeast",
+  "direction_priority": ["northeast", "east", "north"],
+  "prohibited_directions": ["southwest", "south"],
+  "severity": "medium",
+  "remedy": {
+    "type": "Structural",
+    "action": "Construct the balcony in the northeast corner to ensure maximum light and positivity.Make sure west side having less space as compared to east, maintain most space in east",
+    "alternative_action": "If not possible, use reflective materials and open grills to maintain openness in east/north directions."
+  },
+  "technical_notes": {
+    "reason": "Balconies in northeast allow for early morning light and represent the ideal placement for openness and air circulation.",
+    "impact_if_wrong": "Southwest balconies can lead to energy loss, privacy issues, and reduced stability of heavy zones.",
+    "construction_constraints": "Ensure slope towards the northeast for water drainage; avoid enclosing balconies with heavy walls."
+  },
+  "room_geometry_recommendation": {
+    "min_area_sqft": 30,
+    "aspect_ratio": "2:1 (wider than deep)",
+    "ventilation_required": true
+  },
+  "adjacency_rules": {
+    "should_not_share_wall_with": ["toilet", "kitchen chimney vents"],
+    "preferred_adjacent_rooms": ["living room", "bedroom"]
+  },
+  "regional_variants": {
+    "north_india": {
+      "ideal_direction": "northeast",
+      "alternative": "east",
+      "notes": "Consider wind protection with jali or pergola roofing."
+    },
+    "south_india": {
+      "ideal_direction": "northeast",
+      "notes": "Design with vertical louvers to block intense monsoon winds without closing the space."
+    }
+  },
+  "compliance_score": 89,
+  "source_confidence": 0.91,
+  "tags": ["balcony", "airflow", "sunlight", "leisure", "open space"],
+  "climatic_reason": "Northeast balconies offer cool breeze and early sunlight, minimizing indoor humidity and enhancing air quality.",
+  "engineering_considerations": {
+    "thermal_flow": "Avoid balconies in heat-dominant zones like southwest to prevent overheating of adjacent rooms.",
+    "plumbing": "Drainage outlets should not leak toward the building walls; ensure northeast slope.",
+    "privacy": "Balconies facing public areas should have partial visual buffer without blocking light."
+  },
+  "source_authority": [
+    "Mayamatam – Balcony Orientation",
+    "National Building Code India – Ventilation Guidelines"
+  ],
+  "zonal_influence_map": "Enhances light and air movement in the northeast, reinforcing the lightest zone.",
+  "daylighting_guidance": "Best used for morning sunlight exposure (6 AM – 9 AM); avoid west-facing balconies for glare control.",
+  "conflict_resolution": {
+    "common_conflict": "Balcony placed in southwest due to layout limitations.",
+    "resolution": "Minimize usage, restrict opening hours, and increase mass buffering below the slab."
+  }
+}
+
+
+
+]

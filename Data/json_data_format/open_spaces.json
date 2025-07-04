@@ -1,0 +1,325 @@
+[
+{
+  "element": "courtyard",
+  "ideal_direction": "center",
+  "direction_priority": ["center", "east"],
+  "prohibited_directions": ["northwest", "southwest"],
+  "severity": "medium",
+  "remedy": {
+    "type": "Structural",
+    "action": "Position the courtyard centrally in the layout to promote balanced air and light flow.",
+    "alternative_action": "Shift courtyard slightly towards east with open-to-sky design ensuring adequate ventilation."
+  },
+  "technical_notes": {
+    "reason": "Traditional Indian architecture treats the central zone (Brahmasthan) as sacred, promoting harmony and energy circulation.",
+    "impact_if_wrong": "Improper courtyard placement can result in poor cross-ventilation, dark interiors, and energy imbalance.",
+    "construction_constraints": "Avoid placing structural columns or tanks in courtyard space. Ensure open-to-sky design or skylights."
+  },
+  "room_geometry_recommendation": {
+    "min_area_sqft": 64,
+    "aspect_ratio": "1:1",
+    "ventilation_required": true
+  },
+  "adjacency_rules": {
+    "should_not_share_wall_with": ["toilet"],
+    "preferred_adjacent_rooms": ["living room", "dining room"]
+  },
+  "regional_variants": {
+    "north_india": {
+      "ideal_direction": "center",
+      "notes": "Use semi-open or covered design in extreme weather zones."
+    },
+    "south_india": {
+      "ideal_direction": "center",
+      "notes": "Prominently used in Chettinad and Kerala homes; promote open-to-sky version."
+    }
+  },
+  "compliance_score": 92,
+  "source_confidence": 0.95,
+  "tags": ["open space", "natural light", "ventilation", "central zone"],
+  "climatic_reason": "Central courtyards regulate internal temperature by facilitating stack ventilation and daylight penetration.",
+  "engineering_considerations": {
+    "thermal_flow": "Aids in chimney effect by enabling hot air escape vertically.",
+    "plumbing": "Drainage slope must ensure water flow away from surrounding rooms.",
+    "privacy": "Ensure inner courtyard boundaries provide privacy to internal rooms."
+  },
+  "zonal_influence_map": "Anchors Brahmasthan, influencing symmetry and energy distribution in all directions.",
+  "daylighting_guidance": "Allows natural daylight from all sides; prefer east-side opening for morning light.",
+  "source_authority": [
+    "Samarangana Sutradhara - Chapter 9",
+    "Mayamatam - Courtyard Principles",
+    "BIS Traditional Housing Manual 2020"
+  ]
+},
+
+
+{
+  "element": "garden_green_zone",
+  "ideal_direction": "northeast",
+  "direction_priority": ["northeast", "north", "east"],
+  "prohibited_directions": ["southwest", "southeast"],
+  "severity": "medium",
+  "remedy": {
+    "type": "Structural",
+    "action": "Allocate garden space in the northeast zone to enhance positivity and natural energy flow.",
+    "alternative_action": "If space is limited, develop vertical green walls on north or east facades."
+  },
+  "technical_notes": {
+    "reason": "Northeast represents the water and growth element in Vastu, and greenery in this zone promotes harmony and wellness.",
+    "impact_if_wrong": "Placing heavy trees or dense vegetation in southwest can block natural airflow and induce stagnation.",
+    "construction_constraints": "Avoid planting large trees near foundation; use porous flooring for water absorption and root health."
+  },
+  "room_geometry_recommendation": {
+    "min_area_sqft": 100,
+    "aspect_ratio": "variable",
+    "ventilation_required": true
+  },
+  "adjacency_rules": {
+    "should_not_share_wall_with": ["toilet"],
+    "preferred_adjacent_rooms": ["living room", "verandah", "courtyard"]
+  },
+  "regional_variants": {
+    "north_india": {
+      "ideal_direction": "northeast",
+      "notes": "Choose plants tolerant to low winter sun; use open lawns."
+    },
+    "south_india": {
+      "ideal_direction": "northeast",
+      "notes": "Use shade-tolerant native plants and avoid excessive concrete paving."
+    }
+  },
+  "compliance_score": 90,
+  "source_confidence": 0.91,
+  "tags": ["open space", "greenery", "wellbeing", "aesthetics", "ventilation"],
+  "climatic_reason": "Green cover in northeast supports air cooling, reduces glare, and encourages passive ventilation during summer.",
+  "engineering_considerations": {
+    "thermal_flow": "Green spaces regulate microclimate, reducing surrounding wall heat gain.",
+    "plumbing": "Incorporate soak pits or rainwater harvesting to manage irrigation runoff.",
+    "privacy": "Use layered planting to create natural buffers without blocking visibility completely."
+  },
+  "zonal_influence_map": "Enhances positive vibrations and airflow when placed in northeast.",
+  "daylighting_guidance": "Encourages early morning sunlight absorption, boosting natural light reflection indoors.",
+  "source_authority": [
+    "Mayamatam - Chapter 12 (Landscaping Guidelines)",
+    "National Building Code India - Landscaping Addendum",
+    "Council of Architecture India - Sustainable Site Practices"
+  ]
+},
+
+
+{
+  "element": "terrace",
+  "ideal_direction": "west",
+  "direction_priority": ["west", "southwest"],
+  "prohibited_directions": ["northeast (with heavy construction)"],
+  "severity": "medium",
+  "remedy": {
+    "type": "Structural",
+    "action": "Develop the terrace on the west or southwest to maintain structural weight balance.",
+    "alternative_action": "If in northeast, use lightweight materials and ensure proper drainage and open sky visibility."
+  },
+  "technical_notes": {
+    "reason": "Placing open terraces in heavier zones (like west/southwest) supports energy grounding and stability.",
+    "impact_if_wrong": "Terrace in northeast with load-bearing structures can suppress positive energy flow and cause imbalance.",
+    "construction_constraints": "Ensure waterproofing, drainage slope toward north or east, and maintain parapet height between 3–4 feet."
+  },
+  "room_geometry_recommendation": {
+    "min_area_sqft": 100,
+    "aspect_ratio": "any open rectangular/square",
+    "ventilation_required": true
+  },
+  "adjacency_rules": {
+    "should_not_share_wall_with": ["toilet without exhaust venting"],
+    "preferred_adjacent_rooms": ["living room", "bedroom"]
+  },
+  "regional_variants": {
+    "north_india": {
+      "ideal_direction": "west",
+      "notes": "Avoid excessive solar gain with pergolas or solar panels for dual use."
+    },
+    "south_india": {
+      "ideal_direction": "southwest",
+      "notes": "Use high albedo coatings to reduce heat absorption."
+    }
+  },
+  "compliance_score": 88,
+  "source_confidence": 0.89,
+  "tags": ["open space", "structural", "ventilation", "energy balance", "sunlight"],
+  "climatic_reason": "Terrace in the west ensures evening sun exposure, helping in natural drying and passive solar gain during winters.",
+  "engineering_considerations": {
+    "thermal_flow": "Open west terrace allows radiant heat to dissipate, reducing indoor temperature buildup.",
+    "plumbing": "Proper slope is crucial to prevent water seepage and structural damage.",
+    "privacy": "Install railing height and screening vegetation to balance view and seclusion."
+  },
+  "zonal_influence_map": "Strengthens grounding zones and supports structural balance when placed in southwest/west.",
+  "daylighting_guidance": "Terrace facing west provides long daylight hours suitable for solar installations or drying clothes.",
+  "source_authority": [
+    "Mayamatam - Chapter 10",
+    "Indian Green Building Council (IGBC) Terrace Guidelines",
+    "National Building Code - Terrace Drainage Section"
+  ]
+},
+
+
+{
+  "element": "veranda / sit-out",
+  "ideal_direction": "northeast",
+  "direction_priority": ["northeast", "east", "north"],
+  "prohibited_directions": ["southwest", "south"],
+  "severity": "medium",
+  "remedy": {
+    "type": "Structural",
+    "action": "Place the veranda in the northeast or east direction to welcome morning sunlight and positive energy.",
+    "alternative_action": "If unavoidable in southwest, ensure it is elevated, light in construction, and minimally enclosed."
+  },
+  "technical_notes": {
+    "reason": "The northeast zone is considered the Ishanya corner, best for open, light, and calming activities.",
+    "impact_if_wrong": "Verandas in heavy zones like southwest can suppress light and lead to mental stagnation and low energy.",
+    "construction_constraints": "Maintain open sides, elevation slightly lower than the plinth, and roof overhang to avoid harsh weather."
+  },
+  "room_geometry_recommendation": {
+    "min_area_sqft": 40,
+    "aspect_ratio": "4:3 or 3:2",
+    "ventilation_required": true
+  },
+  "adjacency_rules": {
+    "should_not_share_wall_with": ["toilet", "store room"],
+    "preferred_adjacent_rooms": ["living room", "foyer"]
+  },
+  "regional_variants": {
+    "north_india": {
+      "ideal_direction": "northeast",
+      "notes": "Ensure maximum morning light entry; use jali work for partial shading."
+    },
+    "south_india": {
+      "ideal_direction": "east",
+      "notes": "Use sloped tiled roofs to deal with monsoon rain and harsh summer light."
+    }
+  },
+  "compliance_score": 90,
+  "source_confidence": 0.91,
+  "tags": ["open space", "relaxation", "light", "transition area", "welcoming zone"],
+  "climatic_reason": "Eastern placement ensures cool morning sunlight and cross-ventilation for attached interior spaces.",
+  "engineering_considerations": {
+    "thermal_flow": "Eastern verandas absorb minimal heat, keeping entry zones pleasant.",
+    "plumbing": "Drainage slope away from main entrance required to avoid water stagnation.",
+    "privacy": "Use semi-permeable screens to balance openness and visual buffering from street."
+  },
+  "zonal_influence_map": "Supports inflow of prana (life energy) when placed in the northeast quadrant.",
+  "daylighting_guidance": "Verandas in the northeast or east receive beneficial low-angle sun ideal for morning sitting.",
+  "source_authority": [
+    "Mayamatam – Chapter 4",
+    "Vishwakarma Prakash – Veranda Norms",
+    "Indian Traditional Architecture Handbook – Entry Spaces Section"
+  ]
+},
+
+
+{
+  "element": "water feature (fountain / pond)",
+  "ideal_direction": "northeast",
+  "direction_priority": ["northeast", "north"],
+  "prohibited_directions": ["southwest", "southeast", "south"],
+  "severity": "high",
+  "remedy": {
+    "type": "Structural",
+    "action": "Relocate the water feature to the northeast corner, aligning with water element principles.",
+    "alternative_action": "If relocation is not feasible, reduce its size and install reflective tiles to deflect energy flow."
+  },
+  "technical_notes": {
+    "reason": "The northeast is governed by the water element and is considered the source of mental clarity and spiritual growth.",
+    "impact_if_wrong": "Placing water bodies in fire or heavy zones may lead to financial instability, emotional disturbances, or health issues.",
+    "construction_constraints": "Ensure foundation waterproofing, avoid placing beneath staircases or toilets, and prevent algae stagnation."
+  },
+  "room_geometry_recommendation": {
+    "min_area_sqft": 16,
+    "aspect_ratio": "1:1 or 2:3 (prefer circular/oval shapes)",
+    "ventilation_required": false
+  },
+  "adjacency_rules": {
+    "should_not_share_wall_with": ["toilet", "kitchen"],
+    "preferred_adjacent_rooms": ["garden", "veranda"]
+  },
+  "regional_variants": {
+    "north_india": {
+      "ideal_direction": "northeast",
+      "notes": "Prefer shallow fountains; avoid overhanging trees to reduce debris."
+    },
+    "south_india": {
+      "ideal_direction": "north",
+      "notes": "Maintain tiled or stone edge to reduce water seepage due to humidity."
+    }
+  },
+  "compliance_score": 92,
+  "source_confidence": 0.94,
+  "tags": ["water", "decorative", "elemental", "outdoor", "energy flow"],
+  "climatic_reason": "Northeast placement utilizes early sun to energize water while avoiding excessive evaporation.",
+  "engineering_considerations": {
+    "thermal_flow": "Cold water bodies in northeast help regulate ambient heat and support passive cooling.",
+    "plumbing": "Dedicated concealed pipeline with anti-algae UV filters preferred.",
+    "privacy": "Should be visible from main entrance for energy flow but buffered with natural plants for serenity."
+  },
+  "zonal_influence_map": "Amplifies spiritual and mental clarity zones when placed in northeast.",
+  "daylighting_guidance": "Position to catch morning light reflection; avoid harsh west-facing glare.",
+  "source_authority": [
+    "Mayamatam – Chapter 6",
+    "Brihat Samhita – Vastu Water Principles",
+    "Indian Green Building Council – Outdoor Water Design Guide"
+  ]
+},
+
+
+{
+  "element": "light shaft",
+  "ideal_direction": "central zone (near northeast preferred)",
+  "direction_priority": ["northeast", "center", "east"],
+  "prohibited_directions": ["southwest", "southeast (if enclosed)", "above toilets"],
+  "severity": "medium",
+  "remedy": {
+    "type": "Structural",
+    "action": "Relocate or design light shafts to open into the central or northeast zones for optimal light dispersion.",
+    "alternative_action": "Introduce reflective light ducts or skylights directed toward central or northeast spaces."
+  },
+  "technical_notes": {
+    "reason": "Light shafts promote natural illumination and energy flow; their placement aligns with Vastu’s emphasis on early sunlight entry.",
+    "impact_if_wrong": "Misplaced shafts can cause overheating, glare, or stagnant energy in lower-priority zones.",
+    "construction_constraints": "Ensure waterproofing, dust protection grills, and avoid placement above sensitive rooms like toilets or kitchens."
+  },
+  "room_geometry_recommendation": {
+    "min_area_sqft": 12,
+    "aspect_ratio": "1:2 (vertical shaft preferred)",
+    "ventilation_required": true
+  },
+  "adjacency_rules": {
+    "should_not_share_wall_with": ["toilet", "store room"],
+    "preferred_adjacent_rooms": ["living room", "puja room", "internal courtyard"]
+  },
+  "regional_variants": {
+    "north_india": {
+      "ideal_direction": "northeast",
+      "notes": "Allow morning sun with angular glazing for warmth and light."
+    },
+    "south_india": {
+      "ideal_direction": "center",
+      "notes": "Use solar glass or louvers to reduce heat gain due to intense sun."
+    }
+  },
+  "compliance_score": 89,
+  "source_confidence": 0.91,
+  "tags": ["natural light", "ventilation", "passive cooling", "energy flow", "design"],
+  "climatic_reason": "Central/northeast shafts provide balanced daylighting with reduced thermal stress, supporting passive cooling.",
+  "engineering_considerations": {
+    "thermal_flow": "Acts as a vertical chimney for hot air escape, enhancing indoor air quality.",
+    "plumbing": "Avoid shared walls with plumbing lines to prevent condensation issues.",
+    "privacy": "Design with frosted or angled glazing to prevent direct visual access from higher floors."
+  },
+  "zonal_influence_map": "Enhances sattvic energy when aligned with Brahmasthan (center) and northeast.",
+  "daylighting_guidance": "Designed for minimum 2 hours of diffuse sunlight entry between 8am–11am.",
+  "source_authority": [
+    "Mayamatam – Light Orientation Guidelines",
+    "National Building Code – Natural Lighting Provisions",
+    "IIT-R Architecture Research on Light Ventilation Systems in Indian Homes"
+  ]
+}
+
+]

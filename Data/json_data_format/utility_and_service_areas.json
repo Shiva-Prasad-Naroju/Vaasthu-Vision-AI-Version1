@@ -1,0 +1,435 @@
+[
+{
+  "element": "septic tank",
+  "ideal_direction": "east",
+  "direction_priority": ["north"],
+  "prohibited_directions": ["northeast", "southwest", "center","west","south"],
+  "severity": "high",
+  "remedy": {
+    "type": "Structural",
+    "action": "Relocate the septic tank to the northwest corner of the site, outside the building footprint if possible.",
+    "alternative_action": "Place along the west boundary, ensuring it’s at least 15 feet away from the main building foundation."
+  },
+  "technical_notes": {
+    "reason": "The northwest is associated with Vayu (air), aiding in odor dispersion and bacterial breakdown.",
+    "impact_if_wrong": "Placement in wrong zones, especially northeast or center, can lead to groundwater contamination and structural weakening.",
+    "construction_constraints": "Do not place under living spaces; maintain clearance from borewell/water sources."
+  },
+  "room_geometry_recommendation": {
+    "min_area_sqft": 25,
+    "aspect_ratio": "1:1",
+    "ventilation_required": true
+  },
+  "adjacency_rules": {
+    "should_not_share_wall_with": ["bedroom", "kitchen", "puja room"],
+    "preferred_adjacent_rooms": ["toilet", "utility area"]
+  },
+  "regional_variants": {
+    "north_india": {
+      "ideal_direction": "northwest",
+      "alternative": "west"
+    },
+    "south_india": {
+      "ideal_direction": "northwest",
+      "notes": "Ensure placement does not interfere with natural slope direction (usually southeast to northwest)."
+    }
+  },
+  "compliance_score": 92,
+  "source_confidence": 0.89,
+  "tags": ["service", "sanitation", "placement", "structural", "septic"],
+  "climatic_reason": "Northwest winds assist in dispersing foul gases naturally, reducing reliance on mechanical ventilation.",
+  "engineering_considerations": {
+    "thermal_flow": "Avoid thermal interference with living zones to prevent dampness.",
+    "plumbing": "Use sealed lines with proper gradients; avoid upward connections into the main layout.",
+    "privacy": "Ensure access for cleaning and maintenance from outside, without disrupting private areas."
+  },
+  "zonal_influence_map": "Impacts the northwest air zone and adjacent utility corridors.",
+  "daylighting_guidance": "Does not require direct lighting; ensure inspection ports are easily accessible.",
+  "source_authority": [
+    "Mayamatam - Chapter 7",
+    "National Building Code India - Part 9: Plumbing Services",
+    "Traditional Vaastu Consultant Handbooks - Sanitation Guidelines"
+  ]
+},
+
+
+{
+  "element": "underground water tank",
+  "ideal_direction": "northeast",
+  "direction_priority": ["northeast"],
+  "prohibited_directions": ["southwest", "center"],
+  "severity": "high",
+  "remedy": {
+    "type": "Structural",
+    "action": "Relocate the underground water tank to the northeast quadrant of the site, maintaining alignment with the compound boundary.",
+    "alternative_action": "If full relocation is not possible, reconstruct the tank in the northern part, ensuring depth is consistent and sump is isolated from structural footings."
+  },
+  "technical_notes": {
+    "reason": "Northeast is associated with water (Jal Tatva) and is considered the zone of purity, supporting positive energy flow.",
+    "impact_if_wrong": "Placement in wrong zones may lead to energy stagnation, increased humidity in living areas, and structural imbalance due to waterlogging.",
+    "construction_constraints": "Tank must not touch foundation of building; slope ground from southwest to northeast to support natural drainage."
+  },
+  "room_geometry_recommendation": {
+    "min_area_sqft": 36,
+    "aspect_ratio": "1:1",
+    "ventilation_required": false
+  },
+  "adjacency_rules": {
+    "should_not_share_wall_with": ["toilet", "kitchen", "septic tank"],
+    "preferred_adjacent_rooms": ["verandah", "open area"]
+  },
+  "regional_variants": {
+    "north_india": {
+      "ideal_direction": "northeast",
+      "alternative": "north"
+    },
+    "south_india": {
+      "ideal_direction": "northeast",
+      "notes": "Take care to align with natural slope; avoid overlapping with temple or puja areas."
+    }
+  },
+  "compliance_score": 97,
+  "source_confidence": 0.95,
+  "tags": ["water", "storage", "placement", "structural", "utility"],
+  "climatic_reason": "Northeast placement utilizes minimal solar heat exposure, reducing risk of algae growth and maintaining water temperature.",
+  "engineering_considerations": {
+    "thermal_flow": "Avoid heating zones around water tank to prevent temperature imbalance.",
+    "plumbing": "Provide anti-backflow valves and direct access for maintenance without disrupting the foundation.",
+    "privacy": "Ensure placement does not interfere with visual privacy or puja zones."
+  },
+  "zonal_influence_map": "Supports northeast zone energy flow and influences overall site harmony.",
+  "daylighting_guidance": "Northeast receives early morning sun, which supports purification of water.",
+  "source_authority": [
+    "Mayamatam - Chapter 6",
+    "National Building Code India - Plumbing Guidelines",
+    "Vaastu Shastra Guidelines - Water Elements"
+  ]
+},
+
+
+{
+  "element": "overhead water tank",
+  "ideal_direction": "southwest",
+  "direction_priority": ["southwest", "west"],
+  "prohibited_directions": ["northeast", "center", "above puja room"],
+  "severity": "high",
+  "remedy": {
+    "type": "Structural",
+    "action": "Shift the overhead water tank to the southwest corner of the terrace, ensuring structural load distribution is managed.",
+    "alternative_action": "If southwest is unavailable, place on west side with extra weight balancing and ensure no structural intrusion into northeast quadrant."
+  },
+  "technical_notes": {
+    "reason": "Southwest represents stability and heavy elements. Placing the tank here helps balance gravitational force and site energy.",
+    "impact_if_wrong": "Wrong placement, especially in the northeast, can cause mental unrest, weak financial stability, and leakage risks.",
+    "construction_constraints": "Must be placed on a separate concrete platform, avoid placing above kitchen, bedroom, or puja room."
+  },
+  "room_geometry_recommendation": {
+    "min_area_sqft": 25,
+    "aspect_ratio": "1:1",
+    "ventilation_required": false
+  },
+  "adjacency_rules": {
+    "should_not_share_wall_with": ["puja room", "main entrance"],
+    "preferred_adjacent_rooms": ["staircase", "open terrace"]
+  },
+  "regional_variants": {
+    "north_india": {
+      "ideal_direction": "southwest",
+      "alternative": "west"
+    },
+    "south_india": {
+      "ideal_direction": "southwest",
+      "notes": "Ensure proper waterproofing due to higher rainfall and heat absorption."
+    }
+  },
+  "compliance_score": 93,
+  "source_confidence": 0.91,
+  "tags": ["water", "storage", "placement", "structural", "overhead"],
+  "climatic_reason": "Southwest placement shields water from direct sunlight exposure in the morning, reducing thermal expansion and pressure variations.",
+  "engineering_considerations": {
+    "thermal_flow": "Overhead tanks in wrong zones can induce thermal imbalance across structural load paths.",
+    "plumbing": "Ensure gravity-fed plumbing design, pressure regulation valves, and no pipeline crossing puja zones.",
+    "privacy": "Must be placed where noise and leakage from tank maintenance don’t disrupt private or sacred areas."
+  },
+  "zonal_influence_map": "Anchors heavy mass in southwest zone, ensuring vastu balance of weight distribution.",
+  "daylighting_guidance": "Use shading to avoid excessive heating; elevated tanks should not cast shadows on northeast zone.",
+  "source_authority": [
+    "Mayamatam - Chapter 6",
+    "Indian Plumbing Code Section 5",
+    "Vastu Guidelines for Overhead Water Structures - Architectural Digest India"
+  ]
+},
+
+
+{
+  "element": "inverter / electrical room",
+  "ideal_direction": "southeast",
+  "direction_priority": ["southeast", "south"],
+  "prohibited_directions": ["northeast", "center", "northwest"],
+  "severity": "high",
+  "remedy": {
+    "type": "Structural",
+    "action": "Relocate the inverter/electrical room to the southeast corner, keeping it well-ventilated and away from water sources.",
+    "alternative_action": "If not feasible, place in the south zone with proper grounding, fire-resistant materials, and isolated wiring circuits."
+  },
+  "technical_notes": {
+    "reason": "The southeast is ruled by Agni (fire), aligning with the electrical nature of this room for safe energy flow.",
+    "impact_if_wrong": "Wrong placement can cause short circuits, energy instability, and increased fire risk.",
+    "construction_constraints": "Avoid placing near water tanks, puja room, or directly under staircases. Ensure heat ventilation and fireproof panels."
+  },
+  "room_geometry_recommendation": {
+    "min_area_sqft": 20,
+    "aspect_ratio": "1.5:1",
+    "ventilation_required": true
+  },
+  "adjacency_rules": {
+    "should_not_share_wall_with": ["puja room", "bedroom"],
+    "preferred_adjacent_rooms": ["store room", "utility area"]
+  },
+  "regional_variants": {
+    "north_india": {
+      "ideal_direction": "southeast",
+      "alternative": "south"
+    },
+    "south_india": {
+      "ideal_direction": "southeast",
+      "notes": "Ensure thermal insulation due to higher ambient temperatures."
+    }
+  },
+  "compliance_score": 91,
+  "source_confidence": 0.89,
+  "tags": ["utility", "fire-element", "electrical", "placement", "safety"],
+  "climatic_reason": "South and southeast zones allow effective heat dissipation from electrical equipment and reduce humidity-induced risks.",
+  "engineering_considerations": {
+    "thermal_flow": "Proper airflow needed to dissipate heat from inverters and prevent thermal overload.",
+    "plumbing": "Avoid pipework near electrical components; ensure moisture-proof conduits.",
+    "privacy": "Should be accessible but isolated to reduce interference with daily living spaces."
+  },
+  "zonal_influence_map": "Supports fire and electrical elements with directional alignment of Agni zone.",
+  "daylighting_guidance": "Natural light should be minimized; use insulated artificial lighting to control internal heat."
+  ,
+  "source_authority": [
+    "Mayamatam - Chapter 7",
+    "Indian Electricity Rules Handbook",
+    "Vaastu and Power Infrastructure - Civil Engineering Digest"
+  ]
+},
+
+
+{
+  "element": "parking / garage",
+  "ideal_direction": "northwest",
+  "direction_priority": ["northwest", "north"],
+  "prohibited_directions": ["northeast", "center", "southeast"],
+  "severity": "medium",
+  "remedy": {
+    "type": "Structural",
+    "action": "Relocate the garage to the northwest side of the house to maintain circulation and airflow balance.",
+    "alternative_action": "If relocation is not feasible, ensure the garage has a separate entrance and does not obstruct the main door or central zone."
+  },
+  "technical_notes": {
+    "reason": "Northwest ensures minimal interference with energy flow and keeps heavy vehicles away from sensitive zones.",
+    "impact_if_wrong": "Can block positive energy inflow, reduce daylight penetration, and cause ventilation issues.",
+    "construction_constraints": "Should not be adjacent to puja or master bedroom; use slope away from home and provide exhaust ventilation."
+  },
+  "room_geometry_recommendation": {
+    "min_area_sqft": 120,
+    "aspect_ratio": "3:2",
+    "ventilation_required": true
+  },
+  "adjacency_rules": {
+    "should_not_share_wall_with": ["puja room", "bedroom"],
+    "preferred_adjacent_rooms": ["store room", "utility area"]
+  },
+  "regional_variants": {
+    "north_india": {
+      "ideal_direction": "northwest",
+      "alternative": "north"
+    },
+    "south_india": {
+      "ideal_direction": "northwest",
+      "notes": "Avoid placing it near main water inlets; use sloped flooring for drainage."
+    }
+  },
+  "compliance_score": 88,
+  "source_confidence": 0.87,
+  "tags": ["utility", "vehicle", "placement", "garage", "parking"],
+  "climatic_reason": "Northwest positioning helps dissipate heat buildup in parked vehicles and allows afternoon airflow dispersion.",
+  "engineering_considerations": {
+    "thermal_flow": "Provides buffer from direct western heat while reducing internal temperature impact.",
+    "plumbing": "Should be isolated from any water line; drains must be directed outwards.",
+    "privacy": "Garage entry should not face living areas to avoid dust, fumes, and sound interference."
+  },
+  "zonal_influence_map": "Vehicle mass positioned in northwest avoids central zone congestion and maintains energy circulation.",
+  "daylighting_guidance": "Indirect light sufficient; artificial lighting should be motion-sensor based for energy efficiency.",
+  "source_authority": [
+    "Samarangana Sutradhara - Section 12",
+    "Indian Urban Transport Design Manual",
+    "Architectural Guidelines for Residential Zones - Govt. of India"
+  ]
+},
+
+
+{
+  "element": "laundry / washing area",
+  "ideal_direction": "northwest",
+  "direction_priority": ["northeast"],
+  "prohibited_directions": ["northwest", "center","west"],
+  "severity": "medium",
+  "remedy": {
+    "type": "Structural",
+    "action": "Relocate the laundry area to the northwest zone, preferably with exterior wall access for ventilation.",
+    "alternative_action": "If not possible, ensure mechanical ventilation and water drainage are directed westward with isolated plumbing."
+  },
+  "technical_notes": {
+    "reason": "Northwest supports natural air drying, minimizes moisture accumulation in primary zones, and aligns with air flow patterns.",
+    "impact_if_wrong": "Can lead to humidity retention, mold growth, poor air quality, and structural dampness.",
+    "construction_constraints": "Must be sloped for water runoff, kept away from bedrooms and puja spaces; use moisture-proof materials."
+  },
+  "room_geometry_recommendation": {
+    "min_area_sqft": 30,
+    "aspect_ratio": "1.5:1",
+    "ventilation_required": true
+  },
+  "adjacency_rules": {
+    "should_not_share_wall_with": ["puja room", "bedroom"],
+    "preferred_adjacent_rooms": ["bathroom", "store room"]
+  },
+  "regional_variants": {
+    "north_india": {
+      "ideal_direction": "northwest",
+      "alternative": "west"
+    },
+    "south_india": {
+      "ideal_direction": "northwest",
+      "notes": "Include roof shade for monsoon protection and ensure easy drainage away from core rooms."
+    }
+  },
+  "compliance_score": 86,
+  "source_confidence": 0.9,
+  "tags": ["utility", "laundry", "washing", "moisture-control", "ventilation"],
+  "climatic_reason": "Northwest allows moderate sun and wind exposure aiding faster drying while preventing indoor humidity buildup.",
+  "engineering_considerations": {
+    "thermal_flow": "Keeps heat and humidity isolated from main living areas.",
+    "plumbing": "Ensure greywater lines are separate and not connected to potable water; anti-backflow valves advised.",
+    "privacy": "Should be visually shielded and acoustically isolated due to machine noise and functional nature."
+  },
+  "zonal_influence_map": "Influences peripheral air and water zoning; critical to keep outside central Brahmasthan zone.",
+  "daylighting_guidance": "Indirect western light sufficient; skylight integration helps in enclosed areas.",
+  "source_authority": [
+    "Mayamatam - Chapter 8",
+    "Modern Vastu Implementation Handbook",
+    "National Sanitation Code for Residences - BIS Draft"
+  ]
+},
+
+
+{
+  "element": "servant room",
+  "ideal_direction": "southeast",
+  "direction_priority": ["southeast", "northwest"],
+  "prohibited_directions": ["northeast", "center"],
+  "severity": "medium",
+  "remedy": {
+    "type": "Structural",
+    "action": "Place the servant room in the southeast corner, ensuring independent access and ventilation.",
+    "alternative_action": "Use the northwest as a secondary choice, ensuring visual separation from main zones."
+  },
+  "technical_notes": {
+    "reason": "Southeast is associated with fire and service zones, keeping activity areas segregated from spiritual and private zones.",
+    "impact_if_wrong": "Improper placement may disturb privacy, disrupt energy balance, and introduce functional conflicts.",
+    "construction_constraints": "Should have a separate entrance, no shared wall with puja or master bedroom; consider structural insulation."
+  },
+  "room_geometry_recommendation": {
+    "min_area_sqft": 60,
+    "aspect_ratio": "4:3",
+    "ventilation_required": true
+  },
+  "adjacency_rules": {
+    "should_not_share_wall_with": ["puja room", "main bedroom"],
+    "preferred_adjacent_rooms": ["kitchen", "utility area"]
+  },
+  "regional_variants": {
+    "north_india": {
+      "ideal_direction": "southeast",
+      "alternative": "northwest"
+    },
+    "south_india": {
+      "ideal_direction": "southeast",
+      "notes": "Avoid building above main bedrooms; must be on ground or service floor."
+    }
+  },
+  "compliance_score": 84,
+  "source_confidence": 0.89,
+  "tags": ["servant", "staff", "service", "residence", "privacy"],
+  "climatic_reason": "Southeast receives early morning light suitable for active use; maintains distance from passive core zones.",
+  "engineering_considerations": {
+    "thermal_flow": "Should not trap heat from adjoining rooms; insulation necessary.",
+    "plumbing": "Isolated bathroom lines, separate septic connection recommended.",
+    "privacy": "Visually shielded and acoustically isolated from living and spiritual zones."
+  },
+  "zonal_influence_map": "Must stay in the outer perimeter of the home’s functional ring, away from Brahmasthan.",
+  "daylighting_guidance": "Allow early sunlight with cross-ventilation from east-facing windows.",
+  "source_authority": [
+    "Mayamatam - Chapter 9",
+    "Architectural Guidelines for Traditional Homes",
+    "Vastu Compliance Manual – India Council of Architecture"
+  ]
+},
+
+
+{
+  "element": "waste disposal area",
+  "ideal_direction": "northwest",
+  "direction_priority": ["northwest", "west"],
+  "prohibited_directions": ["northeast", "center", "southeast"],
+  "severity": "high",
+  "remedy": {
+    "type": "Structural",
+    "action": "Designate the northwest corner outside the main house perimeter for waste collection and disposal.",
+    "alternative_action": "Use the western exterior space, ensuring it's away from living or water-sensitive zones."
+  },
+  "technical_notes": {
+    "reason": "The northwest is governed by Vayu (air), facilitating natural dispersal of odor and waste gases.",
+    "impact_if_wrong": "Improper placement can cause hygiene issues, negative airflow, and contaminate sacred or living zones.",
+    "construction_constraints": "Should be isolated from kitchen, water sources, and entrances; provide proper drainage and covered bins."
+  },
+  "room_geometry_recommendation": {
+    "min_area_sqft": 15,
+    "aspect_ratio": "1:1",
+    "ventilation_required": true
+  },
+  "adjacency_rules": {
+    "should_not_share_wall_with": ["kitchen", "bedroom", "puja room"],
+    "preferred_adjacent_rooms": ["utility area", "backyard"]
+  },
+  "regional_variants": {
+    "north_india": {
+      "ideal_direction": "northwest",
+      "alternative": "west"
+    },
+    "south_india": {
+      "ideal_direction": "northwest",
+      "notes": "Ensure waste is disposed daily to avoid insect buildup due to higher humidity."
+    }
+  },
+  "compliance_score": 88,
+  "source_confidence": 0.91,
+  "tags": ["waste", "disposal", "garbage", "hygiene", "utility"],
+  "climatic_reason": "Northwest wind flow supports odor dispersion and reduces insect breeding, especially in tropical regions.",
+  "engineering_considerations": {
+    "thermal_flow": "Avoid heat zones to prevent foul smells from intensifying.",
+    "plumbing": "Use sealed drainage and sloped flooring for effective wash-downs.",
+    "privacy": "Must be visually hidden from main pathways and entrance."
+  },
+  "zonal_influence_map": "Should reside on the outer Vastu ring, avoiding zones linked to purity or fire.",
+  "daylighting_guidance": "Should receive indirect sunlight to assist natural drying and sanitation without intensifying odors.",
+  "source_authority": [
+    "Vastu Shastra Essentials - Indian Architecture Council",
+    "Mayamatam – Chapter 14",
+    "Handbook of Eco-Hygiene in Traditional Indian Homes"
+  ]
+}
+
+
+]
