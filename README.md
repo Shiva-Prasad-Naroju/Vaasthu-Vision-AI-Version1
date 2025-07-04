@@ -6,6 +6,8 @@
 ---
 ### 🐳 2. Run Qdrant (Vector DB)
 
+  - Make sure you started the docker locally
+    
   - docker run -p 6333:6333 -p 6334:6334 qdrant/qdrant
 
 ---
@@ -14,7 +16,7 @@
   
   - Run the following script to initialize Qdrant:
 
-  - python db/qdrant_setup.py
+    - python db/qdrant_setup.py
 ---
 ### 🌐 4. Start Frontend (React + Vite)
   
