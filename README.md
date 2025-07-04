@@ -1,56 +1,65 @@
 # 🏡 Vaasthu Vision AI – Project Setup & Notes
 
-## ⚙️ 1. Activate the Environment
-Activate your Python virtual environment before running the backend.
+### ⚙️ 1. Activate the Environment
 
-## 🐳 2. Run Qdrant (Vector DB)
+- Activate your Python virtual environment before running the backend.
 
-docker run -p 6333:6333 -p 6334:6334 qdrant/qdrant
+### 🐳 2. Run Qdrant (Vector DB)
 
-## 🗂️ 3. Setup Vector DB
+>>> docker run -p 6333:6333 -p 6334:6334 qdrant/qdrant
 
-Run the following script to initialize Qdrant:
+### 🗂️ 3. Setup Vector DB
 
-python db/qdrant_setup.py
+- Run the following script to initialize Qdrant:
 
-## 🌐 4. Start Frontend (React + Vite)
+>>> python db/qdrant_setup.py
 
-Navigate to the frontend directory:
+### 🌐 4. Start Frontend (React + Vite)
 
-cd C:\Users\DELL\Downloads\GitHub\vva_v1\ui\frontend
+- Navigate to the frontend directory:
 
-Install dependencies (only once unless packages change): npm install
+>>> cd C:\Users\DELL\Downloads\GitHub\vva_v1\ui\frontend
 
-Build the React app (⚠️ run this after every change): npm run build
+- Install dependencies (only once unless packages change): 
 
-Start the development server: npm run dev
+>>> npm install
 
-## 🧠 5. Start Backend API Server
+- Build the React app (⚠️ run this after every change): 
 
-Use Uvicorn to run the FastAPI server: uvicorn ui.app:app --reload
+>>> npm run build
 
-## 🔁 6. UI Not Updating After Code Changes?
+- Start the development server: 
 
-Sometimes, changes may not reflect due to browser cache. Use a hard refresh:
+>>> npm run dev
 
-Ctrl + Shift + R
+### 🧠 5. Start Backend API Server
 
-## 🏗️ 7. Serving React Statically?
+- Use Uvicorn to run the FastAPI server:
+  
+  >>> uvicorn ui.app:app --reload
 
-If React is being served via FastAPI’s StaticFiles, make sure to build after every change: npm run build
+### 🔁 6. UI Not Updating After Code Changes?
 
-## 📌 Project Status (as of now)
+- Sometimes, changes may not reflect due to browser cache. Use a hard refresh:
 
-✅ The project has a final, improved UI.
+  >>> Ctrl + Shift + R
 
-⚠️ Previously, it gave wrong responses to irrelevant Vaasthu queries like:
+### 🏗️ 7. Serving React Statically?
 
-"hi", "hello", "i am shiva", etc.
+- If React is being served via FastAPI’s StaticFiles, make sure to build after every change: npm run build
 
-🚀##  WHAT I DID:
+### 📌 Project Status (as of now)
 
-🎉 Solved the major issue:
+- ✅ The project has a final, improved UI.
 
-The system now successfully avoids giving Vaasthu answers to irrelevant or non-domain queries.
+- ⚠️ Previously, it gave wrong responses to irrelevant Vaasthu queries like:
 
-🌐 This project is now successfully connected to the custom website designed specifically for Vaasthu Vision AI.
+    "hi", "hello", "i am shiva", etc.
+
+### 🚀 WHAT I DID:
+
+- 🎉 Solved the major issue:
+
+- The system now successfully avoids giving Vaasthu answers to irrelevant or non-domain queries.
+
+- 🌐 This project is now successfully connected to the custom website designed specifically for Vaasthu Vision AI.
