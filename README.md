@@ -8,6 +8,8 @@
 
   - docker run -p 6333:6333 -p 6334:6334 qdrant/qdrant
 
+---
+
 ### 🗂️ 3. Setup Vector DB
   
   - Run the following script to initialize Qdrant:
