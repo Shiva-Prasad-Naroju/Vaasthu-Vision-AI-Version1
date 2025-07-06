@@ -143,9 +143,9 @@ To build an AI assistant that:
 ## 🌐 Live Demo  
 🔗 Click here : [Visit Site](https://celebrated-flan-f9b453.netlify.app/)
 
-        or
+  or
 
-website : https://celebrated-flan-f9b453.netlify.app/)
+website : https://celebrated-flan-f9b453.netlify.app/
 
 ## 💼 Ready for Production  
 The system is ready for real-world integration and can be expanded to:
