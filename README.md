@@ -81,7 +81,6 @@
 **Vaasthu Vision AI** is a production-ready GenAI system built to provide authentic, directional, and remedial suggestions based on Vaasthu Shastra.  
 It uses a **RAG (Retrieval-Augmented Generation)** architecture to ensure accurate and context-specific answers.
 
----
 
 ## 🎯 Objective  
 To build an AI assistant that:
@@ -90,7 +89,6 @@ To build an AI assistant that:
 - Avoids hallucinations
 - Runs fast on web (connected to a slick frontend)
 
----
 
 ## 🛠️ Tech Stack  
 - **Frontend**: Streamlit + Custom HTML/CSS, deployed via Netlify  
@@ -100,7 +98,6 @@ To build an AI assistant that:
 - **RAG**: LangChain-powered pipeline  
 - **Deployment**: Local + Render-ready backend, Netlify frontend
 
----
 
 ## 🧩 Data & Design Decisions  
 ### 🔧 Data Transformation
@@ -109,10 +106,12 @@ To build an AI assistant that:
 - Added metadata: `zone`, `rule_id`, `category`  
 - Stored using `RULE_START` and `RULE_END` delimiters  
 
+
 ### 🧠 Prompt Engineering  
 - Final prompt: minimalistic, 2–4 lines, no emotional tone  
 - Designed for clarity, consistency, and production use  
 - Used temperature=0 and top_p=1 for deterministic output
+
 
 ### ⚙️ RAG Flow
 1. Query → Embedding  
@@ -120,7 +119,6 @@ To build an AI assistant that:
 3. Custom prompt → Groq LLM (LLaMA3)  
 4. Final response → Displayed in UI
 
----
 
 ## 🧪 Key Features  
 ✅ Fast, accurate, and deterministic responses  
@@ -129,14 +127,11 @@ To build an AI assistant that:
 ✅ Mobile-responsive and production-ready  
 ✅ Handles fallback for invalid queries
 
----
 
 ## 📸 Screenshots  
 - 🎨 Homepage with responsive layout  
 - 🧾 Query page with side animation/visuals  
 - ✅ Answer card showing zone/category-wise recommendations
-
----
 
 ## 🧠 Learnings  
 - Prompt structure impacts hallucination significantly  
@@ -144,12 +139,10 @@ To build an AI assistant that:
 - Fast, reliable LLMs like Groq drastically improve UX  
 - Semantic granularity in rules increases RAG accuracy
 
----
 
 ## 🌐 Live Demo  
 🔗 [Visit Site](https://celebrated-flan-f9b453.netlify.app/)
-
----
+website : https://celebrated-flan-f9b453.netlify.app/)
 
 ## 💼 Ready for Production  
 The system is ready for real-world integration and can be expanded to:
@@ -157,12 +150,10 @@ The system is ready for real-world integration and can be expanded to:
 - Room-by-room suggestions  
 - Vaastu-based house plan checker
 
----
 
 ## 🙌 Special Thanks  
 Inspired by traditional Indian architecture wisdom and empowered by modern AI.
 
----
 
 ## 📬 Connect with Me  
 I’m open to collaborations, feedback, or AI-based consulting.  
