@@ -134,11 +134,9 @@ function QueryInput() {
       </div>
 
       <div id="query-section" className="relative z-10 p-6 max-w-2xl mx-auto space-y-6">
-        <h2 className="text-3xl font-bold tracking-wide mb-4 text-center animate-fade-in bg-gradient-to-r from-purple-400 via-blue-400 to-teal-400 text-transparent bg-clip-text drop-shadow-md">
-          🏡 Balance Your Home with 
-          Just One Question! 🌟
+        <h2 className="text-3xl text-blue-500 font-bold tracking-wide mb-4 text-center animate-fade-in">
+          🏛️ Ask Vaasthu Related Queries
         </h2>
-
 
         {/* Input Box */}
         <div className="bg-white/90 border border-white/10 rounded-3xl shadow-2xl p-6 space-y-4 animate-slide-up">
