@@ -18,6 +18,13 @@
 
     - python db/qdrant_setup.py
 ---
+### 🧠 5. Start Backend API Server
+
+  - Use Uvicorn to run the FastAPI server (always run the backend first to avoid any issues)
+  
+    - uvicorn ui.app:app --reload
+
+---
 ### 🌐 4. Start Frontend (React + Vite)
   
   - Navigate to the frontend directory:
@@ -35,12 +42,6 @@
   - Start the development server: 
 
     - npm run dev
----
-### 🧠 5. Start Backend API Server
-
-  - Use Uvicorn to run the FastAPI server:
-  
-    - uvicorn ui.app:app --reload
 ---
 ### 🔁 6. UI Not Updating After Code Changes?
 
