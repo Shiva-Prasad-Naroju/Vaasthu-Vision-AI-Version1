@@ -19,6 +19,7 @@ fastapi==0.115.14
 filelock==3.18.0
 frozenlist==1.7.0
 fsspec==2025.5.1
+git-filter-repo==2.47.0
 gitdb==4.0.12
 GitPython==3.1.44
 greenlet==3.2.3
