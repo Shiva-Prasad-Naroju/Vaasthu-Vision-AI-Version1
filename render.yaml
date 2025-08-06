@@ -2,7 +2,7 @@ services:
   - type: web
     name: vaasthu-vision-ai-v1
     env: python
-    buildCommand: pip install -r ui/requirements.txt
+    buildCommand: pip install -r requirements.txt
     # startCommand: bash ui/start.sh
     startCommand: ./ui/start.sh
     rootDir: .
