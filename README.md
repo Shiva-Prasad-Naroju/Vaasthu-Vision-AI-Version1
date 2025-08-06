@@ -4,6 +4,10 @@
 ### ⚙️ 1. Activate the Environment
 
   - Activate your Python virtual environment before running the backend.
+
+  - Then install the requirements using :
+      - pip install -r requirements.txt
+      - uv pip install requirements.txt (using uv, prefer this for fast installation)
 ---
 ### 🐳 2. Run Qdrant (Vector DB)
 
