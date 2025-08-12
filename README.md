@@ -58,10 +58,10 @@ To build an AI assistant that:
 - Semantic granularity in rules increases RAG accuracy
 
 
-## 🌐 Live Demo  
-🔗 Click here : [Visit Site](https://celebrated-flan-f9b453.netlify.app/)
+## 🌐 Live Demo of Only frontend without backend integration:
+🔗 Click here : [Visit Site](https://stunning-starlight-e06cd8.netlify.app/)
   or
-website : https://celebrated-flan-f9b453.netlify.app/
+website : https://stunning-starlight-e06cd8.netlify.app/
 
 ## 💼 Ready for Production  
 The system is ready for real-world integration and can be expanded to:
