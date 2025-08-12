@@ -48,6 +48,7 @@ To build an AI assistant that:
 ✅ UI matched to brand theme (navy, minimal, modern)  
 ✅ Mobile-responsive and production-ready  
 ✅ Handles fallback for invalid queries
+
 ✅ Contribute Feature: Allows users to submit data or upload files for review. After admin verification, contributions can be incorporated into the project.
 
 ## 🧠 Learnings  
