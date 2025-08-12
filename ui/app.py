@@ -1,23 +1,56 @@
-from fastapi import FastAPI, Request
+from fastapi import FastAPI, Request,File, UploadFile, Form
 from fastapi.responses import JSONResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
+from typing import Optional
 import os
+
 
 # from chains.rag_pipeline import run_vaasthu_query
 from chains.rag_pipeline import route_query
 
 app = FastAPI()
 
+# Directory to store uploaded files
+UPLOAD_DIR = "contributes"
+os.makedirs(UPLOAD_DIR, exist_ok=True)
+
 # ✅ CORS setup to allow frontend access
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://172.27.48.1:3000"],  # Update if IP changes
+    allow_origins=["http://172.27.48.1:3000","http://localhost:5173"],  # Update if IP changes
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
+@app.post("/upload")
+async def upload_file_with_text(
+    text: Optional[str] = Form(None),
+    file: Optional[UploadFile] = File(None)
+):
+    try:
+        # Save file if it exists
+        if file:
+            file_location = os.path.join(UPLOAD_DIR, file.filename)
+            with open(file_location, "wb") as f:
+                content = await file.read()
+                f.write(content)
+
+        # Save only the text to log if provided
+        if text:
+            log_file_path = os.path.join(UPLOAD_DIR, "log.txt")
+            with open(log_file_path, "a") as log_file:
+                log_file.write(f"{text.strip()}\n\n")
+
+        return JSONResponse(content={
+            "message": "Data received.",
+            "text_received": bool(text),
+            "file_received": bool(file),
+        })
+
+    except Exception as e:
+        return JSONResponse(status_code=500, content={"error": str(e)})
 # ✅ POST /query endpoint
 @app.post("/query")
 async def handle_query(request: Request):

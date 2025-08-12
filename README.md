@@ -47,6 +47,14 @@
   - Start the development server: 
 
     - npm run dev
+  
+  - For port forwarding:  Open a new terminal & tunnel it:
+
+    - ngrok http 8000
+
+    - You’ll see something like: Forwarding    https://abcd-1234.ngrok-free.app -> http://localhost:8000
+    
+    - With this url anyone can access to this project but only while running the project in local system.
 ---
 ### 🔁 6. UI Not Updating After Code Changes?
 
