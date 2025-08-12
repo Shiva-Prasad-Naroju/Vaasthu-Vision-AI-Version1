@@ -50,12 +50,6 @@ To build an AI assistant that:
 ✅ Mobile-responsive and production-ready  
 ✅ Handles fallback for invalid queries
 
-
-## 📸 Screenshots  
-- 🎨 Homepage with responsive layout  
-- 🧾 Query page with side animation/visuals  
-- ✅ Answer card showing zone/category-wise recommendations
-
 ## 🧠 Learnings  
 - Prompt structure impacts hallucination significantly  
 - Simpler is better: hardcoded rules > complex intent classifier  
@@ -65,9 +59,7 @@ To build an AI assistant that:
 
 ## 🌐 Live Demo  
 🔗 Click here : [Visit Site](https://celebrated-flan-f9b453.netlify.app/)
-
   or
-
 website : https://celebrated-flan-f9b453.netlify.app/
 
 ## 💼 Ready for Production  
