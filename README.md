@@ -1,5 +1,6 @@
 # 🧠 Vaasthu Vision AI — Generative AI-Powered Vaasthu Consultant
 
+
 ## 🚀 Project Overview  
 **Vaasthu Vision AI** is a production-ready GenAI system built to provide authentic, directional, and remedial suggestions based on Vaasthu Shastra.  
 It uses a **RAG (Retrieval-Augmented Generation)** architecture to ensure accurate and context-specific answers.
