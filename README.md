@@ -15,13 +15,11 @@ To build an AI assistant that:
 
 
 ## 🛠️ Tech Stack  
-- **Frontend**: Streamlit + Custom HTML/CSS, deployed via Netlify  
+- **Frontend**: Built the website using bolt ai and customized as desired. 
 - **Backend**: Python (FastAPI / Streamlit for local)  
 - **LLM**: LLaMA3-8B-8192 via **Groq API**  
 - **Vector DB**: **Qdrant** with `all-MiniLM-L6-v2` embeddings  
 - **RAG**: LangChain-powered pipeline  
-- **Deployment**: Local + Render-ready backend, Netlify frontend
-
 
 ## 🧩 Data & Design Decisions  
 ### 🔧 Data Transformation
