@@ -1,5 +1,13 @@
 import React, { useState } from "react";
-import { Bot, ArrowRight, Sparkles, CheckCircle, XCircle, Upload, FileText } from "lucide-react";
+import {
+  Bot,
+  ArrowRight,
+  Sparkles,
+  CheckCircle,
+  XCircle,
+  Upload,
+  FileText,
+} from "lucide-react";
 import { Button } from "../components/ui/button";
 import { Toaster } from "@/components/ui/sonner";
 
@@ -33,14 +41,14 @@ const Hero = () => {
   const [selectedFile, setSelectedFile] = useState<File | null>(null);
   const [text, setText] = useState("");
   const [response, setResponse] = useState<any>(null);
-  const [inputMode, setInputMode] = useState<'text' | 'file' | null>(null);
+  const [inputMode, setInputMode] = useState<"text" | "file" | null>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const file = event.target.files?.[0];
     if (file) {
       setSelectedFile(file);
-      setInputMode('file');
+      setInputMode("file");
       // Clear text when file is selected
       setText("");
       console.log("Selected file:", file);
@@ -50,14 +58,14 @@ const Hero = () => {
   const handleChange = (event: React.ChangeEvent<HTMLTextAreaElement>) => {
     const newText = event.target.value;
     setText(newText);
-    
+
     // If user starts typing, switch to text mode and clear file
     if (newText.trim() !== "") {
-      setInputMode('text');
+      setInputMode("text");
       setSelectedFile(null);
       // Clear the file input
       if (inputRef.current) {
-        inputRef.current.value = '';
+        inputRef.current.value = "";
       }
     } else if (newText.trim() === "" && !selectedFile) {
       setInputMode(null);
@@ -74,7 +82,7 @@ const Hero = () => {
     setSelectedFile(null);
     setInputMode(null);
     if (inputRef.current) {
-      inputRef.current.value = '';
+      inputRef.current.value = "";
     }
   };
 
@@ -100,10 +108,10 @@ const Hero = () => {
 
       const data = await res.json();
       setResponse(data);
-      
+
       // Clear form after successful submission
       clearForm();
-      
+
       toast(
         <div className="flex items-center gap-2">
           <CheckCircle className="h-5 w-5 text-green-500" />
@@ -150,14 +158,14 @@ const Hero = () => {
         .contribute-dialog {
           background: #f8fafc;
           border: 1px solid #e2e8f0;
-          box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+          box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
           border-radius: 12px;
         }
-        
+
         .contribute-header {
           color: #334155;
         }
-        
+
         .input-section {
           position: relative;
           background: #ffffff;
@@ -166,18 +174,18 @@ const Hero = () => {
           padding: 16px;
           transition: all 0.2s ease;
         }
-        
+
         .input-section.active {
           border-color: #3b82f6;
-          box-shadow: 0 0 0 3px rgba(59,130,246,0.1);
+          box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
         }
-        
+
         .input-section.disabled {
           opacity: 0.6;
           pointer-events: none;
           background: #f1f5f9;
         }
-        
+
         .mode-indicator {
           position: absolute;
           top: -6px;
@@ -190,7 +198,7 @@ const Hero = () => {
           font-weight: 500;
           transform: translateY(-50%);
         }
-        
+
         .submit-btn {
           position: relative;
           overflow: hidden;
@@ -198,24 +206,29 @@ const Hero = () => {
           background: #3b82f6;
           border: none;
         }
-        
+
         .submit-btn:hover {
           background: #2563eb;
         }
-        
+
         .submit-btn:active {
           transform: scale(0.98);
         }
-        
+
         .submit-btn.submitting {
           animation: pulse 1s infinite;
         }
-        
+
         @keyframes pulse {
-          0%, 100% { opacity: 1; }
-          50% { opacity: 0.8; }
+          0%,
+          100% {
+            opacity: 1;
+          }
+          50% {
+            opacity: 0.8;
+          }
         }
-        
+
         .file-upload-btn {
           background: #10b981;
           border: 1px solid #10b981;
@@ -223,12 +236,12 @@ const Hero = () => {
           transition: all 0.2s ease;
           border-radius: 6px;
         }
-        
+
         .file-upload-btn:hover {
           background: #059669;
           border-color: #059669;
         }
-        
+
         .separator-text {
           position: relative;
           text-align: center;
@@ -237,9 +250,9 @@ const Hero = () => {
           font-weight: 400;
           font-size: 13px;
         }
-        
+
         .separator-text::before {
-          content: '';
+          content: "";
           position: absolute;
           top: 50%;
           left: 0;
@@ -247,13 +260,13 @@ const Hero = () => {
           height: 1px;
           background: #e2e8f0;
         }
-        
+
         .separator-text span {
           background: #f8fafc;
           padding: 0 12px;
         }
       `}</style>
-      
+
       <section className="hero-gradient min-h-screen flex items-center justify-center relative overflow-hidden pt-16">
         {/* Animated Background Elements */}
         <Toaster />
@@ -282,7 +295,7 @@ const Hero = () => {
           </div>
 
           <h1 className="text-5xl md:text-7xl font-black text-white mb-8 leading-tight tracking-tight animate-title-reveal">
-            <span className="inline-block animate-letter-float">V</span>
+            {/*<span className="inline-block animate-letter-float">V</span>
             <span
               className="inline-block animate-letter-float"
               style={{ animationDelay: "0.1s" }}
@@ -355,8 +368,13 @@ const Hero = () => {
               style={{ animationDelay: "1.2s" }}
             >
               n
+            </span>*/}
+            <span
+              className="inline-block animate-letter-float mr-2"
+              style={{ animationDelay: "1.3s" }}
+            >
+              Vaasthu Vision
             </span>
-            <span className="inline-block mr-4"></span>
             <span
               className="inline-block animate-letter-float text-gradient"
               style={{ animationDelay: "1.3s" }}
@@ -406,7 +424,7 @@ const Hero = () => {
               See What's Coming
             </button>
           </div>
-          
+
           <div
             className="m-6 animate-fade-in-up"
             style={{ animationDelay: "1.9s" }}
@@ -425,17 +443,25 @@ const Hero = () => {
                       ✨ Contribute to Vaasthu Vision AI
                     </DialogTitle>
                     <DialogDescription className="text-slate-600">
-                      Share your Vaasthu wisdom and help our AI learn. Your knowledge makes a difference!
+                      Share your Vaasthu wisdom and help our AI learn. Your
+                      knowledge makes a difference!
                     </DialogDescription>
                   </DialogHeader>
 
                   {/* Text Input Section */}
-                  <div className={`input-section ${inputMode === 'text' ? 'active' : inputMode === 'file' ? 'disabled' : ''}`}>
-                    {inputMode === 'text' && <div className="mode-indicator">Text Mode</div>}
+                  <div
+                    className={`input-section ${inputMode === "text" ? "active" : inputMode === "file" ? "disabled" : ""}`}
+                  >
+                    {inputMode === "text" && (
+                      <div className="mode-indicator">Text Mode</div>
+                    )}
                     <div className="flex items-start gap-3 mb-3">
                       <FileText className="w-5 h-5 text-blue-400 mt-1 flex-shrink-0" />
                       <div className="flex-1">
-                        <Label htmlFor="text-input" className="text-sm font-medium text-black mb-2 block">
+                        <Label
+                          htmlFor="text-input"
+                          className="text-sm font-medium text-black mb-2 block"
+                        >
                           Share a Vaasthu Rule
                         </Label>
                         <Textarea
@@ -444,10 +470,8 @@ const Hero = () => {
                           className="bg-transparent border-gray-600 !text-black placeholder-gray-400 min-h-[100px] resize-none focus:border-blue-400 focus:ring-1 focus:ring-blue-400 [&>textarea]:!text-black"
                           onChange={handleChange}
                           value={text}
-                          disabled={inputMode === 'file'}
+                          disabled={inputMode === "file"}
                         />
-
-
                       </div>
                     </div>
                   </div>
@@ -457,8 +481,12 @@ const Hero = () => {
                   </div>
 
                   {/* File Upload Section */}
-                  <div className={`input-section ${inputMode === 'file' ? 'active' : inputMode === 'text' ? 'disabled' : ''}`}>
-                    {inputMode === 'file' && <div className="mode-indicator">File Mode</div>}
+                  <div
+                    className={`input-section ${inputMode === "file" ? "active" : inputMode === "text" ? "disabled" : ""}`}
+                  >
+                    {inputMode === "file" && (
+                      <div className="mode-indicator">File Mode</div>
+                    )}
                     <div className="flex items-start gap-3">
                       <Upload className="w-5 h-5 text-pink-400 mt-1 flex-shrink-0" />
                       <div className="flex-1">
@@ -470,13 +498,13 @@ const Hero = () => {
                           ref={inputRef}
                           onChange={handleFileChange}
                           className="hidden"
-                          disabled={inputMode === 'text'}
+                          disabled={inputMode === "text"}
                         />
                         <Button
                           size="sm"
                           onClick={handleButtonClick}
                           className="file-upload-btn mb-3"
-                          disabled={inputMode === 'text'}
+                          disabled={inputMode === "text"}
                         >
                           <Upload className="w-4 h-4 mr-2" />
                           Choose File
@@ -498,14 +526,18 @@ const Hero = () => {
                   {/* Footer */}
                   <DialogFooter className="pt-6 gap-3">
                     <DialogClose asChild>
-                      <Button type="button" variant="outline" className="bg-white border-slate-300 text-slate-600 hover:bg-slate-50">
+                      <Button
+                        type="button"
+                        variant="outline"
+                        className="bg-white border-slate-300 text-slate-600 hover:bg-slate-50"
+                      >
                         Cancel
                       </Button>
                     </DialogClose>
-                    <Button 
+                    <Button
                       onClick={handleSubmit}
                       disabled={(!text.trim() && !selectedFile) || isSubmitting}
-                      className={`submit-btn text-white border-0 ${isSubmitting ? 'submitting' : ''}`}
+                      className={`submit-btn text-white border-0 ${isSubmitting ? "submitting" : ""}`}
                     >
                       {isSubmitting ? (
                         <>

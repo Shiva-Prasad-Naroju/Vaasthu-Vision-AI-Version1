@@ -1,9 +1,12 @@
+
+// This queryinput code is having the White colored Query box, this is 1st one i designed.
+
 import React, { useState, useEffect, useRef } from 'react';
 import { ArrowRight } from 'lucide-react';
 
 const suggestions = [
-  "Where should I locate the kitchen?",
   "Is northeast good for master bedroom?",
+  "Where should I locate the kitchen?",
   "Can I build pooja room above toilet?",
   "What is the ideal location for study room?",
   "Where i should place the staircase?",
@@ -104,7 +107,7 @@ function QueryInput() {
     const el = textareaRef.current;
     if (!el) return;
     el.style.height = 'auto';
-    el.style.height = Math.min(el.scrollHeight, 64) + 'px';
+    el.style.height = Math.min(el.scrollHeight, 128) + 'px';
   };
 
   const handleCopy = () => {
@@ -134,8 +137,9 @@ function QueryInput() {
       </div>
 
       <div id="query-section" className="relative z-10 p-6 max-w-2xl mx-auto space-y-6">
-        <h2 className="text-3xl text-blue-500 font-bold tracking-wide mb-4 text-center animate-fade-in">
-          🏛️ Ask Vaasthu Related Queries
+        <h2 className="text-3xl font-bold tracking-wide mb-4 text-center animate-fade-in bg-gradient-to-r from-purple-400 via-blue-400 to-teal-400 text-transparent bg-clip-text drop-shadow-md">
+          🏡 Balance Your Home with 
+          Just One Question! 🌟
         </h2>
 
         {/* Input Box */}
@@ -148,17 +152,9 @@ function QueryInput() {
               onChange={handleInputChange}
               onKeyDown={handleKeyPress}
               className="w-full p-4 pr-16 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 placeholder-gray-500 resize-none text-base font-medium shadow-sm bg-white text-black overflow-hidden"
-              rows={1}
-              style={{ minHeight: '40px', maxHeight: '64px' }}
+              rows={3}
+              style={{ minHeight: '96px', maxHeight: '128px' }}
             />
-            {query && (
-              <button
-                onClick={() => setQuery('')}
-                className="absolute top-2 right-14 text-sm text-gray-500 hover:text-black bg-gray-200 px-2 py-1 rounded"
-              >
-                Clear
-              </button>
-            )}
             <button
               onClick={handleSubmit}
               disabled={!query.trim() || loading}
@@ -248,6 +244,18 @@ function QueryInput() {
         .animate-float { animation: float 4s ease-in-out infinite; }
         .animate-fade-in { animation: fade-in 0.6s ease-out; }
         .animate-slide-up { animation: slide-up 0.6s ease-out; }
+        
+        /* Hide browser's default clear button */
+        textarea::-webkit-search-cancel-button,
+        textarea::-webkit-search-decoration,
+        textarea::-ms-clear {
+          display: none;
+        }
+        
+        /* For webkit browsers */
+        textarea::-webkit-textfield-decoration-container {
+          display: none;
+        }
       `}</style>
     </div>
   );

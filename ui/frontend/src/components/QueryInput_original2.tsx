@@ -1,3 +1,6 @@
+
+// This is updated one for query box, having color black but response white.
+
 import React, { useState, useEffect, useRef } from 'react';
 import { ArrowRight, Sparkles } from 'lucide-react';
 
@@ -136,28 +139,20 @@ function QueryInput() {
       </div>
 
       <div id="query-section" className="relative z-10 p-6 max-w-3xl mx-auto space-y-8">
-
         <div className="text-center space-y-3">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 border border-white/20 rounded-full backdrop-blur-sm">
             <Sparkles className="w-4 h-4 text-yellow-400" />
-            <span className="text-sm font-medium">AI-Powered Vaasthu</span>
+            <span className="text-sm font-medium">AI-Powered Vaasthu Guidance</span>
           </div>
           
-          <h3 className="text-4xl md:text-5xl font-extrabold tracking-tight bg-gradient-to-r from-white via-blue-100 to-emerald-100 bg-clip-text text-transparent">
-            Transform Your Space <span className="text-yellow-400">✨</span>
-            <br />Discover Perfect Vaasthu Instantly
-          </h3>
-
-          <p className="text-gray-300 text-lg md:text-xl max-w-lg mx-auto leading-relaxed"> 
-            Get AI-driven Vaasthu insights for a harmonious home 🏡 
+          <h2 className="text-4xl font-bold tracking-tight bg-gradient-to-r from-white via-blue-100 to-emerald-100 bg-clip-text text-transparent">
+            Balance Your Home with 
+            <br />Just One Question
+          </h2>
+          <p className="text-gray-400 text-lg max-w-md mx-auto">
+            Get instant, personalized Vaasthu advice for your dream home
           </p>
-
-          <div className="mt-4 inline-flex items-center gap-2 text-sm text-gray-400">
-            <span>💡 Tip:</span>
-            <span>Ask anything about your home's Vaasthu — from bedrooms to pooja rooms.</span>
-          </div>
         </div>
-
 
         {/* Modern Input Container */}
         <div className="relative">

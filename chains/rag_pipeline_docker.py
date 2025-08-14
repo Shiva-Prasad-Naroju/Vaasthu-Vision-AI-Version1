@@ -1,5 +1,7 @@
 
-# Use this rag_pipeline when we use the qdrant cloud instead of pulling qdrant image from docker.
+# This rag_pipeline should be used when we pull the qdrant image from docker.
+
+# So use this file only when docker is used for qdrant vectordb.
 
 import os
 from dotenv import load_dotenv
@@ -16,11 +18,8 @@ from langchain.chains import LLMChain
 load_dotenv()
 os.environ["GROQ_API_KEY"] = os.getenv("GROQ_API_KEY")
 
-# Connect to qdrant cloud
-client = QdrantClient(
-    url=os.getenv("QDRANT_URL"),
-    api_key=os.getenv("QDRANT_API_KEY")
-)
+# Connect to Qdrant
+client = QdrantClient(host="localhost", port=6333)
 
 # Initialize embeddings
 embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")

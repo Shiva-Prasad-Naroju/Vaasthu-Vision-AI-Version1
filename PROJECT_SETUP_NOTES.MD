@@ -14,6 +14,8 @@
     
     - docker run -p 6333:6333 -p 6334:6334 qdrant/qdrant
 
+  - If qdrant cloud is used, then no need of running the docker. Just upload the dataset directly.
+
 ---
 
 ### 🗂️ 3. Setup Vector DB
