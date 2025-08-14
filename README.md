@@ -71,6 +71,40 @@ The system is ready for real-world integration and can be expanded to:
 - Room-by-room suggestions  
 - Vaastu-based house plan checker
 
+## 🐳 Docker Setup
+
+We provide a Docker image for **Vaasthu Vision AI** so you can run the app anywhere without installing dependencies.
+
+### **Prerequisites**
+- Docker Desktop installed: [https://www.docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop)
+
+- A `.env` file with:
+
+  ```env
+
+  - QDRANT_URL=<your-qdrant-cloud-url>
+  
+  - QDRANT_API_KEY=<your-qdrant-api-key>
+  
+  - GROQ_API_KEY=<your-groq-api-key>
+
+### Run via Docker Hub Image:
+
+Pull the latest image from Docker Hub:
+
+- docker pull docker.io/shivaprasadnaroju/vaasthu-vision-ai:latest
+
+Run the container with your .env:
+
+- docker run -p 8000:8000 --env-file .env docker.io/shivaprasadnaroju/vaasthu-vision-ai:latest
+
+Visit: http://localhost:8000/docs to access FastAPI Swagger UI.
+
+### Notes:
+
+- The image is preconfigured to connect to Qdrant Cloud via .env.
+
+- For a local Qdrant setup, a separate Docker Compose file can be used
 
 ## 🙌 Special Thanks  
 Inspired by traditional Indian architecture wisdom and empowered by modern AI.
