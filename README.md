@@ -59,9 +59,11 @@ To build an AI assistant that:
 
 
 ## 🌐 Live Demo of Only frontend without backend integration:
-🔗 Click here : [Visit Site](https://stunning-starlight-e06cd8.netlify.app/)
-  or
-website : https://stunning-starlight-e06cd8.netlify.app/
+🔗 Click here : [Visit Site](https://jazzy-entremet-70cc2a.netlify.app/)
+
+or
+
+website : https://jazzy-entremet-70cc2a.netlify.app/
 
 ## 💼 Ready for Production  
 The system is ready for real-world integration and can be expanded to:
