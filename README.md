@@ -2,16 +2,18 @@
 
 
 ## 🚀 Project Overview  
-**Vaasthu Vision AI** is a production-ready GenAI system built to provide authentic, directional, and remedial suggestions based on Vaasthu Shastra.  
-It uses a **RAG (Retrieval-Augmented Generation)** architecture to ensure accurate and context-specific answers.
+
+Vaasthu Vision AI is an intelligent GenAI system designed to provide authentic guidance, directional insights, and remedial suggestions based on Vaasthu Shastra. Unlike generic chatbots, it uses a Retrieval-Augmented Generation (RAG) architecture to ensure that every response is accurate, reliable, and context-aware. 
+
+The system carefully routes queries using similarity scores and critical keyword checks, preventing wrong or hallucinated answers while always prioritizing trustworthy knowledge from its Vaasthu knowledge base.
 
 ## 🎥 Project Demo  
 
 I’ve shared my project demo and explanation on LinkedIn — check them out below:  
 
+- 🎬 [Demo Video (LinkedIn)](https://www.linkedin.com/posts/shiva-prasad-naroju-4772a6184_genai-artificialintelligence-machinelearning-activity-7353397783669731329-wMpR?utm_source=share&utm_medium=member_desktop&rcm=ACoAACt4LRsBQ69c1XBIukR81m4Iy7dej5736CU)
+
 - 📖 [Project Explanation (LinkedIn Post)](https://www.linkedin.com/feed/update/urn:li:activity:7353392679910559744?utm_source=share&utm_medium=member_desktop&rcm=ACoAACt4LRsBQ69c1XBIukR81m4Iy7dej5736CU)
-  
-- 🎬 [Demo Video (LinkedIn)](https://www.linkedin.com/posts/shiva-prasad-naroju-4772a6184_genai-artificialintelligence-machinelearning-activity-7353397783669731329-wMpR?utm_source=share&utm_medium=member_desktop&rcm=ACoAACt4LRsBQ69c1XBIukR81m4Iy7dej5736CU)  
 
 👉 Click to watch the full explanation or directly view the video output.  
 
