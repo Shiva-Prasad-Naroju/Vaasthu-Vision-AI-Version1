@@ -1,4 +1,4 @@
-# 🏡 Vaasthu Vision AI — Generative AI-Powered Vaasthu Consultant
+# 🏡 Vaasthu Vision AI - AI-Powered Vaasthu Consultant
 
 
 ## 🚀 Project Overview  
