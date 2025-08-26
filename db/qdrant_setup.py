@@ -15,7 +15,7 @@ DATA_DIR = "Data/data_for_qdrant"
 COLLECTION_NAME = "vaasthu_rules"
 
 QDRANT_URL = os.getenv("QDRANT_URL")
-QDRANT_API_KEY = os.getenv("QDRANT_API_KEY")
+API_KEY = os.getenv("QDRANT_API_KEY")
 
 BATCH_SIZE = 20  # Reduced batch size for better handling
 TIMEOUT = 300    # 5 minutes timeout

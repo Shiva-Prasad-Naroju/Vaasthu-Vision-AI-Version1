@@ -1,7 +1,7 @@
 
 # This rag_pipeline should be used when we pull the qdrant image from docker.
-
-# So use this file only when docker is used for qdrant vectordb.
+# So use this file only when docker is used for qdrant vectordb. ✅
+# Not when used qdrant cloud ❌
 
 import os
 from dotenv import load_dotenv

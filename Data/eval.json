@@ -1,0 +1,422 @@
+[
+  {
+    "question": "Where should the Kitchen be located?",
+    "ground_truth": "Kitchen Placement According to Vaasthu: The kitchen should ideally be positioned in the southeast corner of the house as per traditional Vaasthu principles. The southeast direction is governed by Agni (fire element) which creates perfect harmony with cooking activities. This placement ensures optimal thermal flow and prevents conflicts with water and air zones.",
+    "zone": "KITCHEN",
+    "category": "PLACEMENT"
+  },
+  {
+    "question": "What are vastu rules for the Kitchen?",
+    "ground_truth": "Kitchen Direction Guidelines and Priorities: Southeast direction takes the highest priority for kitchen placement, followed by east as the secondary option. These directions align with the natural movement of solar energy and fire element principles in Vaasthu. The southeast placement allows for 2-3 hours of early daylight through east or southeast-facing windows, which aids in cooking activities and reduces moisture buildup.",
+    "zone": "KITCHEN",
+    "category": "DIRECTION_GUIDELINES"
+  },
+  {
+    "question": "What are vastu rules for the Kitchen?",
+    "ground_truth": "Kitchen Prohibited Directions and Zones: The kitchen must never be placed in the northeast or southwest directions as these create severe Vaasthu violations. Northeast placement conflicts with the water element zone and disrupts the natural energy flow of the house, leading to thermal inefficiency and cross-zone conflicts. Southwest kitchen placement creates imbalance in the earth element zone and can cause internal air circulation problems.",
+    "zone": "KITCHEN",
+    "category": "PROHIBITED_ZONES"
+  },
+  {
+    "question": "What are vastu rules for the Kitchen?",
+    "ground_truth": "Kitchen Structural Remedies and Solutions: When kitchen is incorrectly placed, structural remedies include relocating the entire kitchen to the southeast corner of the building layout. If complete relocation is not feasible, alternative structural solutions involve reorienting the cooking platform to face east direction and placing the exhaust opening on the southeast wall. Plumbing lines must be rerouted to avoid entering the northeast zone, maintaining at least 3 feet spacing from adjacent puja or toilet walls.",
+    "zone": "KITCHEN",
+    "category": "STRUCTURAL_REMEDIES"
+  },
+  {
+    "question": "What are vastu rules for the Kitchen?",
+    "ground_truth": "Kitchen Technical Principles and Fire Element Harmony: The southeast kitchen placement is scientifically grounded in Agni (fire) governance of this direction according to traditional zoning principles. This positioning reduces conflicts with water and air zones while supporting natural thermal dynamics. The technical impact of incorrect placement includes thermal inefficiency, cross-zone elemental conflicts, and internal air circulation imbalance.",
+    "zone": "KITCHEN",
+    "category": "TECHNICAL_PRINCIPLES"
+  },
+  {
+    "question": "What are vastu rules for the Kitchen?",
+    "ground_truth": "Kitchen Adjacency and Wall Sharing Guidelines: The kitchen should not share walls with toilets or bedrooms to maintain hygiene, privacy, and energy separation. Preferred adjacent rooms include dining room and store room which complement kitchen functions. The kitchen requires acoustic and visual buffering from bedrooms and puja areas to prevent cooking sounds and smells from disturbing rest or spiritual activities.",
+    "zone": "KITCHEN",
+    "category": "ADJACENCY_REQUIREMENTS"
+  },
+  {
+    "question": "What are vastu rules for the Kitchen?",
+    "ground_truth": "Kitchen Regional Variations and Climatic Considerations: In North India, southeast kitchen placement prevents excessive heat buildup during summer months while allowing adequate morning sunlight. South Indian applications emphasize avoiding kitchen placement below water tanks and ensuring proper ventilation for humid conditions. Both regions benefit from the moderate sunlight exposure that southeast direction provides, supporting natural drying and ventilation processes.",
+    "zone": "KITCHEN",
+    "category": "REGIONAL_ADAPTATIONS"
+  },
+  {
+    "question": "What are vastu rules for the Kitchen?",
+    "ground_truth": "Kitchen Geometry and Spatial Requirements: The kitchen requires minimum 50 square feet area with recommended 4:3 aspect ratio for optimal functionality and Vaasthu compliance. Mandatory ventilation systems must be incorporated to support the fire element activities and prevent heat accumulation. The spatial design should accommodate progressive heat exhaust while maintaining proper proportion according to traditional architectural principles.",
+    "zone": "KITCHEN",
+    "category": "GEOMETRY_SPECIFICATIONS"
+  },
+  {
+    "question": "What are vastu rules for the Kitchen?",
+    "ground_truth": "Kitchen Engineering and Modern Integration: Modern engineering considerations support traditional southeast kitchen placement through thermal flow analysis and plumbing optimization. Overhead water lines and seepage risks must be avoided in fire-dominant zones to prevent elemental conflicts. The kitchen design should incorporate acoustic buffering systems to maintain privacy between cooking areas and bedrooms or puja spaces.",
+    "zone": "KITCHEN",
+    "category": "ENGINEERING_INTEGRATION"
+  },
+  {
+    "question": "What are vastu rules for the Kitchen?",
+    "ground_truth": "Kitchen Energy Flow and Zonal Influence: The southeast kitchen placement creates critical impact on the southeast quadrant energy flow and helps balance the heat zone throughout the home. This positioning supports the natural energy progression from fire element activities while maintaining harmony with adjacent zones. The zonal influence map shows how proper kitchen placement affects overall house energy circulation and elemental balance.",
+    "zone": "KITCHEN",
+    "category": "ENERGY_IMPACT"
+  },
+  {
+    "question": "What are vastu rules for the Master?",
+    "ground_truth": "Master Bedroom Placement According to Vaasthu: The master bedroom must be positioned in the southwest corner of the home, representing the domain of Nairitya which governs stability, strength, and leadership authority. This placement establishes the head of the household in the most powerful and protective zone, ensuring family hierarchy and decision-making capabilities remain strong. The southwest direction provides natural thermal stability by avoiding harsh morning sun exposure while leveraging cooler evening airflow patterns.",
+    "zone": "MASTER",
+    "category": "001_PLACEMENT"
+  },
+  {
+    "question": "What are vastu rules for the Master?",
+    "ground_truth": "Master Bedroom Directional Priorities and Leadership Zones: Southwest direction takes absolute priority for master bedroom placement, with south direction serving as the secondary acceptable option when southwest is not feasible. This directional hierarchy reflects the natural progression of leadership energy and stability forces within traditional Vaasthu zoning systems. The southwest positioning aligns with Nairitya's governing influence over family authority, financial security, and household decision-making processes.",
+    "zone": "MASTER",
+    "category": "002_DIRECTIONAL_HIERARCHY"
+  },
+  {
+    "question": "What are vastu rules for the Master?",
+    "ground_truth": "Master Bedroom Prohibited Directions and Energy Conflicts: The master bedroom must never be placed in northeast or southeast directions as these create severe disruptions to household leadership and stability. Northeast placement, governed by Ishanya (water element), causes instability, poor decision-making capabilities, and persistent restlessness in the head of household. Southeast positioning conflicts with Agni (fire element) zone, creating thermal discomfort and agitated mental states unsuitable for rest and contemplation.",
+    "zone": "MASTER",
+    "category": "003_PROHIBITED_PLACEMENTS"
+  },
+  {
+    "question": "What are vastu rules for the Master?",
+    "ground_truth": "Master Bedroom Structural Remedies and Relocation Strategies: When master bedroom is incorrectly positioned, primary structural remedy involves complete relocation to the southwest corner of the home with proper architectural planning and construction modifications. Alternative remedial action includes reorienting the sleeping arrangement with headboard placement in southwest direction and shifting heavy furniture like wardrobes, dressers, and storage units to the southwest quadrant to stabilize and redirect energy flow. For homes where master bedroom was built in northeast for prime views, the resolution strategy involves converting the current space to living area or guest accommodation while reallocating the southwest zone for master bedroom with appropriate thermal insulation and ventilation modifications to ensure comfort and Vaasthu compliance.",
+    "zone": "MASTER",
+    "category": "004_STRUCTURAL_SOLUTIONS"
+  },
+  {
+    "question": "What are vastu rules for the Master?",
+    "ground_truth": "Master Bedroom Stability and Nairitya Governance: The southwest master bedroom placement harnesses Nairitya's fundamental principles of stability, strength, and protective authority essential for household leadership. This directional governance ensures the head of family maintains solid grounding in decision-making processes, financial management, and relationship dynamics. The stability zone characteristics of southwest create natural support for long-term planning, wealth accumulation, and family security through proper energy alignment.",
+    "zone": "MASTER",
+    "category": "005_STABILITY_PRINCIPLES"
+  },
+  {
+    "question": "What are vastu rules for the Master?",
+    "ground_truth": "Master Bedroom Spatial Requirements and Geometric Harmony: The master bedroom requires minimum 120 square feet area with recommended 5:4 aspect ratio to accommodate the leadership energy and provide adequate space for the head of household's needs. This geometric proportion creates balanced energy flow while allowing sufficient room for furniture arrangement according to Vaasthu principles. Mandatory ventilation systems ensure proper air circulation and temperature regulation essential for quality rest and mental clarity.",
+    "zone": "MASTER",
+    "category": "006_SPATIAL_SPECIFICATIONS"
+  },
+  {
+    "question": "What are vastu rules for the Master?",
+    "ground_truth": "Master Bedroom Adjacency Rules and Privacy Protection: The master bedroom should not share walls with kitchen or toilet facilities to maintain energy purity and prevent disruption from cooking activities or waste management systems. Preferred adjacent rooms include walk-in closet and attached bathroom which complement the master's privacy needs while supporting daily routines. The adjacency planning ensures maximum acoustic isolation from household activities, providing the quiet environment necessary for rest, contemplation, and private discussions.",
+    "zone": "MASTER",
+    "category": "007_ADJACENCY_PLANNING"
+  },
+  {
+    "question": "What are vastu rules for the Master?",
+    "ground_truth": "Master Bedroom Thermal Management and Climate Adaptation: Southwest master bedroom placement provides natural thermal stability by avoiding harsh morning sun exposure while benefiting from cooler evening airflow patterns throughout the year. In North Indian climates, this positioning prevents excessive heat buildup during summer months while maintaining comfortable temperatures for rest and relaxation. South Indian applications emphasize using insulated walls on west and south sides when natural ventilation is insufficient, ensuring thermal comfort despite regional heat conditions.",
+    "zone": "MASTER",
+    "category": "008_THERMAL_COMFORT"
+  },
+  {
+    "question": "What are vastu rules for the Master?",
+    "ground_truth": "Master Bedroom Privacy and Acoustic Environment: The southwest master bedroom position naturally provides maximum acoustic and visual privacy essential for the household leader's rest, personal time, and confidential discussions. This directional placement creates natural sound barriers from household activities while maintaining dignified separation from common areas and servant quarters. The privacy considerations extend to protection from external noise, neighborhood disturbances, and internal family activities that might disrupt the master's peace and contemplation time.",
+    "zone": "MASTER",
+    "category": "009_PRIVACY_ACOUSTICS"
+  },
+  {
+    "question": "What are vastu rules for the Master?",
+    "ground_truth": "Master Bedroom Leadership Energy and Family Governance: The southwest master bedroom serves as the command center for family governance, channeling Nairitya's strength and stability through proper directional alignment with household leadership responsibilities. This placement directly influences the head of family's ability to make sound financial decisions, maintain family discipline, and provide protective guidance to all members. The leadership energy generated through correct positioning extends to professional success, business decisions, and community standing of the household head.",
+    "zone": "MASTER",
+    "category": "010_LEADERSHIP_ENERGY"
+  },
+  {
+    "question": "What are vastu rules for the Children?",
+    "ground_truth": "Children Bedroom Placement According to Vaasthu: The children's bedroom should be positioned in the west direction of the house, which naturally enhances focus, retention capacity, and independence development for growing children according to traditional Vaasthu zoning principles. The west direction provides balanced energy that supports cognitive development, emotional stability, and academic concentration essential for children's holistic growth. This placement receives gentle evening light that creates a relaxed post-school environment conducive to homework, play, and restful sleep preparation.",
+    "zone": "CHILDREN",
+    "category": "001_PLACEMENT"
+  },
+  {
+    "question": "What are vastu rules for the Children?",
+    "ground_truth": "Children Bedroom Directional Priorities and Cognitive Enhancement: West direction takes primary priority for children's bedroom placement, followed by northwest as the secondary beneficial option for supporting young minds' development and learning capabilities. These directions create optimal conditions for academic focus, memory retention, and intellectual growth through proper energy flow alignment. The west zone naturally supports afternoon study sessions and evening relaxation routines that align with children's daily rhythms and school schedules.",
+    "zone": "CHILDREN",
+    "category": "002_DEVELOPMENTAL_ZONES"
+  },
+  {
+    "question": "What are vastu rules for the Children?",
+    "ground_truth": "Children Bedroom Prohibited Placements and Behavioral Impact: Children's bedrooms must never be placed in southeast or southwest directions as these create significant disruptions to cognitive development, sleep patterns, and behavioral stability. Southeast placement exposes children to excessive fire element energy causing hyperactivity, restlessness, and difficulty concentrating on studies or quiet activities. Southwest positioning, reserved for adult authority figures, can create premature responsibility burdens and disrupt natural childhood development phases.",
+    "zone": "CHILDREN",
+    "category": "003_PROHIBITED_DIRECTIONS"
+  },
+  {
+    "question": "What are vastu rules for the Children?",
+    "ground_truth": "Children Bedroom Structural Remedies and Space Optimization: When children's bedroom is incorrectly positioned, primary remedial action involves relocating the room to west or northwest zones through thoughtful space replanning and architectural modifications. Alternative remedial measures include adjusting bed placement with headboard toward south direction and positioning study area in north or east zones to balance functional energy flow within the existing room. For homes where children's bedroom was placed in southeast due to space constraints, resolution involves reassigning the southeast room for utility purposes while shifting children's accommodation to northwest zone with smart storage solutions to optimize available space.",
+    "zone": "CHILDREN",
+    "category": "004_REMEDIAL_STRATEGIES"
+  },
+  {
+    "question": "What are vastu rules for the Children?",
+    "ground_truth": "Children Bedroom Focus and Academic Development: The west direction naturally enhances children's concentration abilities, memory retention, and independent study habits through proper energy alignment with cognitive development zones. This positioning supports afternoon homework sessions when children return from school, providing conducive environment for learning activities and intellectual growth. The directional energy influences children's ability to maintain attention span during studies, develop organizational skills, and establish productive daily routines essential for academic success.",
+    "zone": "CHILDREN",
+    "category": "005_FOCUS_ENHANCEMENT"
+  },
+  {
+    "question": "What are vastu rules for the Children?",
+    "ground_truth": "Children Bedroom Spatial Design and Growth Accommodation: Children's bedrooms require minimum 100 square feet area with recommended 4:3 aspect ratio to provide adequate space for sleeping, studying, playing, and storage needs as children grow and develop. The geometric proportions ensure balanced energy circulation while accommodating furniture arrangements that support both rest and activity requirements. Mandatory ventilation systems maintain fresh air circulation essential for healthy sleep patterns and cognitive function during study periods.",
+    "zone": "CHILDREN",
+    "category": "006_SPATIAL_REQUIREMENTS"
+  },
+  {
+    "question": "What are vastu rules for the Children?",
+    "ground_truth": "Children Bedroom Adjacency Rules and Family Integration: Children's bedrooms should not share walls with toilets or storerooms to maintain hygiene standards and prevent disturbance from plumbing sounds or storage activities. Preferred adjacent rooms include dedicated study room and family lounge areas that support academic activities while allowing natural parental supervision and family interaction. The adjacency arrangement creates semi-private layout suitable for children's independence development while enabling monitoring from nearby family spaces.",
+    "zone": "CHILDREN",
+    "category": "007_ADJACENCY_PLANNING"
+  },
+  {
+    "question": "What are vastu rules for the Children?",
+    "ground_truth": "Children Bedroom Thermal Management and Climate Adaptation: West and northwest children's bedrooms benefit from evening light exposure that supports relaxed post-school atmosphere while requiring proper thermal management for year-round comfort. North Indian applications emphasize west direction with adequate insulation to prevent afternoon heat accumulation during summer months. South Indian implementations often favor northwest positioning with enhanced cross-ventilation and insulated walls to manage intense heat conditions while maintaining comfortable sleeping and study environments.",
+    "zone": "CHILDREN",
+    "category": "008_THERMAL_COMFORT"
+  },
+  {
+    "question": "What are vastu rules for the Children?",
+    "ground_truth": "Children Bedroom Learning Environment and Study Zone Integration: The west direction naturally creates optimal learning environment by providing gentle evening illumination perfect for homework completion and creative activities after school hours. The positioning supports natural circadian rhythms that align with children's energy levels throughout the day, promoting better sleep preparation and morning alertness for school. Study area placement within the room should utilize north or east zones for maximum concentration benefits while maintaining connection with overall room energy flow.",
+    "zone": "CHILDREN",
+    "category": "009_LEARNING_ENVIRONMENT"
+  },
+  {
+    "question": "What are vastu rules for the Children?",
+    "ground_truth": "Children Bedroom Behavioral Balance and Emotional Stability: Proper west or northwest placement directly influences children's emotional regulation, behavioral patterns, and social development through harmonious energy alignment with growth phases. The directional positioning supports healthy sleep cycles essential for physical growth and mental development while promoting calm evening routines and peaceful rest preparation. This placement helps children develop self-discipline, organizational skills, and personal responsibility through environmental energy that encourages positive behavioral patterns.",
+    "zone": "CHILDREN",
+    "category": "010_BEHAVIORAL_DEVELOPMENT"
+  },
+  {
+    "question": "What are vastu rules for the Guest?",
+    "ground_truth": "Guest Bedroom Placement According to Vaasthu: The guest bedroom should be positioned in the northwest corner of the house, which is governed by Vayu (air element) and naturally supports temporary stays while creating a sense of movement that prevents prolonged occupancy. This placement ensures that visitors feel welcome yet naturally inclined to maintain appropriate visit durations without disrupting household harmony. The northwest direction provides controlled airflow and ventilation that enhances guest comfort while maintaining separation from core family energy zones.",
+    "zone": "GUEST",
+    "category": "001_PLACEMENT"
+  },
+  {
+    "question": "What are vastu rules for the Guest?",
+    "ground_truth": "Guest Bedroom Directional Priorities and Hospitality Energy: Northwest direction takes primary priority for guest bedroom placement, followed by west as the secondary beneficial option for supporting temporary accommodations and visitor comfort. These directions create optimal balance between welcoming hospitality and maintaining appropriate boundaries between guests and family private spaces. The northwest zone naturally facilitates controlled social interaction while preventing interference with family stability zones and household energy flow.",
+    "zone": "GUEST",
+    "category": "002_HOSPITALITY_ZONES"
+  },
+  {
+    "question": "What are vastu rules for the Guest?",
+    "ground_truth": "Guest Bedroom Prohibited Directions and Energy Conflicts: Guest bedrooms must never be placed in northeast or center positions as these create significant disruptions to household spiritual energy and family stability zones. Northeast placement conflicts with sacred energy areas meant for spiritual practices and can disturb the purity of prayer and meditation spaces. Central positioning disrupts the natural energy flow throughout the house and may lead to guests overstaying or becoming too involved in family affairs.",
+    "zone": "GUEST",
+    "category": "003_PROHIBITED_PLACEMENTS"
+  },
+  {
+    "question": "What are vastu rules for the Guest?",
+    "ground_truth": "Guest Bedroom Structural Remedies and Relocation Strategies: When guest bedroom is incorrectly positioned, primary structural remedy involves relocating the accommodation to northwest corner through architectural replanning and space optimization strategies. Alternative remedial action includes positioning guest bed with headboard toward south or east direction while ensuring the sleeping area avoids northeast quadrant placement within the existing room. For homes where guest bedroom was positioned centrally near family living areas, resolution involves shifting guest accommodation toward house periphery, preferably northwest zone, and using architectural partitions for spatial separation and privacy enhancement.",
+    "zone": "GUEST",
+    "category": "004_STRUCTURAL_SOLUTIONS"
+  },
+  {
+    "question": "What are vastu rules for the Guest?",
+    "ground_truth": "Guest Bedroom Vayu Element and Movement Energy: The northwest guest bedroom placement harnesses Vayu's fundamental characteristics of movement, change, and temporary presence that naturally support guest accommodation and visitor dynamics. This elemental governance creates energy patterns that encourage comfortable stays while preventing stagnation or overly permanent settlement by visitors. The air element's influence promotes natural circulation, both physical and energetic, that maintains freshness and prevents accumulation of foreign energy within family spaces.",
+    "zone": "GUEST",
+    "category": "005_VAYU_GOVERNANCE"
+  },
+  {
+    "question": "What are vastu rules for the Guest?",
+    "ground_truth": "Guest Bedroom Spatial Requirements and Comfort Design: Guest bedrooms require minimum 90 square feet area with recommended 5:4 aspect ratio to provide adequate comfort for visitors while maintaining appropriate scale for temporary accommodation. The geometric proportions ensure balanced energy flow and sufficient space for guest belongings, rest, and privacy needs without overwhelming the northwest zone's natural characteristics. Mandatory ventilation systems maintain fresh air circulation essential for guest comfort and prevent energy stagnation that could affect both visitor experience and household dynamics.",
+    "zone": "GUEST",
+    "category": "006_SPATIAL_SPECIFICATIONS"
+  },
+  {
+    "question": "What are vastu rules for the Guest?",
+    "ground_truth": "Guest Bedroom Adjacency Rules and Privacy Management: Guest bedrooms should not share walls with puja room or kitchen to maintain energy separation between visitor spaces and sacred or family-functional areas. Preferred adjacent rooms include guest toilet facilities and corridor access that provide privacy and convenience without interfering with household operations or spiritual practices. The adjacency arrangement ensures visitors have necessary facilities while maintaining separation from family intimate spaces and religious areas.",
+    "zone": "GUEST",
+    "category": "007_ADJACENCY_GUIDELINES"
+  },
+  {
+    "question": "What are vastu rules for the Guest?",
+    "ground_truth": "Guest Bedroom Thermal Comfort and Climate Adaptation: Northwest and west guest bedrooms benefit from controlled airflow patterns that enhance natural ventilation and guest comfort while managing thermal loads effectively. North Indian applications emphasize northwest placement with adequate evening airflow that maintains comfortable temperatures without additional cooling requirements. South Indian implementations often favor west direction with enhanced cross-ventilation strategies to handle western heat load while ensuring guest comfort throughout different seasons.",
+    "zone": "GUEST",
+    "category": "008_THERMAL_MANAGEMENT"
+  },
+  {
+    "question": "What are vastu rules for the Guest?",
+    "ground_truth": "Guest Bedroom Privacy and Household Flow Integration: The northwest guest bedroom position naturally provides visitor privacy while maintaining appropriate separation from central family areas and daily household activities. This placement ensures guests feel respected and comfortable without disrupting family routines, children's activities, or intimate family moments. The positioning allows for separate access when possible, creating independent entry and exit that maintains both guest dignity and family privacy.",
+    "zone": "GUEST",
+    "category": "009_PRIVACY_SEPARATION"
+  },
+  {
+    "question": "What are vastu rules for the Guest?",
+    "ground_truth": "Guest Bedroom Social Balance and Detachment Principles: Proper northwest or west guest bedroom placement creates ideal conditions for maintaining healthy social boundaries and preventing guest overstay through natural energy patterns that encourage appropriate visit durations. The positioning supports gracious hospitality while preserving family hierarchy and household energy stability through directional influences that promote mutual respect and understanding. This placement helps guests feel welcome and honored while naturally maintaining detachment that prevents interference with family decision-making or household affairs.",
+    "zone": "GUEST",
+    "category": "010_SOCIAL_HARMONY"
+  },
+  {
+    "question": "What are vastu rules for the Living?",
+    "ground_truth": "Living Room Placement According to Vaasthu: The living room should be positioned in the northeast part of the house, which is governed by Ishanya (spirituality) and naturally brings divine light, calmness, and positive energy ideal for social interactions and family gatherings. This placement harnesses the pure spiritual energy of northeast direction that creates an atmosphere of harmony, mental clarity, and peaceful communication among family members and guests. The northeast positioning receives gentle morning sunlight that keeps the space bright, fresh, and energetically active throughout the day while maintaining comfortable temperatures.",
+    "zone": "LIVING",
+    "category": "001_PLACEMENT"
+  },
+  {
+    "question": "What are vastu rules for the Living?",
+    "ground_truth": "Living Room Directional Priorities and Social Energy Flow: Northeast direction takes primary priority for living room placement, followed by north and east as secondary beneficial options for supporting social activities and family gatherings. These directions create optimal energy flow patterns that enhance communication, hospitality, and community interaction through proper alignment with positive directional forces. The directional hierarchy reflects natural light progression and spiritual energy movement that supports healthy social dynamics and family relationships.",
+    "zone": "LIVING",
+    "category": "002_DIRECTIONAL_HIERARCHY"
+  },
+  {
+    "question": "What are vastu rules for the Living?",
+    "ground_truth": "Living Room Prohibited Directions and Social Energy Conflicts: Living rooms must never be placed in southwest or southeast directions as these create significant disruptions to social harmony, communication patterns, and family gathering energy. Southwest placement creates heaviness, dullness, and energy-draining atmosphere that reduces social enthusiasm and causes depression in family activities. Southeast positioning conflicts with fire element energy causing agitation, arguments, and heated discussions that disturb peaceful family interactions.",
+    "zone": "LIVING",
+    "category": "003_PROHIBITED_PLACEMENTS"
+  },
+  {
+    "question": "What are vastu rules for the Living?",
+    "ground_truth": "Living Room Structural Remedies and Energy Optimization: When living room is incorrectly positioned, primary structural remedy involves relocating the social space to northeast zone through comprehensive architectural replanning and interior reorganization. Alternative remedial action includes reorganizing furniture layout to face northeast direction and opening up windows or doors on north and east walls to maximize beneficial directional energy flow. For homes where living room was located in southwest causing dullness and heaviness, resolution involves opening major windows to east and north directions while redesigning internal layout to mimic northeast-centric orientation through strategic furniture placement and lighting design.",
+    "zone": "LIVING",
+    "category": "004_STRUCTURAL_SOLUTIONS"
+  },
+  {
+    "question": "What are vastu rules for the Living?",
+    "ground_truth": "Living Room Ishanya Element and Spiritual Social Energy: The northeast living room placement harnesses Ishanya's fundamental characteristics of spirituality, purity, and divine light that naturally support harmonious social interactions and elevated family gatherings. This elemental governance creates energy patterns that promote mental clarity, peaceful communication, and spiritual awareness during family activities and guest reception. The spiritual element's influence encourages positive conversations, cultural activities, and community bonding that elevate household social standards and family relationships.",
+    "zone": "LIVING",
+    "category": "005_ISHANYA_GOVERNANCE"
+  },
+  {
+    "question": "What are vastu rules for the Living?",
+    "ground_truth": "Living Room Spatial Requirements and Social Functionality: Living rooms require minimum 120 square feet area with recommended 4:3 aspect ratio to accommodate family gatherings, guest reception, and social activities while maintaining proper energy circulation patterns. The geometric proportions ensure balanced energy flow and sufficient space for furniture arrangements that support conversation, entertainment, and relaxation needs of all family members. Mandatory ventilation systems maintain fresh air circulation essential for comfortable social interactions and prevent energy stagnation during gatherings and celebrations.",
+    "zone": "LIVING",
+    "category": "006_SPATIAL_SPECIFICATIONS"
+  },
+  {
+    "question": "What are vastu rules for the Living?",
+    "ground_truth": "Living Room Adjacency Rules and Social Flow Management: Living rooms should not share walls with toilets or bedrooms to maintain energy purity and prevent disturbance from private activities or waste management systems during social gatherings. Preferred adjacent rooms include foyer and dining room which create natural flow for guest reception and entertainment activities while supporting smooth transition between social spaces. The adjacency arrangement ensures living room accessibility from main entrance while maintaining privacy for bedroom areas and family intimate spaces.",
+    "zone": "LIVING",
+    "category": "007_ADJACENCY_PLANNING"
+  },
+  {
+    "question": "What are vastu rules for the Living?",
+    "ground_truth": "Living Room Thermal Management and Climate Adaptation: Northeast and east living rooms benefit from mild morning sunlight that provides natural passive heating during winter months while maintaining comfortable temperatures throughout the day for year-round social activities. North Indian applications emphasize northeast placement with morning sun exposure that creates warm, welcoming atmosphere during cold seasons while preventing excessive heat accumulation. South Indian implementations often favor east direction for morning sunlight benefits and enhanced cross-ventilation that manages heat while maintaining comfortable social environment.",
+    "zone": "LIVING",
+    "category": "008_THERMAL_COMFORT"
+  },
+  {
+    "question": "What are vastu rules for the Living?",
+    "ground_truth": "Living Room Social Environment and Communication Enhancement: The northeast living room position naturally creates bright, positive atmosphere that encourages healthy communication, family bonding, and gracious hospitality for guests and community members. This placement supports morning family activities, afternoon social gatherings, and evening relaxation through energy patterns that promote peace, understanding, and mutual respect. The positioning enhances family cultural activities, educational discussions, and spiritual practices that elevate household social consciousness and community standing.",
+    "zone": "LIVING",
+    "category": "009_SOCIAL_ATMOSPHERE"
+  },
+  {
+    "question": "What are vastu rules for the Living?",
+    "ground_truth": "Living Room Hospitality and Community Integration: Proper northeast or east living room placement creates ideal conditions for receiving guests, conducting family celebrations, and maintaining positive community relationships through energy alignment that promotes generosity, warmth, and social grace. The positioning supports traditional hospitality values while providing comfortable environment for cultural exchanges, religious discussions, and community gatherings that enhance family social standing. This placement encourages family members to engage in social service, community welfare activities, and cultural preservation that builds positive reputation and divine blessings.",
+    "zone": "LIVING",
+    "category": "010_HOSPITALITY_ENERGY"
+  },
+  {
+    "question": "Where should the Pooja be located?",
+    "ground_truth": "Pooja Room Placement According to Vaasthu: The sacred pooja room must be positioned in the northeast corner of the home, known as the Ishanya corner, which represents the most spiritually charged zone in Vastu Shastra. This northeast placement ensures divine blessings flow throughout the house while maintaining the sanctity of religious practices. The Ishanya corner receives the first rays of morning sunlight, symbolizing divine grace and spiritual awakening.",
+    "zone": "POOJA",
+    "category": "PLACEMENT"
+  },
+  {
+    "question": "What are vastu rules for the Pooja?",
+    "ground_truth": "Sacred Direction Guidelines for Prayer Room: The northeast direction, termed Ishanya in ancient Vastu texts, holds supreme importance for establishing prayer rooms and meditation spaces. This direction channels positive cosmic energy and enhances spiritual connectivity during religious rituals and daily prayers. The Mayamatam scripture specifically emphasizes northeast placement for sacred spaces, as this zone supports spiritual awakening and intellectual clarity.",
+    "zone": "POOJA",
+    "category": "SACRED_DIRECTION"
+  },
+  {
+    "question": "What are vastu rules for the Pooja?",
+    "ground_truth": "Forbidden Locations for Pooja Room Construction: Strict Vastu principles prohibit placing pooja rooms in south, southwest, or toilet-adjacent areas due to severe spiritual and energetic disruptions. The south and southwest zones generate excessive heat and negative energy that conflicts with the serene atmosphere required for religious practices. Positioning prayer rooms near toilets, bathrooms, or kitchen areas severely compromises the purity and sanctity of the sacred space.",
+    "zone": "POOJA",
+    "category": "PROHIBITED_ZONES"
+  },
+  {
+    "question": "What are vastu rules for the Pooja?",
+    "ground_truth": "Structural Solutions for Pooja Room Correction: When existing pooja rooms are incorrectly positioned, immediate relocation to the northeast corner provides the most effective remedy for restoring spiritual harmony and positive energy flow. If complete relocation is not feasible, reorienting idols to face west while ensuring devotees face east during prayers can significantly improve energy alignment. Constructing raised platforms within incorrectly placed pooja rooms helps elevate the sacred space above negative ground energies.",
+    "zone": "POOJA",
+    "category": "STRUCTURAL_REMEDY"
+  },
+  {
+    "question": "What are vastu rules for the Pooja?",
+    "ground_truth": "Air Circulation and Ventilation for Sacred Spaces: Proper ventilation in pooja rooms ensures continuous flow of fresh, purified air that enhances spiritual atmosphere and prevents energy stagnation. Natural air circulation through strategically placed windows and openings maintains the purity of the sacred environment while allowing negative energies to dissipate effectively. The northeast placement naturally facilitates excellent cross-ventilation as morning breezes carry positive energy from the most auspicious direction.",
+    "zone": "POOJA",
+    "category": "VENTILATION_REQUIREMENTS"
+  },
+  {
+    "question": "What are vastu rules for the Pooja?",
+    "ground_truth": "Room Adjacency Rules for Prayer Spaces: Pooja rooms should ideally adjoin living rooms or study areas that maintain peaceful, positive environments conducive to spiritual practices and religious contemplation. These adjacent spaces support the sacred atmosphere through their calm, intellectual energy while avoiding conflicts with impure or chaotic areas. Strict prohibition exists against sharing walls with toilets, bathrooms, or kitchens, as these spaces carry impure energies that can contaminate the sacred environment.",
+    "zone": "POOJA",
+    "category": "ADJACENCY_GUIDELINES"
+  },
+  {
+    "question": "What are vastu rules for the Pooja?",
+    "ground_truth": "Construction and Engineering Considerations: No plumbing lines should pass through, above, or beneath pooja room spaces to prevent energetic contamination and maintain structural purity of the sacred area. Heat-generating appliances, electrical panels, and mechanical equipment must be kept away from prayer rooms to preserve the cool, calm thermal environment essential for spiritual practices. The construction should ensure acoustic isolation through appropriate wall thickness and sound-dampening materials that create a quiet sanctuary for meditation and prayer.",
+    "zone": "POOJA",
+    "category": "CONSTRUCTION_CONSTRAINTS"
+  },
+  {
+    "question": "What are vastu rules for the Pooja?",
+    "ground_truth": "Spiritual and Mental Effects of Proper Placement: Correct northeast placement of pooja rooms facilitates deep spiritual connection, mental peace, and enhanced meditation experiences through optimal cosmic energy alignment. The Ishanya corner's natural spiritual charge amplifies the effectiveness of daily prayers, religious rituals, and contemplative practices performed within the sacred space. Proper positioning supports intellectual clarity, wisdom development, and spiritual awakening by harnessing the divine energies concentrated in the northeast zone.",
+    "zone": "POOJA",
+    "category": "SPIRITUAL_IMPACT"
+  },
+  {
+    "question": "What are vastu rules for the Pooja?",
+    "ground_truth": "Regional Variations in Pooja Room Vastu: North Indian Vastu traditions emphasize northeast placement as primary with east direction serving as the most acceptable alternative when space constraints prevent ideal positioning. South Indian practices maintain identical northeast preferences while adding specific guidelines about storage restrictions, prohibiting non-religious items within the sacred prayer space. Both regional traditions recognize the supreme importance of the Ishanya corner for spiritual practices, with minor variations in implementation based on local architectural styles and cultural practices.",
+    "zone": "POOJA",
+    "category": "REGIONAL_ADAPTATIONS"
+  },
+  {
+    "question": "What are vastu rules for the Pooja?",
+    "ground_truth": "Energy Flow and Cosmic Alignment: The northeast pooja room placement creates optimal energy circulation patterns that enhance spiritual receptivity and divine connection throughout the daily worship routine. Cosmic energy naturally concentrates in the Ishanya corner, making it the most powerful location for amplifying prayer intentions and meditation practices. The cool, calm thermal characteristics of the northeast zone provide ideal conditions for sustained spiritual focus without physical discomfort or mental agitation.",
+    "zone": "POOJA",
+    "category": "ENERGY_OPTIMIZATION"
+  },
+  {
+    "question": "What are vastu rules for the Pooja?",
+    "ground_truth": "Avoiding Pooja Room Placement in South Direction: Vastu guidelines explicitly advise against placing pooja rooms in the south direction due to energetic conflicts with the fire and death elements associated with that zone. The south generates intense, downward-moving energies that disrupt the serenity required for spiritual practices and can lead to mental agitation and decreased focus during prayers. Such placement compromises the purity and effectiveness of rituals and may weaken the overall energy balance of the home.",
+    "zone": "POOJA",
+    "category": "SOUTH_DIRECTION_RESTRICTION"
+  },
+  {
+    "question": "Where should the Bathroom be located?",
+    "ground_truth": "Bathroom Placement According to Vaasthu: The ideal location for bathrooms and toilets is the northwest corner of the home, as this direction is governed by Vayu, the element of air, which naturally supports removal, expulsion, and waste disposal functions. Northwest placement harnesses prevailing winds for natural ventilation that minimizes odor retention and ensures continuous air circulation throughout the sanitation space. When northwest positioning is not possible, the west direction serves as an acceptable alternative that maintains proper airflow patterns and thermal zoning balance.",
+    "zone": "BATHROOM",
+    "category": "PLACEMENT"
+  },
+  {
+    "question": "What are vastu rules for the Bathroom?",
+    "ground_truth": "Air Element and Natural Ventilation: The northwest direction's association with Vayu, the air element, makes it the most suitable zone for bathroom placement as it naturally facilitates the removal and expulsion functions essential to sanitation spaces. Vayu's governing influence in the northwest creates optimal conditions for waste disposal, air circulation, and odor elimination through natural wind patterns and atmospheric circulation. The air element's purifying properties help neutralize negative energies generated by waste materials while preventing accumulation of stagnant, unhealthy atmospheres.",
+    "zone": "BATHROOM",
+    "category": "VAYU_ELEMENT"
+  },
+  {
+    "question": "What are vastu rules for the Bathroom?",
+    "ground_truth": "Forbidden Bathroom Positions in Vastu: Strict Vastu principles absolutely prohibit placing bathrooms in the northeast corner, center of the home, or southeast directions due to severe negative impacts on health, relationships, and spiritual well-being. Northeast bathroom placement corrupts the sacred Ishanya corner's spiritual energy, blocking divine blessings and creating mental disturbances for all residents. Central bathroom locations disrupt the home's energy nucleus, causing instability in family relationships, financial matters, and overall life balance.",
+    "zone": "BATHROOM",
+    "category": "PROHIBITED_LOCATIONS"
+  },
+  {
+    "question": "What are vastu rules for the Bathroom?",
+    "ground_truth": "Water Drainage and Plumbing Alignment: Proper bathroom drainage requires careful attention to pipe gradients, water flow direction, and waste disposal patterns that align with Vastu energy principles and engineering best practices. All plumbing lines must maintain proper slopes with no backward gradients that could cause water stagnation or reverse flow, which creates both practical problems and negative energy accumulation. Drainage pipes should flow away from living areas, bedrooms, and sacred spaces to prevent contamination of positive energy zones within the home.",
+    "zone": "BATHROOM",
+    "category": "DRAINAGE_SYSTEMS"
+  },
+  {
+    "question": "What are vastu rules for the Bathroom?",
+    "ground_truth": "Wall Sharing Restrictions and Adjacency: Bathrooms must never share walls with pooja rooms or kitchens, as this creates direct energy contamination between pure and impure spaces that severely disrupts household harmony and spiritual practices. The wall separation requirement prevents moisture, odors, and negative energies from penetrating sacred prayer areas or food preparation zones where purity is essential. Preferred adjacent rooms include bedrooms and utility areas that can tolerate proximity to sanitation facilities without compromising their primary functions or energy qualities.",
+    "zone": "BATHROOM",
+    "category": "WALL_SEPARATION"
+  },
+  {
+    "question": "What are vastu rules for the Bathroom?",
+    "ground_truth": "Air Circulation and Odor Control: Effective bathroom ventilation requires strategic window placement, exhaust systems, and natural airflow patterns that work with the northwest direction's inherent air circulation advantages. Translucent glass openings on west or northwest walls provide filtered natural light while maintaining privacy and enabling continuous air exchange throughout the day. Mechanical ventilation systems should complement natural airflow rather than opposing it, using the northwest's prevailing wind patterns to enhance odor removal and moisture control.",
+    "zone": "BATHROOM",
+    "category": "VENTILATION_DESIGN"
+  },
+  {
+    "question": "What are vastu rules for the Bathroom?",
+    "ground_truth": "Temperature Control and Thermal Balance: Northwest bathroom placement maintains proper thermal zoning by keeping sanitation areas away from hot zones like kitchens and southeast directions that generate excessive heat and humidity. The cooler northwest environment supports comfortable bathroom usage while preventing overheating that can intensify odors and create uncomfortable conditions for personal hygiene activities. Thermal separation from kitchen areas prevents heat and cooking odors from mixing with bathroom atmospheres, maintaining distinct environmental zones for different household functions.",
+    "zone": "BATHROOM",
+    "category": "THERMAL_ZONING"
+  },
+  {
+    "question": "What are vastu rules for the Bathroom?",
+    "ground_truth": "Health and Hygiene Consequences: Proper northwest bathroom placement significantly reduces health risks associated with poor sanitation, inadequate ventilation, and energy imbalances that can affect both physical and mental well-being. Correct positioning prevents the stagnation of negative energies that can lead to chronic health issues, relationship problems, and general life instability affecting all household members. Northwest placement supports natural hygiene maintenance through optimal air circulation that prevents bacterial growth, mold development, and moisture-related health hazards.",
+    "zone": "BATHROOM",
+    "category": "HEALTH_IMPACTS"
+  },
+  {
+    "question": "What are vastu rules for the Bathroom?",
+    "ground_truth": "Privacy and Sound Insulation: Bathroom privacy requires careful attention to acoustic insulation, door positioning, and sound control measures that prevent personal activities from disturbing other household members or visitors. Separate entry design for attached bathrooms ensures privacy while maintaining convenient access from bedrooms without compromising the dignity of personal hygiene activities. Sound insulation materials and construction techniques must address both plumbing noise and personal activity sounds to create comfortable, private environments for all users.",
+    "zone": "BATHROOM",
+    "category": "PRIVACY_ACOUSTICS"
+  }
+]
