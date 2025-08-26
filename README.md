@@ -63,39 +63,6 @@ This project implements a **smart query routing system** that decides whether a 
 3. A **similarity score** is calculated for the top retrieved chunks.  
 4. Based on this score and rules, the query is routed:  
 
-graph TD
-    A[👤 User Query Input] --> B{🔍 Critical Keywords Check}
-    
-    B -->|Contains Keywords<br/>bedroom, kitchen, direction, etc.| C[🎯 Force RAG Pipeline]
-    B -->|No Critical Keywords| D[📊 Similarity Search with Scoring]
-    
-    C --> E[🔍 Vector Similarity Search<br/>k=3 documents]
-    E --> F[📖 Context Retrieval]
-    F --> G[🤖 Groq LLM Processing<br/>llama3-8b-8192]
-    G --> H[✅ Structured Vaasthu Answer<br/>2-4 lines]
-    
-    D --> I{💯 Confidence Score Check}
-    
-    I -->|Score ≥ 0.78<br/>HIGH_CONFIDENCE| C
-    I -->|0.60 ≤ Score < 0.78<br/>LOW_CONFIDENCE| J[❌ No Knowledge Response]
-    I -->|Score < 0.60<br/>IRRELEVANT| K[💬 Casual/Fallback Response]
-    
-    J --> L[🔚 Return: "Sorry, I have no idea..."]
-    K --> M[🤖 Fallback LLM Chain]
-    M --> N[🔚 Natural Conversation Response]
-    
-    H --> O[📱 Final Response to User]
-    L --> O
-    N --> O
-    
-    style A fill:#e1f5fe
-    style O fill:#c8e6c9
-    style C fill:#fff3e0
-    style H fill:#f3e5f5
-    style J fill:#ffebee
-    style K fill:#f1f8e9
-
-
 ### 🔎 Query Routing Logic  
 
 - **Case 1: High Confidence (≥ HIGH_THRESHOLD)**  
