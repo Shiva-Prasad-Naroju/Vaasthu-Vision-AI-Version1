@@ -7,3 +7,5 @@ contributes
 personal_project_documentation/
 personal_project_documentation
 ragas_results_simple.csv
+docker_compose_yml.py
+docker_file.py
