@@ -54,7 +54,7 @@ To build an AI assistant that:
 
 ## System Architecture:
 
-```
+```mermaid
 graph TD
     A[📝 User Question] --> B[🔍 Critical Keyword Check]
     B -->|✅ Keyword Match| C[⚡ RAG QA Chain]
