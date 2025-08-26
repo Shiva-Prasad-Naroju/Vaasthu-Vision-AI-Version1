@@ -53,6 +53,7 @@ To build an AI assistant that:
 4. Final response → Displayed in UI
 
 ## System Architecture:
+
 ```
 graph TD
     A[📝 User Question] --> B[🔍 Critical Keyword Check]
