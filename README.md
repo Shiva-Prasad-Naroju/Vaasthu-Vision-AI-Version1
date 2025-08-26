@@ -52,6 +52,22 @@ To build an AI assistant that:
 3. Custom prompt → Groq LLM (LLaMA3)  
 4. Final response → Displayed in UI
 
+## System Architecture:
+```
+graph TD
+    A[📝 User Question] --> B[🔍 Critical Keyword Check]
+    B -->|✅ Keyword Match| C[⚡ RAG QA Chain]
+    B -->|❌ No Keyword| D[🔎 Vectorstore Retrieval]
+    D --> E[📊 Qdrant Similarity Score]
+    E --> F{📋 Confidence Thresholds}
+    F -->|High| C
+    F -->|Medium| G[❌ "I don't know" Response]
+    F -->|Low| H[💬 Fallback Chat Chain]
+    C --> I[✨ Final Vaasthu Answer]
+    G --> I
+    H --> I
+```
+
 ### Query Router  
 
 This project implements a **smart query routing system** that decides whether a user’s question should be answered via **RAG pipeline** (vector database retrieval) or by an **LLM fallback**, based on **similarity scores** and **critical keywords**.  
