@@ -25,6 +25,13 @@ To build an AI assistant that:
 - Avoids hallucinations
 - Runs fast on web (connected to a slick frontend)
 
+## 📊 RAGAS Evaluation Metrics
+
+- **Faithfulness:** 0.9–1.0
+- **Answer Relevancy:** ~0.7–0.85
+- **Latency:** Measured and optimized for real-time responses
+- **Hallucination Rate:** Reduced via retrieval grounding and fallback strategies
+
 ## 🛠️ Tech Stack  
 - **Frontend**: Built the website using bolt ai and customized as desired. 
 - **Backend**: Python (FastAPI / Streamlit for local)  
