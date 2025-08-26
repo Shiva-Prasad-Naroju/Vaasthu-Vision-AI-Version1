@@ -56,15 +56,15 @@ To build an AI assistant that:
 
 ```mermaid
 graph TD
-    A[📝 User Question] --> B[🔍 Critical Keyword Check]
-    B -->|✅ Keyword Match| C[⚡ RAG QA Chain]
-    B -->|❌ No Keyword| D[🔎 Vectorstore Retrieval]
-    D --> E[📊 Qdrant Similarity Score]
-    E --> F{📋 Confidence Thresholds}
+    A[User Question] --> B[Critical Keyword Check]
+    B -->|Yes| C[RAG QA Chain]
+    B -->|No| D[Vectorstore Retrieval]
+    D --> E[Qdrant Similarity Score]
+    E --> F{Confidence Thresholds}
     F -->|High| C
-    F -->|Medium| G[❌ "I don't know" Response]
-    F -->|Low| H[💬 Fallback Chat Chain]
-    C --> I[✨ Final Vaasthu Answer]
+    F -->|Medium| G[`I don't know Response`]
+    F -->|Low| H[Fallback Chat Chain]
+    C --> I[Final Vaasthu Answer]
     G --> I
     H --> I
 ```
